@@ -1,4 +1,4 @@
-p# COSC2753 Assignment 2 — Fashion Intelligence System
+# COSC2753 Assignment 2 — Fashion Intelligence System
 
 ## 1. Folder structure
 
