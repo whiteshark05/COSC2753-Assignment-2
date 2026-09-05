@@ -1,0 +1,30 @@
+{
+  "selected_model": "MultiInput-ResNetStyle (no year)",
+  "architecture": "MultiInputNet(image_encoder + metadata MLP -> concat -> classifier)",
+  "image_encoder": "ResNetStyleCNN",
+  "pretrained": false,
+  "n_classes": 92,
+  "metadata_dim": 63,
+  "meta_embedding_dim": 64,
+  "img_width": 60,
+  "img_height": 80,
+  "normalization_mean": [
+    0.8507847189903259,
+    0.8336317539215088,
+    0.8284454345703125
+  ],
+  "normalization_std": [
+    0.2708621919155121,
+    0.28286194801330566,
+    0.2858276963233948
+  ],
+  "validation_macro_f1": 0.7495128727326121,
+  "all_candidates": {
+    "MultiInput-ResNetStyle (oracle metadata)": 0.7289241096443584,
+    "MultiInput-SEResidual (oracle metadata)": 0.7384474541528327,
+    "MultiInput-ResNetStyle (no year)": 0.7495128727326121,
+    "MultiInput-ResNetStyle (image-derived metadata)": 0.6669525602570613
+  },
+  "final_test_eligible": false,
+  "note": "Requires a metadata vector built by the SAME fitted ColumnTransformer used in training. styles_prediction.csv does not supply those columns, so this model cannot be run on the real test set until the chained pipeline provides predicted metadata -- see Steps 11c and 14."
+}
