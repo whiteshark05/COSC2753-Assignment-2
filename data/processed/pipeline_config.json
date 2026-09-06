@@ -1,0 +1,53 @@
+{
+  "random_state": 42,
+  "split": {
+    "method": "single_stratified_group_holdout",
+    "splitter": "StratifiedGroupKFold(n_splits=4), first split only",
+    "validation_fraction": 0.25,
+    "stratify_on": {
+      "articleType": "masterCategory",
+      "gender": "masterCategory",
+      "usage": "masterCategory",
+      "season": "masterCategory"
+    },
+    "group_on": "dup_group (exact-duplicate images)"
+  },
+  "image": {
+    "width": 60,
+    "height": 80,
+    "normalization_mean": [
+      0.8476490582788704,
+      0.8306989185729852,
+      0.8242569716775607
+    ],
+    "normalization_std": [
+      0.273956261968577,
+      0.2850324570903301,
+      0.2889062535778489
+    ]
+  },
+  "rare_class_thresholds": {
+    "articleType": 20,
+    "usage": 100
+  },
+  "rare_class_handling": {
+    "articleType": "redistributed into subCategory (train-only counts + val-only-class check)",
+    "usage": "redistributed into 'Other' (no parent column to redistribute into)"
+  },
+  "class_counts": {
+    "articleType": 95,
+    "season": 4,
+    "gender": 5,
+    "usage": 5
+  },
+  "imbalance_handling": "WeightedRandomSampler (train only) + augmentation; no loss-level class weighting",
+  "missing_images_dropped": [
+    "12347",
+    "39401",
+    "39403",
+    "39410",
+    "39425"
+  ],
+  "duplicate_image_rows_found": 0,
+  "eda_scope": "train_data only, post-split, per course instruction"
+}
