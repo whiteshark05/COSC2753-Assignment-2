@@ -1,0 +1,67 @@
+{
+  "image_size_hw": [
+    80,
+    60
+  ],
+  "normalization_mean": [
+    0.8476490582788704,
+    0.8306989185729852,
+    0.8242569716775607
+  ],
+  "normalization_std": [
+    0.273956261968577,
+    0.2850324570903301,
+    0.2889062535778489
+  ],
+  "metadata_features": [
+    "masterCategory",
+    "subCategory",
+    "articleType",
+    "baseColour",
+    "year",
+    "season"
+  ],
+  "metadata_dim": 228,
+  "targets": {
+    "gender": {
+      "target_column": "gender",
+      "classes": [
+        "Boys",
+        "Girls",
+        "Men",
+        "Unisex",
+        "Women"
+      ],
+      "image_only_encoder": "SEResidualImageEncoder",
+      "image_only_selected_as": "SEResidualCNN (from scratch)",
+      "multi_input_encoder": "ImprovedSmallImageEncoder",
+      "files": {
+        "label_encoder": "gender_encoder.joblib",
+        "metadata_one_hot": "ohe_metadata.joblib",
+        "image_only": "gender_imageonly_smallcnn.pt",
+        "multi_input": "gender_multiinput_smallcnn.pt"
+      }
+    },
+    "usage": {
+      "target_column": "usage",
+      "classes": [
+        "Casual",
+        "Ethnic",
+        "Formal",
+        "Party",
+        "Smart Casual",
+        "Sports",
+        "Travel"
+      ],
+      "image_only_encoder": "SEResidualImageEncoder",
+      "image_only_selected_as": "SEResidualCNN (from scratch)",
+      "multi_input_encoder": "ImprovedSmallImageEncoder",
+      "files": {
+        "label_encoder": "usage_encoder.joblib",
+        "metadata_one_hot": "ohe_metadata.joblib",
+        "image_only": "usage_imageonly_smallcnn.pt",
+        "multi_input": "usage_multiinput_smallcnn.pt"
+      }
+    }
+  }
+}
