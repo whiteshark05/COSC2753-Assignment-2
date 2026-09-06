@@ -1,29 +1,28 @@
 {
-  "selected_model": "MultiInput-ResNetStyle (no year)",
+  "selected_model": "MultiInput-SEResidual (oracle metadata)",
   "architecture": "MultiInputNet(image_encoder + metadata MLP -> concat -> classifier)",
-  "image_encoder": "ResNetStyleCNN",
+  "image_encoder": "SEResidualCNN",
   "pretrained": false,
-  "n_classes": 92,
-  "metadata_dim": 63,
+  "n_classes": 95,
+  "metadata_dim": 64,
   "meta_embedding_dim": 64,
   "img_width": 60,
   "img_height": 80,
   "normalization_mean": [
-    0.8507847189903259,
-    0.8336317539215088,
-    0.8284454345703125
+    0.8476490378379822,
+    0.8306989073753357,
+    0.824256956577301
   ],
   "normalization_std": [
-    0.2708621919155121,
-    0.28286194801330566,
-    0.2858276963233948
+    0.2739562690258026,
+    0.2850324511528015,
+    0.2889062464237213
   ],
-  "validation_macro_f1": 0.7495128727326121,
+  "validation_macro_f1": 0.7588709261295427,
   "all_candidates": {
-    "MultiInput-ResNetStyle (oracle metadata)": 0.7289241096443584,
-    "MultiInput-SEResidual (oracle metadata)": 0.7384474541528327,
-    "MultiInput-ResNetStyle (no year)": 0.7495128727326121,
-    "MultiInput-ResNetStyle (image-derived metadata)": 0.6669525602570613
+    "MultiInput-ResNetStyle (oracle metadata)": 0.719111325225871,
+    "MultiInput-SEResidual (oracle metadata)": 0.7588709261295427,
+    "MultiInput-ResNetStyle (image-derived metadata)": 0.701659377990447
   },
   "final_test_eligible": false,
   "note": "Requires a metadata vector built by the SAME fitted ColumnTransformer used in training. styles_prediction.csv does not supply those columns, so this model cannot be run on the real test set until the chained pipeline provides predicted metadata -- see Steps 11c and 14."
