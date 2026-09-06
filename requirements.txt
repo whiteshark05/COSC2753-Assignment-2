@@ -9,3 +9,4 @@ torch>=2.0
 torchvision>=0.15
 jupyter>=1.0
 tqdm
+gdown
