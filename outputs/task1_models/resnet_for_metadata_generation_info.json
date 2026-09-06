@@ -1,18 +1,18 @@
 {
   "purpose": "Reusable image-only model for the team's metadata-generation pipeline (predicting attributes missing from the real test set), NOT a standalone articleType submission model in this notebook.",
   "architecture": "ResNetStyleCNN (self-trained, weights=None)",
-  "n_classes": 92,
+  "n_classes": 95,
   "img_width": 60,
   "img_height": 80,
   "normalization_mean": [
-    0.8507847189903259,
-    0.8336317539215088,
-    0.8284454345703125
+    0.8476490378379822,
+    0.8306989073753357,
+    0.824256956577301
   ],
   "normalization_std": [
-    0.2708621919155121,
-    0.28286194801330566,
-    0.2858276963233948
+    0.2739562690258026,
+    0.2850324511528015,
+    0.2889062464237213
   ],
-  "validation_macro_f1_as_articleType_predictor": 0.6822231350741397
+  "validation_macro_f1_as_articleType_predictor": 0.7061515884302543
 }
