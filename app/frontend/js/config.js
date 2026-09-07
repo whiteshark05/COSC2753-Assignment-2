@@ -6,6 +6,6 @@
 // URLs to point at the real service — nothing else in the frontend needs
 // to change as long as the response shapes documented in README.md match.
 const API_CONFIG = {
-  classifyUrl: 'http://localhost:5000/api/classify',
-  searchSimilarUrl: 'http://localhost:5000/api/search-similar',
+    classifyUrl: 'https://cosc2753-mock-server.onrender.com/api/classify',
+    searchSimilarUrl: 'https://cosc2753-mock-server.onrender.com/api/search-similar',
 };
