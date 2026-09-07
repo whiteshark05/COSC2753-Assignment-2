@@ -15,3 +15,11 @@ data/raw/*
 __MACOSX/
 .vscode/
 /.venv
+# Task 4 (visual search) — local, regenerable or oversized artifacts
+data/processed_task4/          # regenerates from the Task 4 notebook's preprocessing in ~15s
+models/                        # Step 16's copy; the shipped model lives in outputs/task4_models/
+experiments/*.pt               # 21 ablation checkpoints, ~900MB; result JSONs are tracked instead
+outputs/task4_deployment_embeddings.npy   # duplicate of outputs/task4_models/task4_gallery_embeddings.npy
+notebooks/*.ipynb.bak
+notebooks/*.ipynb.executed_backup
+notebooks/COSC2753_A2_Task4_UPLOAD_NOW.ipynb

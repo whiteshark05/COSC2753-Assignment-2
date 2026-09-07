@@ -1,0 +1,6 @@
+=== training: stem=default  params=11.31M  epochs<=5 device=mps ===
+ep 1/5 loss 0.7040 active 100.0% sem_loss 0.2124 col_loss 1.6387 col_acc 0.539 probe_mAP@10 0.4049 | train 26s eval 7s elapsed 0.6min lr 3.00e-04
+ep 2/5 loss 0.5292 active 100.0% sem_loss 0.2047 col_loss 1.0816 col_acc 0.681 probe_mAP@10 0.3955 | train 26s eval 7s elapsed 1.1min lr 3.00e-04
+ep 3/5 loss 0.4737 active 100.0% sem_loss 0.2034 col_loss 0.9009 col_acc 0.732 probe_mAP@10 0.4040 | train 26s eval 7s elapsed 1.7min lr 3.00e-04
+ep 4/5 loss 0.4296 active 100.0% sem_loss 0.2027 col_loss 0.7565 col_acc 0.775 probe_mAP@10 0.4123 | train 26s eval 7s elapsed 2.2min lr 3.00e-04
+ep 5/5 loss 0.4087 active 100.0% sem_loss 0.2023 col_loss 0.6880 col_acc 0.796 probe_mAP@10 0.4183 | train 27s eval 7s elapsed 2.8min lr 3.00e-04
