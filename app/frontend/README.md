@@ -32,8 +32,8 @@ The mock server returns realistic-looking fake predictions so you can see
 the whole UI working before the real model pipeline is hooked up.
 
 ```bash
-# 1. start the mock backend
-cd frontend/mock_server
+# 1. start the mock backend from the root folder.
+cd .\app\frontend\mock_server\
 pip install -r requirements.txt
 python server.py
 # -> listening on http://localhost:5000
