@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garment Reader — classify &amp; find similar items</title>
+<meta name="description" content="Upload a product photo to predict its article type, season, gender and usage, or find the 10 most visually similar items.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="page">
+
+  <header class="masthead">
+    <div class="masthead__mark" aria-hidden="true">GR</div>
+    <div class="masthead__text">
+      <p class="masthead__tag">Garment Reader</p>
+      <h1 class="masthead__headline">Point a photo at it. It reads the label back.</h1>
+    </div>
+  </header>
+
+  <main class="workspace">
+
+    <!-- ============ LEFT: UPLOAD PANEL ============ -->
+    <section class="panel panel--upload" aria-labelledby="upload-heading">
+      <h2 id="upload-heading" class="panel__title">1. Add a photo</h2>
+
+      <div id="dropzone" class="dropzone" tabindex="0" role="button"
+           aria-label="Upload a garment photo. Click to browse, or drag and drop a file here.">
+        <div id="dropzoneEmpty" class="dropzone__empty">
+          <svg class="dropzone__icon" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <path d="M12 16V4M12 4l-4 4M12 4l4 4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4 16v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p class="dropzone__label">Drop an image here, or click to browse</p>
+          <p class="dropzone__hint">JPG or PNG, one item per photo</p>
+        </div>
+        <img id="previewImg" class="dropzone__preview" alt="" hidden>
+        <button id="clearImageBtn" class="clear-btn" type="button" hidden aria-label="Remove photo">✕</button>
+        <input id="fileInput" class="visually-hidden" type="file" accept="image/png,image/jpeg" aria-hidden="true" tabindex="-1">
+      </div>
+      <p id="fileError" class="field-error" role="alert" hidden></p>
+
+      <details class="meta-details">
+        <summary>Add known details <span class="meta-details__note">(optional — improves classification)</span></summary>
+        <div class="meta-grid">
+          <label class="field">
+            <span>Master category</span>
+            <input type="text" id="metaMasterCategory" placeholder="e.g. Apparel">
+          </label>
+          <label class="field">
+            <span>Sub category</span>
+            <input type="text" id="metaSubCategory" placeholder="e.g. Topwear">
+          </label>
+          <label class="field">
+            <span>Base colour</span>
+            <input type="text" id="metaBaseColour" placeholder="e.g. Navy Blue">
+          </label>
+          <label class="field">
+            <span>Year</span>
+            <input type="number" id="metaYear" placeholder="e.g. 2019" min="1990" max="2035">
+          </label>
+        </div>
+        <p class="meta-details__footnote">Left blank, the photo is read on its own — no assumptions are filled in for you.</p>
+      </details>
+
+      <div class="actions">
+        <button id="classifyBtn" class="btn btn--primary" type="button" disabled>Classify</button>
+        <button id="searchBtn" class="btn btn--secondary" type="button" disabled>Search similar</button>
+      </div>
+
+      <p id="statusMessage" class="status-message" role="status" aria-live="polite"></p>
+    </section>
+
+    <!-- ============ RIGHT: RESULTS PANEL ============ -->
+    <section class="panel panel--results" aria-labelledby="results-heading">
+      <h2 id="results-heading" class="visually-hidden">Results</h2>
+
+      <div id="resultsEmpty" class="results-empty">
+        <p>Nothing read yet.</p>
+        <p class="results-empty__sub">Add a photo, then classify it or look for similar pieces.</p>
+      </div>
+
+      <div id="classifySection" class="result-block" hidden>
+        <h3 class="result-block__title">Classification</h3>
+        <dl id="classifyList" class="spec-list"></dl>
+      </div>
+
+      <div id="similarSection" class="result-block" hidden>
+        <h3 class="result-block__title">Similar items <span id="similarCount" class="result-block__count"></span></h3>
+        <ul id="similarGrid" class="similar-grid"></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Predictions come from a model trained to guess, not to certify — read them as a starting point.</p>
+  </footer>
+
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
