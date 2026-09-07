@@ -1,10 +1,17 @@
+# Ignore everything in data/ by default
 data/*
-!data/raw
-!data/processed
+
+# Un-ignore the directories so Git can traverse them
+!data/raw/
+!data/processed/
+
+# Ignore contents of data/raw, but keep its .gitkeep
 data/raw/*
-data/processed/*
 !data/raw/.gitkeep
-!data/processed/.gitkeep
+
+# Keep data/processed tracked (remove data/processed/* and its .gitkeep rule)
+
+# System and editor files
 __MACOSX/
 .vscode/
 /.venv
