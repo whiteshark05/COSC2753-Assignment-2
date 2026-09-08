@@ -5,7 +5,20 @@
 // classification/similarity-search pipeline is wired up. Swap these two
 // URLs to point at the real service — nothing else in the frontend needs
 // to change as long as the response shapes documented in README.md match.
+// const API_CONFIG = {
+//     classifyUrl: 'https://cosc2753-mock-server.onrender.com/api/classify',
+//     searchSimilarUrl: 'https://cosc2753-mock-server.onrender.com/api/search-similar',
+// };
+
+const IS_LOCAL =
+    window.location.hostname === 'localhost' ||
+    window.location.hostname === '127.0.0.1';
+
+const API_BASE_URL = IS_LOCAL
+    ? 'http://localhost:5000'
+    : 'https://cosc2753-mock-server.onrender.com';
+
 const API_CONFIG = {
-    classifyUrl: 'https://cosc2753-mock-server.onrender.com/api/classify',
-    searchSimilarUrl: 'https://cosc2753-mock-server.onrender.com/api/search-similar',
+    classifyUrl: `${API_BASE_URL}/api/classify`,
+    searchSimilarUrl: `${API_BASE_URL}/api/search-similar`,
 };
