@@ -1,24 +1,24 @@
 id,gender,articleType,season,usage
-52003,Men,Sweaters,Fall,Casual
+52003,Men,Watches,Fall,Casual
 52007,Women,Dresses,Summer,Casual
-52017,Men,Bra,Fall,Casual
+52017,Men,Fragrance Gift Set,Fall,Casual
 52021,Women,Sarees,Summer,Casual
-52023,Men,Tshirts,Summer,Casual
-52026,Men,Sweatshirts,Summer,Casual
+52023,Men,Innerwear Vests,Summer,Casual
+52026,Men,Shirts,Summer,Casual
 52027,Men,Sweatshirts,Summer,Casual
-52028,Men,Jackets,Summer,Casual
+52028,Men,Topwear,Summer,Casual
 52029,Men,Jackets,Summer,Casual
-52030,Men,Sweatshirts,Summer,Casual
-52031,Men,Sweatshirts,Summer,Casual
-52032,Men,Sweatshirts,Fall,Casual
+52030,Men,Jackets,Summer,Casual
+52031,Men,Topwear,Summer,Casual
+52032,Men,Kurtis,Fall,Casual
 52034,Men,Jackets,Summer,Casual
-52042,Men,Jackets,Summer,Casual
-52043,Men,Jackets,Summer,Casual
+52042,Men,Topwear,Summer,Casual
+52043,Men,Topwear,Summer,Casual
 52044,Men,Jackets,Summer,Casual
-52045,Men,Jackets,Summer,Casual
+52045,Men,Shirts,Summer,Casual
 52049,Men,Innerwear Vests,Summer,Casual
 52050,Men,Tshirts,Summer,Casual
-52051,Men,Innerwear Vests,Summer,Casual
+52051,Men,Tshirts,Summer,Casual
 52052,Men,Innerwear Vests,Summer,Casual
 52053,Men,Tshirts,Spring,Casual
 52054,Men,Tshirts,Summer,Casual
@@ -44,25 +44,25 @@ id,gender,articleType,season,usage
 52074,Men,Tshirts,Summer,Casual
 52075,Men,Tshirts,Summer,Casual
 52076,Men,Tshirts,Summer,Casual
-52077,Men,Shirts,Summer,Casual
+52077,Men,Tshirts,Summer,Casual
 52078,Men,Tshirts,Summer,Casual
-52079,Men,Shirts,Fall,Casual
-52080,Men,Tshirts,Summer,Casual
+52079,Men,Tshirts,Fall,Casual
+52080,Men,Innerwear Vests,Summer,Casual
 52081,Men,Tshirts,Summer,Casual
-52082,Men,Tshirts,Summer,Casual
+52082,Men,Innerwear Vests,Summer,Casual
 52083,Women,Tshirts,Fall,Casual
 52084,Women,Tops,Summer,Casual
 52085,Women,Tshirts,Summer,Casual
-52086,Women,Scarves,Fall,Casual
+52086,Women,Tshirts,Fall,Casual
 52087,Women,Tops,Summer,Casual
 52088,Women,Tops,Summer,Casual
 52089,Women,Jackets,Summer,Casual
-52090,Women,Tops,Summer,Casual
-52091,Women,Tops,Summer,Casual
+52090,Women,Tshirts,Summer,Casual
+52091,Women,Tshirts,Summer,Casual
 52092,Women,Tshirts,Summer,Casual
 52093,Women,Tops,Summer,Casual
-52094,Women,Tops,Summer,Casual
-52095,Men,Tops,Fall,Casual
+52094,Women,Tshirts,Summer,Casual
+52095,Men,Innerwear Vests,Fall,Casual
 52096,Women,Tops,Summer,Casual
 52097,Women,Tops,Summer,Casual
 52098,Women,Tops,Summer,Casual
@@ -70,7 +70,7 @@ id,gender,articleType,season,usage
 52100,Women,Kurtas,Summer,Ethnic
 52101,Women,Kurtas,Summer,Casual
 52102,Women,Kurtas,Summer,Ethnic
-52103,Women,Tunics,Summer,Casual
+52103,Women,Stoles,Summer,Casual
 52104,Women,Kurtas,Summer,Casual
 52105,Women,Kurtas,Spring,Ethnic
 52106,Women,Kurtas,Summer,Casual
@@ -78,14 +78,14 @@ id,gender,articleType,season,usage
 52108,Women,Kurtas,Summer,Ethnic
 52109,Women,Kurtas,Summer,Ethnic
 52110,Women,Kurtas,Summer,Casual
-52111,Women,Tunics,Summer,Casual
-52112,Women,Kurtis,Summer,Casual
+52111,Women,Kurtis,Summer,Casual
+52112,Women,Dupatta,Summer,Casual
 52113,Women,Tunics,Summer,Casual
-52114,Women,Tops,Summer,Casual
+52114,Women,Scarves,Summer,Casual
 52115,Women,Tops,Summer,Casual
 52116,Women,Tops,Summer,Casual
 52117,Women,Tops,Summer,Casual
-52118,Women,Tops,Summer,Casual
+52118,Women,Nightdress,Summer,Casual
 52119,Women,Tops,Summer,Casual
 52120,Boys,Tshirts,Summer,Casual
 52121,Boys,Tshirts,Summer,Casual
@@ -102,13 +102,13 @@ id,gender,articleType,season,usage
 52132,Boys,Tshirts,Summer,Casual
 52133,Women,Leggings,Fall,Casual
 52134,Men,Stockings,Summer,Casual
-52135,Women,Tops,Summer,Casual
+52135,Women,Tshirts,Summer,Casual
 52136,Women,Tshirts,Summer,Casual
 52137,Women,Tshirts,Summer,Casual
 52138,Men,Tshirts,Summer,Casual
 52139,Women,Tshirts,Summer,Casual
 52140,Women,Tshirts,Summer,Casual
-52141,Women,Tshirts,Summer,Casual
+52141,Women,Tops,Summer,Casual
 52142,Women,Tshirts,Summer,Casual
 52143,Women,Tshirts,Summer,Casual
 52144,Women,Tshirts,Summer,Casual
@@ -119,56 +119,56 @@ id,gender,articleType,season,usage
 52149,Women,Tshirts,Summer,Casual
 52150,Men,Tshirts,Summer,Casual
 52151,Women,Tshirts,Summer,Casual
-52153,Women,Tunics,Summer,Casual
+52153,Women,Tops,Summer,Casual
 52154,Women,Tunics,Summer,Casual
-52155,Women,Dresses,Summer,Casual
+52155,Women,Innerwear Vests,Summer,Casual
 52156,Women,Tops,Summer,Casual
-52157,Women,Tunics,Summer,Casual
-52158,Women,Tops,Summer,Casual
+52157,Women,Kurtas,Summer,Casual
+52158,Women,Tunics,Summer,Casual
 52159,Women,Dupatta,Summer,Casual
-52160,Women,Tops,Summer,Casual
+52160,Women,Tunics,Summer,Casual
 52161,Women,Dresses,Summer,Casual
 52162,Women,Tops,Summer,Casual
-52163,Women,Tops,Summer,Casual
-52164,Women,Tops,Summer,Casual
+52163,Women,Innerwear Vests,Summer,Casual
+52164,Women,Innerwear Vests,Summer,Casual
 52165,Men,Necklace and Chains,Winter,Casual
-52166,Women,Socks,Winter,Casual
-52168,Women,Pendant,Winter,Casual
-52169,Unisex,Sandals,Fall,Casual
-52172,Women,Sports Shoes,Winter,Casual
-52173,Men,Fragrance Gift Set,Spring,Casual
-52176,Men,Skirts,Summer,Casual
-52177,Women,Perfume and Body Mist,Spring,Casual
-52178,Women,Belts,Winter,Casual
+52166,Women,Ties,Winter,Casual
+52168,Women,Perfume and Body Mist,Winter,Casual
+52169,Unisex,Heels,Fall,Casual
+52172,Women,Gloves,Winter,Casual
+52173,Men,Watches,Spring,Casual
+52176,Men,Wallets,Summer,Casual
+52177,Women,Sports Shoes,Spring,Casual
+52178,Women,Heels,Winter,Casual
 52179,Women,Sports Shoes,Fall,Sports
 52180,Women,Earrings,Summer,Formal
 52181,Women,Earrings,Winter,Casual
-52182,Women,Messenger Bag,Fall,Casual
+52182,Women,Sports Shoes,Fall,Casual
 52183,Women,Earrings,Summer,Casual
 52185,Women,Sports Shoes,Summer,Casual
-52186,Men,Sports Shoes,Fall,Casual
-52187,Girls,Earrings,Summer,Casual
-52190,Men,Jewellery Set,Fall,Casual
-52191,Women,Socks,Fall,Casual
-52193,Women,Shirts,Winter,Casual
-52195,Women,Jewellery Set,Winter,Casual
-52198,Women,Pendant,Winter,Casual
+52186,Men,Sports Equipment,Fall,Casual
+52187,Girls,Cufflinks,Summer,Casual
+52190,Men,Sunglasses,Fall,Casual
+52191,Women,Jewellery Set,Fall,Casual
+52193,Women,Earrings,Winter,Casual
+52195,Women,Earrings,Winter,Casual
+52198,Women,Earrings,Winter,Casual
 52200,Women,Pendant,Summer,Sports
 52202,Women,Pendant,Winter,Casual
 52204,Women,Pendant,Summer,Sports
-52205,Men,Necklace and Chains,Summer,Casual
-52209,Women,Pendant,Winter,Casual
+52205,Men,Shorts,Summer,Casual
+52209,Women,Necklace and Chains,Winter,Casual
 52210,Women,Necklace and Chains,Fall,Sports
 52211,Women,Necklace and Chains,Fall,Sports
 52214,Women,Pendant,Summer,Casual
 52220,Women,Necklace and Chains,Fall,Casual
 52221,Women,Necklace and Chains,Winter,Casual
-52222,Men,Messenger Bag,Winter,Casual
-52223,Women,Casual Shoes,Summer,Casual
-52224,Women,Heels,Spring,Casual
-52225,Women,Watches,Summer,Casual
-52228,Men,Sports Shoes,Winter,Casual
-52230,Men,Perfume and Body Mist,Winter,Casual
+52222,Men,Trunk,Winter,Casual
+52223,Women,Bracelet,Summer,Casual
+52224,Women,Bracelet,Spring,Casual
+52225,Women,Free Gifts,Summer,Casual
+52228,Men,Sports Equipment,Winter,Casual
+52230,Men,Shirts,Winter,Casual
 52235,Men,Jeans,Summer,Casual
 52254,Men,Trunk,Summer,Casual
 52255,Men,Briefs,Summer,Casual
@@ -176,29 +176,29 @@ id,gender,articleType,season,usage
 52257,Men,Trunk,Summer,Casual
 52299,Men,Lounge Shorts,Summer,Casual
 52303,Women,Jewellery Set,Winter,Formal
-52304,Women,Pendant,Summer,Formal
+52304,Women,Necklace and Chains,Summer,Formal
 52305,Women,Necklace and Chains,Winter,Casual
 52306,Women,Necklace and Chains,Fall,Casual
 52307,Women,Necklace and Chains,Winter,Casual
 52308,Women,Necklace and Chains,Winter,Casual
 52309,Women,Necklace and Chains,Winter,Casual
-52310,Unisex,Watches,Summer,Sports
+52310,Unisex,Sarees,Summer,Sports
 52311,Women,Necklace and Chains,Summer,Casual
 52312,Women,Necklace and Chains,Summer,Casual
-52313,Unisex,Belts,Winter,Casual
-52314,Women,Sports Equipment,Fall,Casual
-52315,Men,Shoe Accessories,Summer,Casual
-52316,Women,Caps,Winter,Casual
+52313,Unisex,Sandals,Winter,Casual
+52314,Women,Accessory Gift Set,Fall,Casual
+52315,Men,Sandals,Summer,Casual
+52316,Women,Belts,Winter,Casual
 52317,Women,Messenger Bag,Summer,Casual
-52318,Women,Belts,Winter,Casual
-52320,Women,Belts,Winter,Casual
+52318,Women,Caps,Winter,Casual
+52320,Women,Sandals,Winter,Casual
 52322,Men,Belts,Summer,Formal
-52323,Women,Bangle,Summer,Casual
-52324,Men,Handbags,Winter,Casual
-52325,Women,Messenger Bag,Fall,Casual
-52326,Women,Messenger Bag,Winter,Casual
-52327,Women,Messenger Bag,Winter,Casual
-52328,Men,Belts,Summer,Casual
+52323,Women,Heels,Summer,Casual
+52324,Men,Accessory Gift Set,Winter,Casual
+52325,Women,Caps,Fall,Casual
+52326,Women,Casual Shoes,Winter,Casual
+52327,Women,Caps,Winter,Casual
+52328,Men,Messenger Bag,Summer,Casual
 52329,Women,Handbags,Summer,Casual
 52330,Women,Wallets,Summer,Casual
 52331,Women,Wallets,Summer,Casual
@@ -210,36 +210,36 @@ id,gender,articleType,season,usage
 52337,Women,Clutches,Summer,Casual
 52338,Women,Clutches,Winter,Casual
 52339,Women,Clutches,Summer,Casual
-52340,Women,Dresses,Fall,Casual
+52340,Women,Tshirts,Fall,Casual
 52341,Women,Dresses,Summer,Casual
 52342,Women,Dresses,Summer,Casual
 52343,Women,Dresses,Summer,Casual
 52344,Women,Dresses,Summer,Casual
 52345,Women,Dresses,Summer,Casual
 52346,Women,Dresses,Summer,Casual
-52347,Women,Nightdress,Summer,Casual
-52348,Women,Nightdress,Fall,Casual
-52349,Women,Dresses,Summer,Casual
+52347,Women,Dresses,Summer,Casual
+52348,Women,Dresses,Fall,Casual
+52349,Women,Nightdress,Summer,Casual
 52350,Women,Dresses,Summer,Casual
 52351,Women,Dresses,Summer,Casual
-52352,Women,Dresses,Summer,Casual
-52353,Women,Tunics,Summer,Casual
+52352,Women,Kurtas,Summer,Casual
+52353,Women,Dresses,Summer,Casual
 52354,Women,Sarees,Summer,Ethnic
 52355,Women,Sarees,Summer,Casual
-52356,Women,Dresses,Summer,Casual
+52356,Women,Sarees,Summer,Casual
 52357,Women,Dresses,Summer,Casual
 52358,Women,Dresses,Summer,Casual
-52359,Women,Socks,Summer,Casual
-52360,Women,Nightdress,Summer,Casual
+52359,Women,Dresses,Summer,Casual
+52360,Women,Sarees,Summer,Casual
 52361,Women,Dresses,Summer,Casual
 52362,Women,Nightdress,Summer,Casual
 52363,Women,Dresses,Summer,Casual
-52364,Women,Nightdress,Summer,Casual
+52364,Women,Loungewear and Nightwear,Summer,Casual
 52366,Women,Dresses,Summer,Casual
 52367,Women,Dresses,Summer,Ethnic
 52368,Women,Nightdress,Summer,Casual
-52369,Women,Tops,Summer,Casual
-52370,Women,Dresses,Summer,Casual
+52369,Women,Tunics,Summer,Casual
+52370,Women,Tunics,Summer,Casual
 52371,Women,Tops,Summer,Casual
 52372,Women,Dresses,Summer,Ethnic
 52373,Women,Dresses,Summer,Ethnic
@@ -250,9 +250,9 @@ id,gender,articleType,season,usage
 52378,Women,Dresses,Summer,Casual
 52379,Women,Nightdress,Summer,Ethnic
 52380,Women,Dresses,Summer,Casual
-52381,Women,Night suits,Summer,Ethnic
-52382,Women,Sarees,Summer,Ethnic
-52383,Women,Night suits,Summer,Casual
+52381,Women,Kurta Sets,Summer,Ethnic
+52382,Women,Kurta Sets,Summer,Ethnic
+52383,Women,Sarees,Summer,Casual
 52384,Women,Sarees,Summer,Ethnic
 52385,Women,Nightdress,Summer,Casual
 52386,Women,Nightdress,Summer,Casual
@@ -260,11 +260,11 @@ id,gender,articleType,season,usage
 52390,Women,Dresses,Summer,Casual
 52391,Women,Dresses,Summer,Casual
 52392,Women,Dresses,Summer,Casual
-52393,Women,Dresses,Summer,Casual
-52394,Women,Nightdress,Summer,Casual
+52393,Women,Nightdress,Summer,Casual
+52394,Women,Dresses,Summer,Casual
 52395,Women,Dresses,Summer,Casual
-52396,Women,Nightdress,Summer,Casual
-52397,Women,Dresses,Summer,Casual
+52396,Women,Sarees,Summer,Casual
+52397,Women,Kurta Sets,Summer,Casual
 52398,Women,Dresses,Summer,Casual
 52399,Women,Nightdress,Summer,Casual
 52400,Women,Dresses,Summer,Casual
@@ -276,76 +276,76 @@ id,gender,articleType,season,usage
 52406,Women,Dresses,Summer,Ethnic
 52407,Women,Dresses,Summer,Casual
 52408,Women,Dresses,Summer,Ethnic
-52409,Women,Nightdress,Summer,Casual
+52409,Women,Dresses,Summer,Casual
 52410,Women,Dresses,Summer,Casual
 52411,Women,Dresses,Summer,Ethnic
 52412,Women,Dresses,Summer,Casual
 52413,Women,Dresses,Summer,Casual
-52414,Women,Dresses,Summer,Casual
-52415,Women,Dresses,Summer,Casual
+52414,Women,Tops,Summer,Casual
+52415,Women,Nightdress,Summer,Casual
 52416,Women,Tops,Summer,Casual
-52417,Women,Tops,Winter,Casual
-52418,Women,Dresses,Summer,Casual
+52417,Women,Dress,Winter,Casual
+52418,Women,Nightdress,Summer,Casual
 52419,Women,Nightdress,Summer,Casual
-52420,Women,Nightdress,Summer,Casual
+52420,Women,Dresses,Summer,Casual
 52421,Women,Kurtas,Summer,Casual
-52422,Women,Dresses,Summer,Ethnic
+52422,Women,Sarees,Summer,Ethnic
 52423,Women,Dresses,Summer,Ethnic
 52424,Women,Dresses,Summer,Casual
 52425,Women,Dresses,Summer,Ethnic
 52426,Women,Dresses,Summer,Casual
-52427,Women,Dresses,Summer,Ethnic
+52427,Women,Nightdress,Summer,Ethnic
 52428,Women,Nightdress,Summer,Casual
 52429,Women,Nightdress,Summer,Casual
-52430,Women,Dresses,Summer,Casual
-52431,Women,Dress,Summer,Casual
-52432,Women,Tops,Summer,Casual
+52430,Women,Nightdress,Summer,Casual
+52431,Women,Nightdress,Summer,Casual
+52432,Women,Dresses,Summer,Casual
 52434,Women,Dresses,Winter,Casual
 52435,Women,Nightdress,Winter,Casual
 52436,Women,Dresses,Summer,Casual
-52437,Women,Loungewear and Nightwear,Summer,Casual
+52437,Women,Dresses,Summer,Casual
 52438,Women,Nightdress,Summer,Casual
 52439,Women,Dresses,Summer,Casual
-52440,Women,Dresses,Summer,Casual
+52440,Women,Nightdress,Summer,Casual
 52441,Women,Nightdress,Summer,Casual
-52442,Women,Bottomwear,Summer,Casual
-52443,Women,Dresses,Summer,Casual
+52442,Women,Innerwear,Summer,Casual
+52443,Women,Loungewear and Nightwear,Summer,Casual
 52444,Women,Dresses,Summer,Casual
-52445,Women,Dresses,Summer,Casual
+52445,Women,Nightdress,Summer,Casual
 52446,Women,Tops,Summer,Casual
-52447,Women,Nightdress,Winter,Casual
-52448,Women,Dresses,Summer,Casual
+52447,Women,Scarves,Winter,Casual
+52448,Women,Nightdress,Summer,Casual
 52449,Women,Nightdress,Summer,Casual
 52450,Women,Nightdress,Summer,Casual
 52451,Women,Dresses,Summer,Casual
 52452,Women,Dresses,Summer,Casual
-52453,Women,Dresses,Summer,Casual
+52453,Women,Nightdress,Summer,Casual
 52454,Women,Dresses,Summer,Casual
 52455,Women,Dresses,Summer,Casual
 52456,Women,Dresses,Summer,Casual
-52457,Women,Dresses,Summer,Casual
-52458,Women,Dresses,Summer,Casual
-52459,Women,Dresses,Summer,Casual
-52460,Women,Dresses,Summer,Casual
+52457,Women,Nightdress,Summer,Casual
+52458,Women,Tunics,Summer,Casual
+52459,Women,Nightdress,Summer,Casual
+52460,Women,Nightdress,Summer,Casual
 52461,Women,Dresses,Summer,Casual
-52462,Women,Sarees,Summer,Casual
-52463,Women,Kurta Sets,Summer,Ethnic
-52464,Women,Dresses,Summer,Casual
+52462,Women,Nightdress,Summer,Casual
+52463,Women,Nightdress,Summer,Ethnic
+52464,Women,Nightdress,Summer,Casual
 52465,Women,Bra,Winter,Casual
 52466,Women,Bra,Winter,Casual
 52467,Women,Innerwear Vests,Summer,Casual
 52468,Women,Tops,Winter,Casual
-52469,Women,Tops,Summer,Casual
+52469,Women,Innerwear Vests,Summer,Casual
 52470,Women,Innerwear,Summer,Casual
 52472,Women,Night suits,Summer,Casual
-52473,Women,Stoles,Summer,Ethnic
-52474,Women,Kurta Sets,Fall,Ethnic
-52475,Women,Stoles,Summer,Casual
-52476,Women,Kurta Sets,Fall,Casual
-52477,Women,Bottomwear,Summer,Casual
-52478,Women,Nightdress,Summer,Casual
-52479,Women,Briefs,Winter,Casual
-52480,Women,Loungewear and Nightwear,Summer,Casual
+52473,Women,Nightdress,Summer,Ethnic
+52474,Women,Dresses,Fall,Ethnic
+52475,Women,Nightdress,Summer,Casual
+52476,Women,Sarees,Fall,Casual
+52477,Women,Nightdress,Summer,Casual
+52478,Women,Night suits,Summer,Casual
+52479,Women,Nightdress,Winter,Casual
+52480,Women,Nightdress,Summer,Casual
 52481,Women,Nightdress,Summer,Casual
 52482,Women,Nightdress,Summer,Casual
 52483,Women,Bra,Winter,Casual
@@ -356,43 +356,43 @@ id,gender,articleType,season,usage
 52488,Women,Bra,Summer,Casual
 52489,Women,Bra,Summer,Casual
 52490,Women,Bra,Winter,Casual
-52491,Women,Tops,Summer,Casual
+52491,Women,Innerwear Vests,Summer,Casual
 52492,Women,Tops,Summer,Casual
-52493,Women,Innerwear,Summer,Casual
+52493,Women,Innerwear Vests,Summer,Casual
 52494,Women,Kurta Sets,Fall,Casual
-52495,Women,Kurta Sets,Fall,Casual
+52495,Women,Sarees,Fall,Casual
 52496,Women,Dresses,Summer,Casual
 52497,Women,Kurta Sets,Fall,Casual
-52498,Women,Kurtas,Summer,Casual
-52499,Women,Dresses,Summer,Casual
-52500,Women,Bottomwear,Summer,Casual
+52498,Women,Dresses,Summer,Casual
+52499,Women,Tunics,Summer,Casual
+52500,Women,Nightdress,Summer,Casual
 52501,Women,Dresses,Summer,Casual
-52502,Women,Scarves,Summer,Casual
-52503,Women,Dresses,Fall,Casual
-52504,Women,Dresses,Summer,Casual
-52505,Women,Kurta Sets,Fall,Casual
+52502,Women,Nightdress,Summer,Casual
+52503,Women,Sarees,Fall,Casual
+52504,Women,Sarees,Summer,Casual
+52505,Women,Sarees,Fall,Casual
 52506,Women,Kurta Sets,Fall,Ethnic
 52507,Women,Dresses,Summer,Casual
-52508,Women,Dresses,Summer,Casual
+52508,Women,Night suits,Summer,Casual
 52509,Women,Dresses,Summer,Casual
-52510,Women,Dresses,Summer,Casual
+52510,Women,Nightdress,Summer,Casual
 52511,Women,Dresses,Summer,Casual
-52512,Women,Dresses,Summer,Casual
+52512,Women,Kurtas,Summer,Casual
 52513,Women,Nightdress,Summer,Casual
 52514,Women,Bra,Winter,Casual
 52515,Women,Bra,Winter,Casual
 52516,Women,Bra,Winter,Casual
-52517,Women,Dresses,Summer,Casual
+52517,Women,Nightdress,Summer,Casual
 52518,Women,Nightdress,Summer,Casual
 52519,Women,Nightdress,Summer,Casual
 52520,Men,Shorts,Summer,Casual
 52522,Women,Jeans,Summer,Casual
 52523,Women,Jeans,Summer,Casual
-52524,Women,Bottomwear,Summer,Casual
+52524,Women,Jeans,Summer,Casual
 52525,Women,Trousers,Summer,Casual
 52528,Women,Trousers,Summer,Casual
 52529,Men,Shorts,Summer,Casual
-52536,Women,Trousers,Winter,Casual
+52536,Women,Jeans,Winter,Casual
 52539,Women,Jeans,Summer,Casual
 52547,Women,Jeans,Summer,Casual
 52548,Men,Jeans,Summer,Casual
@@ -402,31 +402,31 @@ id,gender,articleType,season,usage
 52556,Women,Jeans,Summer,Casual
 52557,Women,Jeans,Summer,Casual
 52558,Women,Clutches,Summer,Casual
-52559,Women,Clutches,Winter,Casual
-52560,Women,Wallets,Summer,Casual
+52559,Women,Wallets,Winter,Casual
+52560,Women,Clutches,Summer,Casual
 52561,Women,Clutches,Summer,Casual
 52563,Unisex,Clutches,Winter,Casual
-52564,Women,Handbags,Winter,Casual
+52564,Women,Clutches,Winter,Casual
 52565,Women,Clutches,Winter,Casual
 52568,Women,Clutches,Summer,Casual
-52569,Women,Duffel Bag,Winter,Casual
+52569,Women,Clutches,Winter,Casual
 52570,Women,Clutches,Winter,Casual
 52574,Women,Clutches,Summer,Casual
 52575,Women,Clutches,Summer,Casual
-52576,Women,Duffel Bag,Summer,Casual
+52576,Women,Clutches,Summer,Casual
 52577,Women,Duffel Bag,Summer,Casual
 52579,Women,Clutches,Summer,Casual
-52581,Women,Handbags,Summer,Casual
-52582,Women,Handbags,Summer,Casual
+52581,Women,Clutches,Summer,Casual
+52582,Women,Backpacks,Summer,Casual
 52585,Women,Clutches,Summer,Casual
 52586,Women,Clutches,Summer,Casual
-52588,Women,Clutches,Summer,Casual
+52588,Women,Wallets,Summer,Casual
 52589,Women,Clutches,Summer,Casual
 52593,Women,Mobile Pouch,Summer,Casual
 52594,Women,Wallets,Summer,Casual
 52599,Women,Clutches,Summer,Casual
 52602,Women,Wallets,Summer,Casual
-52603,Women,Clutches,Winter,Casual
+52603,Women,Wallets,Winter,Casual
 52604,Women,Clutches,Winter,Casual
 52609,Women,Handbags,Summer,Casual
 52616,Women,Handbags,Summer,Casual
@@ -435,13 +435,13 @@ id,gender,articleType,season,usage
 52623,Women,Handbags,Winter,Casual
 52626,Women,Handbags,Winter,Casual
 52632,Women,Handbags,Summer,Casual
-52633,Women,Handbags,Winter,Casual
+52633,Women,Bra,Winter,Casual
 52634,Women,Handbags,Winter,Casual
 52635,Women,Handbags,Summer,Casual
 52636,Women,Duffel Bag,Summer,Casual
 52637,Women,Handbags,Summer,Casual
 52638,Women,Handbags,Summer,Casual
-52639,Women,Handbags,Summer,Casual
+52639,Women,Duffel Bag,Summer,Casual
 52641,Women,Handbags,Summer,Casual
 52642,Women,Handbags,Winter,Casual
 52643,Women,Handbags,Winter,Casual
@@ -450,8 +450,8 @@ id,gender,articleType,season,usage
 52649,Women,Handbags,Summer,Casual
 52650,Women,Handbags,Summer,Casual
 52651,Women,Handbags,Winter,Casual
-52652,Women,Duffel Bag,Summer,Casual
-52653,Women,Handbags,Summer,Casual
+52652,Women,Handbags,Summer,Casual
+52653,Women,Duffel Bag,Summer,Casual
 52654,Women,Duffel Bag,Winter,Casual
 52655,Women,Handbags,Summer,Casual
 52656,Women,Handbags,Summer,Casual
@@ -485,19 +485,19 @@ id,gender,articleType,season,usage
 52695,Men,Watches,Winter,Casual
 52749,Women,Deodorant,Spring,Casual
 52751,Women,Deodorant,Spring,Casual
-52754,Women,Handbags,Summer,Casual
+52754,Women,Laptop Bag,Summer,Casual
 52756,Women,Handbags,Winter,Casual
-52758,Women,Handbags,Summer,Casual
+52758,Women,Duffel Bag,Summer,Casual
 52759,Women,Handbags,Summer,Casual
 52766,Women,Handbags,Summer,Casual
 52767,Women,Handbags,Summer,Casual
 52768,Women,Handbags,Summer,Casual
-52772,Women,Clutches,Summer,Casual
+52772,Women,Wallets,Summer,Casual
 52773,Women,Wallets,Summer,Casual
-52774,Women,Wallets,Summer,Casual
-52775,Women,Wallets,Summer,Casual
+52774,Women,Clutches,Summer,Casual
+52775,Women,Clutches,Summer,Casual
 52776,Women,Wallets,Summer,Casual
-52777,Women,Wallets,Summer,Casual
+52777,Women,Clutches,Summer,Casual
 52778,Women,Wallets,Summer,Casual
 52779,Women,Wallets,Winter,Casual
 52780,Women,Wallets,Winter,Casual
@@ -536,7 +536,7 @@ id,gender,articleType,season,usage
 52818,Women,Earrings,Summer,Ethnic
 52819,Women,Earrings,Winter,Ethnic
 52820,Women,Earrings,Spring,Casual
-52822,Women,Sports Shoes,Winter,Casual
+52822,Women,Necklace and Chains,Winter,Casual
 52823,Women,Earrings,Winter,Ethnic
 52825,Women,Earrings,Summer,Ethnic
 52827,Women,Earrings,Summer,Casual
@@ -544,7 +544,7 @@ id,gender,articleType,season,usage
 52831,Women,Earrings,Winter,Ethnic
 52834,Women,Earrings,Winter,Ethnic
 52835,Women,Earrings,Winter,Ethnic
-52836,Girls,Sports Shoes,Winter,Casual
+52836,Girls,Necklace and Chains,Winter,Casual
 52837,Women,Earrings,Winter,Ethnic
 52839,Women,Earrings,Winter,Ethnic
 52840,Women,Earrings,Winter,Ethnic
@@ -553,7 +553,7 @@ id,gender,articleType,season,usage
 52846,Women,Earrings,Summer,Ethnic
 52847,Women,Earrings,Summer,Casual
 52848,Women,Earrings,Summer,Casual
-52850,Women,Pendant,Summer,Casual
+52850,Women,Caps,Summer,Casual
 52851,Women,Earrings,Winter,Casual
 52852,Women,Earrings,Winter,Ethnic
 52854,Women,Earrings,Summer,Ethnic
@@ -600,13 +600,13 @@ id,gender,articleType,season,usage
 52906,Women,Sarees,Fall,Ethnic
 52907,Women,Sarees,Fall,Ethnic
 52908,Women,Sarees,Fall,Ethnic
-52909,Men,Sarees,Fall,Ethnic
+52909,Men,Free Gifts,Fall,Ethnic
 52910,Women,Sarees,Summer,Ethnic
 52911,Women,Sarees,Summer,Ethnic
 52912,Women,Sarees,Summer,Ethnic
 52913,Women,Sarees,Fall,Ethnic
 52914,Men,Sarees,Summer,Ethnic
-52915,Women,Shorts,Summer,Ethnic
+52915,Women,Sarees,Summer,Ethnic
 52916,Men,Sarees,Summer,Ethnic
 52917,Men,Sarees,Fall,Ethnic
 52918,Women,Sarees,Summer,Ethnic
@@ -617,13 +617,13 @@ id,gender,articleType,season,usage
 52923,Unisex,Sarees,Fall,Casual
 52924,Unisex,Sarees,Summer,Casual
 52925,Women,Sarees,Summer,Ethnic
-52926,Women,Kurtas,Fall,Casual
+52926,Women,Sarees,Fall,Casual
 52927,Women,Sarees,Summer,Casual
 52928,Women,Sarees,Summer,Ethnic
 52929,Women,Sarees,Summer,Ethnic
 52930,Women,Sarees,Summer,Ethnic
 52931,Men,Sarees,Fall,Ethnic
-52934,Women,Sarees,Summer,Casual
+52934,Women,Free Gifts,Summer,Casual
 52935,Women,Sarees,Summer,Ethnic
 52936,Women,Sarees,Summer,Ethnic
 52937,Women,Sarees,Summer,Ethnic
@@ -724,7 +724,7 @@ id,gender,articleType,season,usage
 53045,Women,Sarees,Fall,Ethnic
 53046,Women,Sarees,Fall,Ethnic
 53047,Women,Sarees,Fall,Ethnic
-53048,Women,Free Gifts,Summer,Ethnic
+53048,Women,Kurta Sets,Summer,Ethnic
 53049,Women,Sarees,Summer,Ethnic
 53050,Women,Sarees,Summer,Ethnic
 53051,Women,Sarees,Fall,Ethnic
@@ -733,9 +733,9 @@ id,gender,articleType,season,usage
 53054,Women,Sarees,Fall,Ethnic
 53055,Men,Sarees,Fall,Ethnic
 53056,Women,Sarees,Summer,Ethnic
-53057,Women,Free Gifts,Fall,Ethnic
+53057,Women,Sarees,Fall,Ethnic
 53058,Women,Handbags,Winter,Casual
-53059,Women,Handbags,Summer,Casual
+53059,Women,Wallets,Summer,Casual
 53060,Women,Handbags,Fall,Casual
 53061,Women,Handbags,Winter,Casual
 53062,Women,Handbags,Winter,Casual
@@ -758,17 +758,17 @@ id,gender,articleType,season,usage
 53080,Women,Clutches,Summer,Casual
 53081,Women,Clutches,Winter,Casual
 53082,Women,Clutches,Winter,Casual
-53083,Women,Watches,Winter,Casual
+53083,Women,Pendant,Winter,Casual
 53084,Women,Mobile Pouch,Spring,Casual
 53085,Women,Jewellery Set,Summer,Casual
-53086,Women,Dupatta,Summer,Casual
+53086,Women,Jewellery Set,Summer,Casual
 53087,Women,Jewellery Set,Summer,Casual
-53088,Women,Pendant,Summer,Formal
-53089,Women,Pendant,Summer,Casual
+53088,Women,Ties,Summer,Formal
+53089,Women,Necklace and Chains,Summer,Casual
 53090,Women,Pendant,Winter,Casual
 53091,Women,Necklace and Chains,Winter,Casual
-53092,Women,Pendant,Winter,Casual
-53093,Women,Pendant,Summer,Casual
+53092,Women,Necklace and Chains,Winter,Casual
+53093,Women,Necklace and Chains,Summer,Casual
 53094,Women,Earrings,Summer,Ethnic
 53095,Women,Earrings,Winter,Ethnic
 53096,Women,Earrings,Winter,Ethnic
@@ -793,30 +793,30 @@ id,gender,articleType,season,usage
 53115,Men,Tshirts,Summer,Casual
 53116,Men,Tshirts,Summer,Casual
 53117,Women,Tops,Summer,Casual
-53118,Women,Tops,Summer,Casual
+53118,Women,Tshirts,Summer,Casual
 53119,Women,Tshirts,Summer,Casual
-53120,Women,Tops,Summer,Casual
+53120,Women,Tshirts,Summer,Casual
 53121,Women,Tops,Summer,Casual
-53122,Women,Tops,Summer,Casual
-53123,Women,Tops,Summer,Casual
-53124,Women,Tshirts,Summer,Casual
+53122,Women,Tshirts,Summer,Casual
+53123,Women,Jackets,Summer,Casual
+53124,Women,Tops,Summer,Casual
 53125,Women,Tshirts,Summer,Casual
 53126,Women,Tshirts,Summer,Casual
 53127,Women,Flats,Winter,Casual
 53128,Women,Heels,Winter,Casual
 53129,Women,Heels,Winter,Casual
 53130,Women,Flats,Winter,Casual
-53131,Women,Heels,Winter,Casual
+53131,Women,Flats,Winter,Casual
 53132,Women,Flats,Winter,Casual
-53133,Women,Flats,Winter,Casual
+53133,Women,Heels,Winter,Casual
 53134,Women,Flats,Winter,Casual
 53135,Women,Heels,Winter,Casual
 53136,Women,Heels,Winter,Casual
-53137,Women,Heels,Summer,Casual
+53137,Women,Flats,Summer,Casual
 53138,Women,Heels,Winter,Casual
 53139,Women,Heels,Winter,Casual
 53140,Women,Heels,Winter,Casual
-53141,Women,Heels,Winter,Casual
+53141,Women,Flats,Winter,Casual
 53142,Women,Heels,Winter,Casual
 53143,Women,Heels,Winter,Casual
 53144,Women,Heels,Winter,Casual
@@ -826,7 +826,7 @@ id,gender,articleType,season,usage
 53148,Women,Heels,Winter,Casual
 53149,Women,Heels,Winter,Casual
 53150,Women,Heels,Winter,Casual
-53152,Men,Shirts,Summer,Formal
+53152,Men,Innerwear Vests,Summer,Formal
 53159,Men,Shirts,Summer,Formal
 53211,Men,Shirts,Summer,Formal
 53215,Men,Shirts,Summer,Formal
@@ -834,7 +834,7 @@ id,gender,articleType,season,usage
 53228,Men,Trousers,Summer,Formal
 53248,Men,Trousers,Summer,Formal
 53252,Men,Jeans,Summer,Casual
-53264,Men,Tshirts,Summer,Casual
+53264,Men,Innerwear Vests,Summer,Casual
 53269,Men,Tshirts,Summer,Casual
 53278,Men,Tshirts,Summer,Casual
 53282,Men,Tshirts,Summer,Casual
@@ -856,7 +856,7 @@ id,gender,articleType,season,usage
 53348,Men,Boxers,Summer,Casual
 53357,Women,Wristbands,Summer,Casual
 53358,Men,Belts,Summer,Formal
-53360,Women,Backpacks,Winter,Sports
+53360,Women,Handbags,Winter,Sports
 53361,Unisex,Backpacks,Spring,Casual
 53362,Unisex,Backpacks,Spring,Casual
 53363,Unisex,Duffel Bag,Winter,Casual
@@ -887,15 +887,15 @@ id,gender,articleType,season,usage
 53390,Women,Kurtas,Summer,Ethnic
 53391,Women,Kurtas,Summer,Ethnic
 53392,Women,Tunics,Summer,Casual
-53393,Women,Kurtas,Summer,Ethnic
+53393,Women,Kurtis,Summer,Ethnic
 53394,Women,Kurtas,Summer,Ethnic
 53395,Men,Kurtas,Summer,Casual
 53396,Women,Kurtas,Summer,Ethnic
-53397,Women,Kurtas,Summer,Ethnic
+53397,Women,Tunics,Summer,Ethnic
 53398,Women,Kurtas,Summer,Ethnic
 53399,Women,Kurtas,Summer,Ethnic
-53401,Women,Kurtas,Summer,Ethnic
-53402,Women,Tops,Summer,Casual
+53401,Women,Tunics,Summer,Ethnic
+53402,Women,Tunics,Summer,Casual
 53403,Women,Kurtas,Summer,Ethnic
 53404,Men,Kurtas,Summer,Ethnic
 53405,Women,Kurtas,Summer,Ethnic
@@ -904,8 +904,8 @@ id,gender,articleType,season,usage
 53409,Women,Kurtas,Summer,Ethnic
 53410,Men,Kurtas,Summer,Ethnic
 53411,Women,Kurtas,Summer,Ethnic
-53412,Women,Kurtas,Summer,Casual
-53413,Women,Kurtas,Summer,Casual
+53412,Women,Kurtis,Summer,Casual
+53413,Women,Tunics,Summer,Casual
 53414,Women,Kurtas,Summer,Ethnic
 53415,Women,Kurtas,Summer,Ethnic
 53416,Women,Kurtas,Summer,Ethnic
@@ -929,14 +929,14 @@ id,gender,articleType,season,usage
 53434,Men,Tshirts,Summer,Casual
 53435,Men,Jackets,Summer,Casual
 53436,Men,Sports Shoes,Fall,Casual
-53437,Men,Sports Shoes,Summer,Casual
-53438,Men,Sports Shoes,Summer,Sports
+53437,Men,Casual Shoes,Summer,Casual
+53438,Men,Casual Shoes,Summer,Sports
 53439,Women,Flip Flops,Summer,Casual
 53440,Men,Sports Shoes,Fall,Sports
 53441,Men,Sports Shoes,Fall,Sports
-53442,Women,Flip Flops,Summer,Casual
+53442,Women,Flats,Summer,Casual
 53444,Men,Sandals,Summer,Casual
-53445,Women,Flip Flops,Winter,Casual
+53445,Women,Flats,Winter,Casual
 53446,Men,Flip Flops,Summer,Casual
 53447,Women,Flip Flops,Winter,Casual
 53448,Women,Flip Flops,Winter,Casual
@@ -952,7 +952,7 @@ id,gender,articleType,season,usage
 53459,Women,Heels,Winter,Casual
 53460,Women,Heels,Winter,Casual
 53461,Women,Bra,Summer,Casual
-53462,Women,Briefs,Summer,Casual
+53462,Women,Bra,Summer,Casual
 53463,Women,Bra,Summer,Casual
 53464,Women,Bra,Summer,Casual
 53465,Women,Bra,Winter,Casual
@@ -963,20 +963,20 @@ id,gender,articleType,season,usage
 53470,Women,Bra,Winter,Casual
 53473,Women,Bra,Summer,Casual
 53474,Women,Bra,Winter,Casual
-53475,Women,Briefs,Summer,Casual
+53475,Women,Bra,Summer,Casual
 53476,Women,Bra,Winter,Casual
 53477,Women,Bra,Summer,Casual
 53478,Women,Bra,Winter,Casual
 53479,Women,Bra,Summer,Casual
 53480,Women,Bra,Winter,Casual
-53484,Men,Bra,Summer,Casual
-53485,Women,Bra,Summer,Casual
+53484,Men,Tshirts,Summer,Casual
+53485,Women,Casual Shoes,Summer,Casual
 53486,Men,Bra,Summer,Casual
-53487,Women,Bra,Winter,Casual
-53488,Men,Bra,Summer,Casual
-53489,Women,Casual Shoes,Summer,Casual
+53487,Women,Tshirts,Winter,Casual
+53488,Men,Tshirts,Summer,Casual
+53489,Women,Briefs,Summer,Casual
 53490,Women,Bra,Summer,Casual
-53491,Women,Briefs,Summer,Casual
+53491,Women,Bra,Summer,Casual
 53492,Women,Bra,Summer,Casual
 53493,Women,Bra,Spring,Casual
 53498,Women,Briefs,Summer,Casual
@@ -1036,7 +1036,7 @@ id,gender,articleType,season,usage
 53580,Men,Watches,Winter,Casual
 53581,Men,Watches,Winter,Casual
 53582,Women,Watches,Winter,Casual
-53583,Women,Watches,Winter,Casual
+53583,Women,Free Gifts,Winter,Casual
 53584,Women,Watches,Winter,Casual
 53585,Men,Watches,Winter,Casual
 53586,Men,Watches,Winter,Casual
@@ -1081,7 +1081,7 @@ id,gender,articleType,season,usage
 53627,Women,Watches,Winter,Casual
 53628,Men,Watches,Winter,Casual
 53629,Men,Watches,Winter,Casual
-53630,Women,Briefs,Winter,Casual
+53630,Women,Bra,Winter,Casual
 53631,Women,Bra,Summer,Casual
 53632,Men,Sandals,Spring,Casual
 53633,Men,Casual Shoes,Summer,Casual
@@ -1120,7 +1120,7 @@ id,gender,articleType,season,usage
 53677,Women,Handbags,Summer,Casual
 53678,Women,Handbags,Summer,Casual
 53679,Women,Handbags,Summer,Casual
-53680,Women,Handbags,Winter,Casual
+53680,Women,Laptop Bag,Winter,Casual
 53681,Women,Handbags,Summer,Casual
 53682,Women,Handbags,Summer,Casual
 53683,Women,Handbags,Summer,Casual
@@ -1133,7 +1133,7 @@ id,gender,articleType,season,usage
 53692,Women,Handbags,Summer,Casual
 53695,Women,Handbags,Summer,Casual
 53696,Women,Handbags,Summer,Casual
-53698,Women,Innerwear,Winter,Casual
+53698,Women,Handbags,Winter,Casual
 53702,Women,Handbags,Winter,Casual
 53706,Women,Handbags,Summer,Casual
 53708,Women,Handbags,Summer,Casual
@@ -1152,23 +1152,23 @@ id,gender,articleType,season,usage
 53734,Men,Casual Shoes,Spring,Casual
 53735,Men,Casual Shoes,Winter,Casual
 53737,Men,Shorts,Winter,Casual
-53738,Women,Track Pants,Summer,Casual
+53738,Women,Lounge Pants,Summer,Casual
 53740,Men,Track Pants,Summer,Casual
 53741,Women,Lounge Pants,Summer,Casual
 53742,Women,Capris,Summer,Casual
 53743,Women,Track Pants,Summer,Casual
-53744,Men,Shorts,Summer,Casual
-53745,Women,Lounge Pants,Summer,Casual
-53747,Men,Track Pants,Summer,Casual
-53748,Women,Lounge Pants,Summer,Casual
+53744,Men,Capris,Summer,Casual
+53745,Women,Shorts,Summer,Casual
+53747,Men,Trousers,Summer,Casual
+53748,Women,Jeans,Summer,Casual
 53749,Women,Lounge Pants,Summer,Casual
-53750,Men,Lounge Pants,Summer,Casual
+53750,Men,Track Pants,Summer,Casual
 53751,Men,Track Pants,Summer,Casual
 53752,Men,Shorts,Summer,Casual
 53753,Men,Shorts,Winter,Casual
-53754,Men,Sweatshirts,Summer,Formal
+53754,Men,Jackets,Summer,Formal
 53755,Men,Shorts,Winter,Casual
-53756,Unisex,Backpacks,Winter,Casual
+53756,Unisex,Accessories,Winter,Casual
 53757,Women,Sports Shoes,Summer,Sports
 53759,Men,Tshirts,Summer,Casual
 53760,Men,Tshirts,Summer,Casual
@@ -1182,7 +1182,7 @@ id,gender,articleType,season,usage
 53768,Men,Tshirts,Summer,Casual
 53770,Men,Tshirts,Summer,Casual
 53771,Men,Tshirts,Summer,Casual
-53772,Men,Tshirts,Summer,Casual
+53772,Men,Innerwear Vests,Summer,Casual
 53773,Men,Tshirts,Summer,Casual
 53774,Men,Tshirts,Summer,Casual
 53775,Men,Tshirts,Summer,Casual
@@ -1215,47 +1215,47 @@ id,gender,articleType,season,usage
 53805,Unisex,Socks,Summer,Casual
 53806,Men,Socks,Fall,Formal
 53807,Women,Shorts,Summer,Casual
-53808,Women,Scarves,Summer,Ethnic
-53809,Women,Dresses,Summer,Casual
+53808,Women,Dupatta,Summer,Ethnic
+53809,Women,Tunics,Summer,Casual
 53810,Women,Kurtas,Summer,Ethnic
 53811,Women,Kurtas,Summer,Casual
-53812,Women,Kurta Sets,Summer,Casual
-53813,Women,Kurtas,Summer,Casual
+53812,Women,Dress,Summer,Casual
+53813,Women,Kurtis,Summer,Casual
 53814,Women,Kurta Sets,Summer,Ethnic
 53815,Women,Kurtas,Summer,Ethnic
 53816,Women,Tunics,Summer,Casual
-53817,Women,Tracksuits,Summer,Casual
-53818,Women,Kurtas,Summer,Ethnic
-53819,Men,Kurtas,Summer,Ethnic
-53820,Men,Kurtas,Summer,Ethnic
+53817,Women,Dress,Summer,Casual
+53818,Women,Kurtis,Summer,Ethnic
+53819,Men,Tunics,Summer,Ethnic
+53820,Men,Kurtis,Summer,Ethnic
 53822,Women,Tops,Summer,Casual
 53823,Women,Kurtas,Summer,Ethnic
-53824,Women,Tops,Summer,Casual
-53825,Women,Nightdress,Summer,Ethnic
+53824,Women,Tunics,Summer,Casual
+53825,Women,Dress,Summer,Ethnic
 53826,Women,Kurtas,Summer,Casual
 53829,Women,Kurtas,Summer,Ethnic
 53830,Women,Kurtas,Summer,Ethnic
-53832,Women,Kurtas,Summer,Casual
+53832,Women,Tunics,Summer,Casual
 53833,Women,Kurtas,Summer,Ethnic
 53834,Women,Kurtas,Summer,Ethnic
 53835,Women,Kurtas,Summer,Casual
 53836,Women,Kurtas,Summer,Ethnic
 53837,Women,Kurtas,Summer,Ethnic
-53838,Women,Dresses,Summer,Ethnic
+53838,Women,Kurtas,Summer,Ethnic
 53839,Women,Kurtas,Summer,Ethnic
 53840,Women,Kurtas,Summer,Casual
-53841,Women,Dresses,Summer,Ethnic
+53841,Women,Kurtas,Summer,Ethnic
 53842,Women,Kurtas,Summer,Casual
 53843,Women,Kurtas,Summer,Casual
 53849,Women,Kurtas,Summer,Ethnic
 53850,Women,Kurtas,Summer,Ethnic
 53851,Women,Kurtas,Summer,Ethnic
 53852,Women,Kurtas,Summer,Casual
-53856,Women,Kurtas,Summer,Ethnic
+53856,Women,Kurtis,Summer,Ethnic
 53857,Women,Kurtas,Summer,Ethnic
 53859,Women,Kurtas,Summer,Casual
 53861,Women,Kurtas,Summer,Ethnic
-53863,Women,Kurtas,Summer,Ethnic
+53863,Women,Kurtis,Summer,Ethnic
 53864,Women,Kurtas,Summer,Ethnic
 53866,Women,Kurtas,Summer,Casual
 53867,Women,Flats,Winter,Casual
@@ -1270,12 +1270,12 @@ id,gender,articleType,season,usage
 53876,Men,Flip Flops,Summer,Casual
 53877,Men,Flip Flops,Summer,Casual
 53878,Men,Flip Flops,Fall,Casual
-53879,Men,Sandals,Fall,Casual
+53879,Men,Flip Flops,Fall,Casual
 53880,Men,Flip Flops,Fall,Casual
 53881,Men,Flip Flops,Summer,Casual
 53882,Unisex,Flip Flops,Fall,Casual
 53883,Men,Flip Flops,Fall,Casual
-53884,Women,Handbags,Summer,Casual
+53884,Women,Bra,Summer,Casual
 53886,Women,Handbags,Winter,Casual
 53887,Women,Handbags,Summer,Casual
 53888,Women,Handbags,Summer,Casual
@@ -1285,14 +1285,14 @@ id,gender,articleType,season,usage
 53892,Women,Handbags,Summer,Casual
 53893,Women,Handbags,Summer,Casual
 53894,Women,Handbags,Summer,Casual
-53895,Women,Handbags,Summer,Casual
+53895,Women,Laptop Bag,Summer,Casual
 53896,Women,Handbags,Summer,Casual
 53897,Women,Handbags,Summer,Casual
 53900,Unisex,Handbags,Winter,Casual
 53902,Women,Handbags,Winter,Casual
 53905,Women,Handbags,Summer,Casual
 53907,Women,Handbags,Winter,Casual
-53911,Women,Laptop Bag,Summer,Casual
+53911,Women,Handbags,Summer,Casual
 53914,Women,Handbags,Winter,Casual
 53918,Women,Handbags,Winter,Casual
 53921,Women,Handbags,Summer,Casual
@@ -1324,69 +1324,69 @@ id,gender,articleType,season,usage
 54007,Women,Handbags,Summer,Casual
 54008,Women,Handbags,Summer,Casual
 54009,Women,Handbags,Summer,Casual
-54014,Unisex,Handbags,Summer,Casual
-54016,Women,Handbags,Summer,Casual
-54017,Women,Clutches,Summer,Casual
+54014,Unisex,Messenger Bag,Summer,Casual
+54016,Women,Wallets,Summer,Casual
+54017,Women,Handbags,Summer,Casual
 54018,Women,Wallets,Summer,Casual
 54019,Women,Wallets,Summer,Casual
-54020,Women,Clutches,Summer,Casual
-54031,Women,Handbags,Summer,Casual
+54020,Women,Handbags,Summer,Casual
+54031,Women,Wallets,Summer,Casual
 54032,Women,Clutches,Summer,Casual
-54033,Women,Wallets,Summer,Casual
+54033,Women,Handbags,Summer,Casual
 54035,Women,Handbags,Summer,Casual
 54036,Women,Handbags,Summer,Casual
 54040,Women,Handbags,Summer,Casual
 54041,Women,Handbags,Summer,Casual
 54049,Women,Leggings,Summer,Casual
-54050,Women,Bottomwear,Summer,Casual
+54050,Women,Jeans,Summer,Casual
 54051,Women,Jeans,Summer,Casual
 54052,Women,Leggings,Summer,Ethnic
-54053,Women,Leggings,Summer,Ethnic
+54053,Women,Churidar,Summer,Ethnic
 54054,Women,Bottomwear,Summer,Casual
 54055,Women,Leggings,Summer,Casual
 54056,Women,Leggings,Summer,Casual
 54057,Women,Leggings,Summer,Casual
 54058,Men,Leggings,Summer,Casual
-54059,Women,Lounge Pants,Spring,Casual
-54060,Women,Bottomwear,Summer,Casual
+54059,Women,Leggings,Spring,Casual
+54060,Women,Trousers,Summer,Casual
 54061,Women,Deodorant,Spring,Casual
 54062,Women,Deodorant,Spring,Casual
 54063,Women,Deodorant,Spring,Casual
 54064,Women,Deodorant,Spring,Casual
 54065,Men,Casual Shoes,Summer,Casual
 54066,Unisex,Casual Shoes,Fall,Casual
-54068,Men,Sports Shoes,Summer,Casual
-54069,Men,Flip Flops,Winter,Casual
+54068,Men,Casual Shoes,Summer,Casual
+54069,Men,Sandals,Winter,Casual
 54070,Men,Sports Shoes,Summer,Sports
 54071,Men,Sports Shoes,Summer,Sports
 54072,Men,Sports Shoes,Summer,Casual
 54073,Men,Sports Shoes,Summer,Sports
 54076,Unisex,Casual Shoes,Summer,Casual
-54077,Women,Heels,Winter,Casual
-54078,Men,Sports Shoes,Summer,Sports
+54077,Women,Flats,Winter,Casual
+54078,Men,Casual Shoes,Summer,Sports
 54079,Women,Tunics,Summer,Casual
 54080,Women,Kurtas,Summer,Casual
 54081,Women,Kurtas,Summer,Casual
 54082,Men,Kurtis,Summer,Casual
-54083,Men,Tunics,Summer,Casual
+54083,Men,Kurtis,Summer,Casual
 54084,Women,Tops,Summer,Casual
-54086,Women,Tunics,Summer,Casual
+54086,Women,Tops,Summer,Casual
 54087,Women,Tops,Summer,Casual
 54088,Women,Tops,Summer,Casual
 54089,Men,Tshirts,Summer,Casual
-54090,Women,Kurtas,Summer,Casual
+54090,Women,Tunics,Summer,Casual
 54095,Unisex,Caps,Summer,Casual
 54103,Women,Heels,Winter,Casual
-54104,Women,Heels,Winter,Casual
+54104,Women,Flats,Winter,Casual
 54105,Women,Heels,Winter,Casual
-54106,Women,Heels,Winter,Casual
-54107,Women,Heels,Winter,Casual
+54106,Women,Flats,Winter,Casual
+54107,Women,Flats,Winter,Casual
 54108,Women,Heels,Winter,Casual
 54109,Women,Flats,Winter,Casual
 54110,Women,Flats,Winter,Casual
 54111,Women,Flats,Winter,Casual
 54112,Women,Flats,Winter,Casual
-54113,Women,Heels,Winter,Casual
+54113,Women,Flats,Winter,Casual
 54114,Women,Flats,Winter,Casual
 54115,Women,Heels,Winter,Casual
 54116,Women,Flats,Spring,Casual
@@ -1427,20 +1427,20 @@ id,gender,articleType,season,usage
 54151,Women,Necklace and Chains,Fall,Casual
 54152,Women,Necklace and Chains,Winter,Ethnic
 54153,Women,Necklace and Chains,Winter,Casual
-54154,Women,Pendant,Winter,Casual
+54154,Women,Necklace and Chains,Winter,Casual
 54155,Women,Necklace and Chains,Winter,Casual
 54156,Women,Necklace and Chains,Winter,Casual
 54157,Women,Necklace and Chains,Winter,Casual
 54158,Women,Necklace and Chains,Spring,Casual
 54159,Women,Necklace and Chains,Winter,Casual
-54160,Women,Pendant,Winter,Ethnic
-54161,Women,Pendant,Winter,Casual
+54160,Women,Necklace and Chains,Winter,Ethnic
+54161,Women,Bracelet,Winter,Casual
 54162,Women,Necklace and Chains,Winter,Casual
-54163,Women,Pendant,Summer,Casual
-54164,Women,Bra,Summer,Casual
+54163,Women,Necklace and Chains,Summer,Casual
+54164,Women,Necklace and Chains,Summer,Casual
 54165,Women,Necklace and Chains,Winter,Casual
 54166,Women,Necklace and Chains,Winter,Casual
-54167,Women,Necklace and Chains,Winter,Casual
+54167,Women,Jewellery Set,Winter,Casual
 54168,Women,Necklace and Chains,Summer,Casual
 54169,Women,Necklace and Chains,Summer,Casual
 54170,Women,Necklace and Chains,Winter,Casual
@@ -1492,7 +1492,7 @@ id,gender,articleType,season,usage
 54340,Men,Socks,Summer,Casual
 54341,Men,Socks,Winter,Casual
 54342,Women,Bottomwear,Summer,Casual
-54343,Unisex,Socks,Summer,Casual
+54343,Unisex,Casual Shoes,Summer,Casual
 54344,Unisex,Socks,Summer,Casual
 54345,Women,Socks,Summer,Sports
 54346,Men,Socks,Summer,Casual
@@ -1512,13 +1512,13 @@ id,gender,articleType,season,usage
 54392,Women,Handbags,Summer,Casual
 54393,Girls,Handbags,Winter,Casual
 54394,Women,Handbags,Winter,Casual
-54395,Women,Clutches,Summer,Casual
+54395,Women,Wallets,Summer,Casual
 54396,Women,Clutches,Summer,Casual
 54397,Women,Handbags,Summer,Casual
 54398,Women,Handbags,Summer,Casual
 54399,Women,Wallets,Summer,Casual
-54400,Women,Clutches,Summer,Casual
-54401,Women,Clutches,Summer,Casual
+54400,Women,Wallets,Summer,Casual
+54401,Women,Wallets,Summer,Casual
 54402,Women,Wallets,Winter,Casual
 54403,Women,Wallets,Summer,Casual
 54404,Women,Wallets,Summer,Casual
@@ -1527,10 +1527,10 @@ id,gender,articleType,season,usage
 54407,Women,Handbags,Summer,Casual
 54408,Women,Handbags,Summer,Casual
 54409,Women,Handbags,Summer,Casual
-54410,Women,Wallets,Summer,Casual
+54410,Women,Clutches,Summer,Casual
 54411,Women,Wallets,Summer,Casual
 54412,Women,Wallets,Winter,Casual
-54475,Women,Bags,Winter,Casual
+54475,Women,Handbags,Winter,Casual
 54476,Women,Accessory Gift Set,Summer,Casual
 54477,Men,Briefs,Summer,Casual
 54478,Men,Briefs,Summer,Casual
@@ -1542,22 +1542,22 @@ id,gender,articleType,season,usage
 54484,Men,Briefs,Summer,Casual
 54485,Men,Briefs,Summer,Casual
 54486,Men,Briefs,Summer,Casual
-54487,Unisex,Handbags,Summer,Casual
-54488,Unisex,Handbags,Winter,Casual
+54487,Unisex,Backpacks,Summer,Casual
+54488,Unisex,Backpacks,Winter,Casual
 54489,Unisex,Handbags,Winter,Casual
-54490,Unisex,Fragrance Gift Set,Summer,Casual
+54490,Unisex,Backpacks,Summer,Casual
 54491,Women,Handbags,Summer,Casual
 54492,Women,Handbags,Summer,Casual
 54493,Women,Handbags,Winter,Casual
 54494,Women,Handbags,Winter,Casual
 54495,Women,Laptop Bag,Winter,Casual
-54496,Women,Handbags,Winter,Casual
+54496,Women,Laptop Bag,Winter,Casual
 54497,Women,Handbags,Summer,Casual
 54498,Women,Handbags,Summer,Casual
 54499,Unisex,Handbags,Summer,Casual
 54500,Women,Handbags,Summer,Casual
 54501,Women,Handbags,Winter,Casual
-54502,Unisex,Laptop Bag,Winter,Casual
+54502,Unisex,Handbags,Winter,Casual
 54503,Unisex,Backpacks,Summer,Casual
 54504,Women,Handbags,Winter,Casual
 54505,Women,Handbags,Summer,Casual
@@ -1565,24 +1565,24 @@ id,gender,articleType,season,usage
 54507,Women,Handbags,Summer,Casual
 54508,Women,Handbags,Summer,Casual
 54509,Women,Handbags,Summer,Casual
-54510,Women,Backpacks,Summer,Casual
+54510,Women,Handbags,Summer,Casual
 54511,Women,Handbags,Summer,Casual
 54512,Women,Handbags,Summer,Casual
 54513,Men,Formal Shoes,Winter,Casual
-54514,Men,Sports Shoes,Summer,Casual
-54515,Men,Sports Shoes,Summer,Casual
+54514,Men,Casual Shoes,Summer,Casual
+54515,Men,Casual Shoes,Summer,Casual
 54516,Men,Sports Shoes,Summer,Sports
 54517,Men,Casual Shoes,Summer,Casual
 54518,Men,Sports Shoes,Summer,Casual
 54519,Men,Casual Shoes,Summer,Casual
 54520,Men,Casual Shoes,Summer,Casual
 54521,Men,Sports Shoes,Fall,Sports
-54522,Men,Sports Shoes,Summer,Casual
+54522,Men,Casual Shoes,Summer,Casual
 54523,Men,Sports Shoes,Summer,Casual
 54524,Men,Sports Shoes,Summer,Sports
 54525,Men,Sports Shoes,Summer,Sports
 54526,Men,Sports Shoes,Fall,Casual
-54527,Men,Casual Shoes,Summer,Casual
+54527,Men,Sandals,Summer,Casual
 54528,Men,Casual Shoes,Summer,Casual
 54529,Men,Casual Shoes,Fall,Casual
 54530,Men,Sports Shoes,Summer,Sports
@@ -1591,26 +1591,26 @@ id,gender,articleType,season,usage
 54535,Men,Sports Shoes,Summer,Sports
 54536,Men,Casual Shoes,Winter,Casual
 54537,Men,Sports Shoes,Fall,Casual
-54538,Men,Sports Shoes,Summer,Casual
-54539,Men,Sports Shoes,Summer,Sports
+54538,Men,Casual Shoes,Summer,Casual
+54539,Men,Casual Shoes,Summer,Sports
 54540,Men,Sports Shoes,Summer,Sports
 54541,Men,Casual Shoes,Winter,Sports
-54542,Men,Sports Shoes,Summer,Casual
+54542,Men,Casual Shoes,Summer,Casual
 54543,Men,Sports Shoes,Fall,Sports
-54544,Men,Sports Shoes,Fall,Casual
-54545,Women,Handbags,Summer,Casual
+54544,Men,Casual Shoes,Fall,Casual
+54545,Women,Backpacks,Summer,Casual
 54546,Girls,Backpacks,Winter,Casual
 54547,Women,Tunics,Summer,Casual
-54548,Men,Kurtas,Summer,Ethnic
+54548,Men,Tunics,Summer,Ethnic
 54549,Women,Kurtis,Summer,Casual
 54550,Men,Kurtas,Summer,Ethnic
 54551,Women,Kurtis,Summer,Ethnic
 54553,Women,Kurtas,Summer,Ethnic
-54554,Women,Tunics,Summer,Casual
+54554,Women,Tops,Summer,Casual
 54555,Women,Dupatta,Fall,Ethnic
 54556,Women,Dupatta,Summer,Ethnic
-54557,Women,Kurtas,Summer,Casual
-54558,Women,Tunics,Summer,Casual
+54557,Women,Tunics,Summer,Casual
+54558,Women,Kurtis,Summer,Casual
 54559,Men,Tunics,Summer,Ethnic
 54561,Women,Kurtas,Summer,Ethnic
 54562,Women,Kurtas,Summer,Ethnic
@@ -1622,16 +1622,16 @@ id,gender,articleType,season,usage
 54568,Women,Kurtas,Summer,Ethnic
 54569,Women,Kurtas,Summer,Ethnic
 54570,Women,Kurtas,Summer,Ethnic
-54571,Women,Kurtas,Fall,Ethnic
+54571,Women,Dupatta,Fall,Ethnic
 54572,Women,Kurtas,Summer,Ethnic
 54573,Women,Kurtis,Summer,Casual
 54574,Women,Kurtis,Summer,Casual
 54575,Women,Kurtis,Summer,Casual
 54576,Women,Kurtas,Summer,Ethnic
-54577,Women,Kurtas,Summer,Ethnic
-54578,Women,Kurtas,Summer,Ethnic
+54577,Women,Kurtis,Summer,Ethnic
+54578,Women,Kurtis,Summer,Ethnic
 54579,Women,Kurtas,Summer,Ethnic
-54580,Women,Kurtas,Summer,Ethnic
+54580,Women,Kurtis,Summer,Ethnic
 54581,Women,Kurtas,Summer,Ethnic
 54582,Women,Kurtas,Summer,Ethnic
 54584,Women,Kurtas,Summer,Ethnic
@@ -1639,7 +1639,7 @@ id,gender,articleType,season,usage
 54586,Women,Kurtas,Fall,Ethnic
 54587,Women,Kurtas,Summer,Ethnic
 54588,Women,Kurtas,Summer,Ethnic
-54589,Women,Kurtis,Summer,Ethnic
+54589,Women,Kurtas,Summer,Ethnic
 54590,Women,Tunics,Summer,Casual
 54595,Women,Kurtas,Summer,Ethnic
 54596,Women,Kurtas,Summer,Ethnic
@@ -1725,52 +1725,52 @@ id,gender,articleType,season,usage
 54678,Women,Watches,Winter,Casual
 54679,Women,Watches,Winter,Casual
 54680,Women,Tunics,Summer,Casual
-54681,Women,Kurtas,Summer,Casual
+54681,Women,Tunics,Summer,Casual
 54682,Women,Kurtas,Summer,Ethnic
 54683,Women,Kurtas,Summer,Ethnic
 54684,Women,Kurtas,Fall,Ethnic
 54685,Women,Kurtas,Summer,Ethnic
 54686,Women,Night suits,Summer,Ethnic
 54687,Women,Kurtas,Summer,Ethnic
-54688,Women,Night suits,Fall,Casual
-54689,Women,Night suits,Summer,Ethnic
+54688,Women,Dress,Fall,Casual
+54689,Women,Kurta Sets,Summer,Ethnic
 54690,Women,Kurtas,Summer,Ethnic
-54691,Women,Kurtas,Fall,Ethnic
+54691,Women,Tunics,Fall,Ethnic
 54692,Women,Kurtas,Summer,Ethnic
 54693,Women,Kurtas,Summer,Ethnic
-54694,Women,Kurtas,Summer,Ethnic
+54694,Women,Tunics,Summer,Ethnic
 54695,Women,Tunics,Summer,Casual
 54696,Women,Tunics,Summer,Ethnic
 54697,Women,Tunics,Summer,Ethnic
 54698,Women,Tunics,Summer,Casual
 54699,Women,Tunics,Summer,Casual
 54700,Women,Kurtas,Summer,Casual
-54702,Men,Tunics,Summer,Casual
-54703,Women,Tracksuits,Summer,Casual
-54704,Women,Bottomwear,Summer,Ethnic
-54705,Women,Dupatta,Summer,Ethnic
+54702,Men,Kurtas,Summer,Casual
+54703,Women,Free Gifts,Summer,Casual
+54704,Women,Dupatta,Summer,Ethnic
+54705,Women,Kurta Sets,Summer,Ethnic
 54706,Women,Kurtas,Summer,Casual
-54708,Men,Kurtas,Summer,Ethnic
+54708,Men,Tunics,Summer,Ethnic
 54710,Women,Kurtas,Summer,Ethnic
 54711,Women,Kurtas,Summer,Casual
-54712,Women,Kurta Sets,Summer,Ethnic
-54713,Women,Kurta Sets,Summer,Ethnic
-54714,Women,Sarees,Fall,Ethnic
+54712,Women,Dress,Summer,Ethnic
+54713,Women,Dupatta,Summer,Ethnic
+54714,Women,Free Gifts,Fall,Ethnic
 54715,Women,Night suits,Summer,Ethnic
-54716,Women,Kurtas,Summer,Ethnic
+54716,Women,Tunics,Summer,Ethnic
 54717,Women,Kurtas,Summer,Casual
 54718,Women,Kurtas,Summer,Casual
 54719,Women,Kurtas,Summer,Ethnic
-54720,Women,Kurtas,Summer,Ethnic
-54721,Women,Kurta Sets,Summer,Ethnic
-54722,Women,Kurta Sets,Summer,Ethnic
-54723,Men,Kurta Sets,Fall,Ethnic
-54724,Women,Night suits,Fall,Ethnic
+54720,Women,Tunics,Summer,Ethnic
+54721,Women,Free Gifts,Summer,Ethnic
+54722,Women,Free Gifts,Summer,Ethnic
+54723,Men,Stoles,Fall,Ethnic
+54724,Women,Dupatta,Fall,Ethnic
 54725,Women,Kurtas,Summer,Ethnic
 54726,Women,Kurtas,Summer,Ethnic
-54727,Women,Tunics,Summer,Ethnic
+54727,Women,Kurtis,Summer,Ethnic
 54728,Men,Casual Shoes,Summer,Casual
-54729,Men,Casual Shoes,Summer,Casual
+54729,Men,Formal Shoes,Summer,Casual
 54730,Men,Formal Shoes,Spring,Casual
 54731,Unisex,Casual Shoes,Summer,Casual
 54732,Men,Casual Shoes,Summer,Casual
@@ -1779,7 +1779,7 @@ id,gender,articleType,season,usage
 54735,Men,Casual Shoes,Summer,Casual
 54736,Unisex,Casual Shoes,Summer,Casual
 54737,Men,Casual Shoes,Summer,Casual
-54738,Men,Casual Shoes,Spring,Casual
+54738,Men,Formal Shoes,Spring,Casual
 54739,Men,Casual Shoes,Summer,Casual
 54740,Men,Casual Shoes,Spring,Casual
 54741,Men,Casual Shoes,Summer,Casual
@@ -1795,17 +1795,17 @@ id,gender,articleType,season,usage
 54807,Women,Handbags,Winter,Casual
 54808,Women,Clutches,Winter,Casual
 54812,Women,Handbags,Summer,Casual
-54813,Unisex,Handbags,Summer,Casual
-54819,Women,Handbags,Winter,Casual
+54813,Unisex,Skirts,Summer,Casual
+54819,Women,Duffel Bag,Winter,Casual
 54823,Women,Handbags,Winter,Casual
 54827,Unisex,Messenger Bag,Summer,Casual
-54828,Unisex,Handbags,Summer,Casual
+54828,Unisex,Mobile Pouch,Summer,Casual
 54829,Unisex,Messenger Bag,Summer,Casual
-54831,Men,Clutches,Summer,Casual
+54831,Men,Socks,Summer,Casual
 54834,Women,Handbags,Summer,Casual
-54836,Women,Clutches,Summer,Casual
+54836,Women,Perfume and Body Mist,Summer,Casual
 54838,Women,Clutches,Summer,Casual
-54842,Women,Sandals,Winter,Casual
+54842,Women,Belts,Winter,Casual
 54849,Women,Necklace and Chains,Winter,Casual
 54850,Women,Necklace and Chains,Winter,Casual
 54851,Women,Necklace and Chains,Spring,Casual
@@ -1820,7 +1820,7 @@ id,gender,articleType,season,usage
 54861,Women,Necklace and Chains,Winter,Casual
 54862,Women,Necklace and Chains,Fall,Casual
 54863,Women,Necklace and Chains,Fall,Casual
-54864,Women,Ties,Winter,Casual
+54864,Women,Necklace and Chains,Winter,Casual
 54865,Women,Necklace and Chains,Summer,Casual
 54866,Women,Necklace and Chains,Fall,Casual
 54867,Women,Pendant,Summer,Casual
@@ -1836,60 +1836,60 @@ id,gender,articleType,season,usage
 54877,Women,Necklace and Chains,Winter,Casual
 54878,Women,Necklace and Chains,Winter,Casual
 54879,Women,Necklace and Chains,Winter,Casual
-54880,Women,Necklace and Chains,Summer,Casual
+54880,Women,Bracelet,Summer,Casual
 54881,Girls,Necklace and Chains,Winter,Casual
 54882,Women,Necklace and Chains,Fall,Casual
 54883,Women,Pendant,Fall,Casual
 54884,Women,Necklace and Chains,Winter,Casual
 54885,Women,Necklace and Chains,Winter,Casual
-54886,Women,Necklace and Chains,Winter,Casual
+54886,Women,Bracelet,Winter,Casual
 54888,Women,Necklace and Chains,Winter,Casual
 54889,Men,Jackets,Summer,Casual
-54890,Men,Tshirts,Summer,Casual
-54891,Men,Innerwear Vests,Summer,Casual
+54890,Men,Innerwear Vests,Summer,Casual
+54891,Men,Tshirts,Summer,Casual
 54894,Men,Trousers,Summer,Casual
-54896,Men,Capris,Summer,Casual
-54897,Men,Tops,Fall,Casual
+54896,Men,Leggings,Summer,Casual
+54897,Men,Tshirts,Fall,Casual
 54899,Women,Tshirts,Summer,Casual
-54900,Men,Shirts,Fall,Casual
+54900,Men,Tshirts,Fall,Casual
 54901,Men,Tshirts,Summer,Casual
 54902,Men,Tshirts,Summer,Casual
 54903,Men,Tshirts,Summer,Casual
 54904,Men,Tshirts,Summer,Casual
-54905,Men,Shirts,Summer,Casual
+54905,Men,Tshirts,Summer,Casual
 54906,Men,Tshirts,Summer,Casual
 54907,Boys,Tshirts,Fall,Casual
-54908,Men,Shirts,Fall,Casual
-54909,Men,Shirts,Summer,Casual
+54908,Men,Tshirts,Fall,Casual
+54909,Men,Tshirts,Summer,Casual
 54911,Men,Tshirts,Summer,Casual
-54913,Men,Jackets,Summer,Casual
-54914,Women,Tops,Summer,Casual
+54913,Men,Topwear,Summer,Casual
+54914,Women,Tshirts,Summer,Casual
 54915,Men,Tshirts,Fall,Casual
-54918,Men,Lounge Shorts,Summer,Casual
-54919,Men,Lounge Shorts,Winter,Casual
-54921,Women,Shorts,Summer,Casual
+54918,Men,Shorts,Summer,Casual
+54919,Men,Shorts,Winter,Casual
+54921,Women,Capris,Summer,Casual
 54923,Men,Trousers,Summer,Casual
 54924,Men,Boxers,Summer,Casual
 54925,Men,Boxers,Summer,Casual
-54926,Men,Innerwear Vests,Summer,Casual
-54927,Men,Shirts,Summer,Casual
+54926,Men,Tshirts,Summer,Casual
+54927,Men,Tshirts,Summer,Casual
 54928,Men,Tshirts,Summer,Casual
 54929,Men,Tshirts,Summer,Casual
 54930,Men,Tshirts,Summer,Casual
 54931,Men,Tshirts,Fall,Casual
-54932,Women,Tops,Summer,Casual
-54933,Unisex,Kurtas,Summer,Casual
+54932,Women,Kurtas,Summer,Casual
+54933,Unisex,Tops,Summer,Casual
 54934,Women,Tops,Fall,Casual
 54935,Men,Tshirts,Summer,Casual
-54936,Men,Shirts,Summer,Casual
-54937,Men,Shirts,Summer,Casual
+54936,Men,Jackets,Summer,Casual
+54937,Men,Topwear,Summer,Casual
 54938,Women,Tops,Winter,Casual
 54939,Women,Sweaters,Fall,Casual
-54940,Women,Tops,Fall,Casual
-54941,Women,Tops,Summer,Casual
+54940,Women,Tshirts,Fall,Casual
+54941,Women,Tshirts,Summer,Casual
 54942,Men,Tshirts,Summer,Casual
 54943,Men,Tshirts,Summer,Casual
-54944,Men,Shirts,Summer,Casual
+54944,Men,Tshirts,Summer,Casual
 54945,Men,Tshirts,Summer,Casual
 54946,Men,Tshirts,Summer,Casual
 54947,Men,Tshirts,Summer,Casual
@@ -1900,14 +1900,14 @@ id,gender,articleType,season,usage
 54953,Men,Tshirts,Summer,Casual
 54954,Men,Tshirts,Fall,Casual
 54955,Men,Tshirts,Spring,Casual
-54957,Boys,Tshirts,Fall,Casual
+54957,Boys,Shirts,Fall,Casual
 54958,Boys,Tshirts,Summer,Casual
-54959,Boys,Tops,Summer,Casual
+54959,Boys,Jackets,Summer,Casual
 54960,Men,Tshirts,Summer,Casual
 54961,Men,Tshirts,Summer,Casual
 54964,Women,Tops,Summer,Casual
 54965,Men,Tshirts,Summer,Casual
-54966,Men,Casual Shoes,Fall,Casual
+54966,Men,Sandals,Fall,Casual
 54967,Men,Deodorant,Spring,Casual
 54968,Men,Deodorant,Spring,Casual
 54969,Men,Deodorant,Spring,Casual
@@ -1916,7 +1916,7 @@ id,gender,articleType,season,usage
 54972,Women,Dresses,Summer,Casual
 54973,Women,Dresses,Summer,Casual
 54974,Women,Dresses,Summer,Casual
-54975,Women,Tops,Summer,Casual
+54975,Women,Tshirts,Summer,Casual
 54976,Women,Dresses,Summer,Casual
 54977,Women,Capris,Summer,Casual
 54978,Men,Capris,Summer,Casual
@@ -1924,36 +1924,36 @@ id,gender,articleType,season,usage
 54980,Women,Sarees,Summer,Casual
 54981,Women,Tops,Summer,Casual
 54982,Women,Jeans,Summer,Casual
-54983,Women,Leggings,Summer,Casual
+54983,Women,Trousers,Summer,Casual
 54984,Men,Jeans,Summer,Casual
 54985,Women,Jeans,Summer,Casual
 54986,Women,Tops,Summer,Casual
-54987,Women,Tunics,Summer,Casual
-54988,Women,Shirts,Summer,Casual
-54989,Women,Tunics,Summer,Ethnic
-54990,Women,Dresses,Summer,Casual
+54987,Women,Kurtis,Summer,Casual
+54988,Women,Tops,Summer,Casual
+54989,Women,Kurtis,Summer,Ethnic
+54990,Women,Kurta Sets,Summer,Casual
 54991,Women,Tops,Summer,Casual
 54992,Women,Tops,Summer,Casual
-54993,Women,Shirts,Summer,Casual
-54995,Women,Eyes,Spring,Casual
-54997,Women,Eyes,Spring,Casual
-55000,Women,Eyes,Spring,Casual
-55001,Men,Eyes,Spring,Casual
-55002,Women,Eyes,Spring,Casual
-55003,Women,Eyes,Spring,Casual
-55004,Women,Handbags,Winter,Casual
+54993,Women,Kurtis,Summer,Casual
+54995,Women,Lips,Spring,Casual
+54997,Women,Lips,Spring,Casual
+55000,Women,Lips,Spring,Casual
+55001,Men,Lips,Spring,Casual
+55002,Women,Lips,Spring,Casual
+55003,Women,Lips,Spring,Casual
+55004,Women,Clutches,Winter,Casual
 55005,Men,Lips,Spring,Casual
 55006,Men,Lips,Spring,Casual
-55007,Men,Lips,Spring,Casual
-55008,Men,Lips,Spring,Casual
-55009,Men,Lips,Spring,Casual
-55010,Men,Lips,Spring,Casual
-55012,Women,Eyes,Spring,Casual
+55007,Men,Perfume and Body Mist,Spring,Casual
+55008,Men,Perfume and Body Mist,Spring,Casual
+55009,Men,Perfume and Body Mist,Spring,Casual
+55010,Men,Perfume and Body Mist,Spring,Casual
+55012,Women,Lips,Spring,Casual
 55013,Men,Makeup,Spring,Casual
-55015,Women,Eyes,Spring,Casual
+55015,Women,Lips,Spring,Casual
 55016,Men,Makeup,Spring,Casual
-55018,Women,Eyes,Spring,Casual
-55020,Women,Eyes,Spring,Casual
+55018,Women,Lips,Spring,Casual
+55020,Women,Lips,Spring,Casual
 55021,Women,Lips,Spring,Casual
 55022,Women,Lips,Spring,Casual
 55023,Women,Lips,Spring,Casual
@@ -1972,75 +1972,75 @@ id,gender,articleType,season,usage
 55036,Women,Lips,Spring,Casual
 55037,Women,Lips,Spring,Casual
 55038,Women,Lips,Spring,Casual
-55039,Men,Eyes,Spring,Casual
+55039,Men,Lips,Spring,Casual
 55040,Women,Lips,Spring,Casual
 55041,Women,Eyes,Spring,Casual
 55042,Women,Lips,Spring,Casual
 55043,Women,Lips,Spring,Casual
 55044,Women,Lips,Spring,Casual
-55045,Women,Shoe Accessories,Spring,Casual
-55046,Women,Shoe Accessories,Spring,Casual
+55045,Women,Makeup,Spring,Casual
+55046,Women,Makeup,Spring,Casual
 55047,Women,Deodorant,Spring,Casual
-55048,Women,Shoe Accessories,Spring,Casual
-55049,Women,Shoe Accessories,Spring,Casual
-55050,Women,Shoe Accessories,Spring,Casual
-55051,Women,Shoe Accessories,Spring,Casual
-55052,Women,Shoe Accessories,Spring,Casual
-55053,Women,Shoe Accessories,Spring,Casual
-55054,Women,Shoe Accessories,Spring,Casual
-55055,Women,Shoe Accessories,Spring,Casual
-55056,Women,Shoe Accessories,Spring,Casual
-55057,Women,Makeup,Spring,Casual
-55058,Women,Shoe Accessories,Spring,Casual
-55059,Women,Shoe Accessories,Spring,Casual
-55060,Women,Shoe Accessories,Spring,Casual
-55061,Women,Shoe Accessories,Spring,Casual
-55062,Women,Shoe Accessories,Spring,Casual
-55063,Women,Shoe Accessories,Spring,Casual
-55064,Women,Shoe Accessories,Spring,Casual
-55065,Women,Shoe Accessories,Spring,Casual
-55066,Women,Shoe Accessories,Spring,Casual
-55067,Women,Shoe Accessories,Spring,Casual
+55048,Women,Makeup,Spring,Casual
+55049,Women,Makeup,Spring,Casual
+55050,Women,Makeup,Spring,Casual
+55051,Women,Makeup,Spring,Casual
+55052,Women,Makeup,Spring,Casual
+55053,Women,Makeup,Spring,Casual
+55054,Women,Makeup,Spring,Casual
+55055,Women,Makeup,Spring,Casual
+55056,Women,Makeup,Spring,Casual
+55057,Women,Eyes,Spring,Casual
+55058,Women,Makeup,Spring,Casual
+55059,Women,Makeup,Spring,Casual
+55060,Women,Makeup,Spring,Casual
+55061,Women,Makeup,Spring,Casual
+55062,Women,Makeup,Spring,Casual
+55063,Women,Lips,Spring,Casual
+55064,Women,Makeup,Spring,Casual
+55065,Women,Makeup,Spring,Casual
+55066,Women,Makeup,Spring,Casual
+55067,Women,Lips,Spring,Casual
 55068,Women,Lips,Spring,Casual
 55069,Women,Perfume and Body Mist,Spring,Casual
 55070,Women,Eyes,Spring,Casual
 55071,Men,Makeup,Spring,Casual
 55072,Men,Lips,Spring,Casual
-55073,Unisex,Eyes,Spring,Casual
+55073,Unisex,Makeup,Spring,Casual
 55074,Women,Makeup,Spring,Casual
 55075,Women,Makeup,Spring,Casual
 55078,Women,Makeup,Summer,Casual
 55079,Women,Makeup,Summer,Casual
-55080,Unisex,Accessory Gift Set,Summer,Casual
-55081,Women,Deodorant,Spring,Casual
-55083,Unisex,Laptop Bag,Fall,Casual
+55080,Unisex,Socks,Summer,Casual
+55081,Women,Watches,Spring,Casual
+55083,Unisex,Sports Equipment,Fall,Casual
 55086,Women,Perfume and Body Mist,Spring,Casual
-55087,Women,Deodorant,Spring,Casual
-55089,Women,Sports Equipment,Fall,Sports
-55090,Women,Sports Equipment,Fall,Sports
-55093,Unisex,Makeup,Spring,Casual
-55094,Women,Deodorant,Spring,Casual
+55087,Women,Perfume and Body Mist,Spring,Casual
+55089,Women,Tshirts,Fall,Sports
+55090,Women,Watches,Fall,Sports
+55093,Unisex,Accessory Gift Set,Spring,Casual
+55094,Women,Makeup,Spring,Casual
 55095,Women,Lips,Spring,Casual
 55097,Women,Lips,Spring,Casual
-55098,Women,Sports Equipment,Spring,Casual
+55098,Women,Accessory Gift Set,Spring,Casual
 55099,Women,Lips,Spring,Casual
-55100,Men,Perfume and Body Mist,Spring,Casual
+55100,Men,Wallets,Spring,Casual
 55101,Unisex,Eyes,Fall,Sports
-55107,Unisex,Watches,Fall,Casual
+55107,Unisex,Sports Equipment,Fall,Casual
 55108,Unisex,Sports Equipment,Fall,Casual
 55109,Women,Perfume and Body Mist,Spring,Casual
-55110,Women,Bangle,Spring,Casual
-55111,Women,Bangle,Spring,Casual
-55112,Women,Bangle,Spring,Casual
-55113,Men,Socks,Spring,Casual
-55114,Men,Socks,Spring,Casual
-55115,Men,Socks,Spring,Casual
+55110,Women,Perfume and Body Mist,Spring,Casual
+55111,Women,Perfume and Body Mist,Spring,Casual
+55112,Women,Perfume and Body Mist,Spring,Casual
+55113,Men,Makeup,Spring,Casual
+55114,Men,Makeup,Spring,Casual
+55115,Men,Makeup,Spring,Casual
 55116,Women,Sandals,Winter,Casual
 55117,Women,Sandals,Winter,Casual
 55118,Women,Sandals,Winter,Casual
 55119,Men,Wallets,Winter,Casual
 55120,Women,Nails,Spring,Casual
-55121,Women,Perfume and Body Mist,Spring,Casual
+55121,Women,Nails,Spring,Casual
 55122,Women,Nails,Spring,Casual
 55123,Men,Nails,Spring,Casual
 55124,Women,Nails,Spring,Casual
@@ -2055,37 +2055,37 @@ id,gender,articleType,season,usage
 55133,Women,Nails,Spring,Casual
 55134,Women,Nails,Spring,Casual
 55135,Women,Nails,Spring,Casual
-55136,Women,Perfume and Body Mist,Spring,Casual
+55136,Women,Deodorant,Spring,Casual
 55137,Women,Nails,Spring,Casual
-55138,Women,Deodorant,Spring,Casual
+55138,Women,Perfume and Body Mist,Spring,Casual
 55139,Women,Nails,Spring,Casual
-55140,Men,Fragrance Gift Set,Spring,Casual
+55140,Men,Nails,Spring,Casual
 55141,Women,Nails,Spring,Casual
-55142,Men,Perfume and Body Mist,Spring,Casual
+55142,Men,Nails,Spring,Casual
 55143,Men,Nails,Spring,Casual
 55144,Women,Nails,Spring,Casual
-55145,Women,Deodorant,Spring,Casual
-55146,Women,Deodorant,Spring,Casual
+55145,Women,Makeup,Spring,Casual
+55146,Women,Makeup,Spring,Casual
 55147,Women,Makeup,Spring,Casual
-55148,Women,Deodorant,Spring,Casual
+55148,Women,Makeup,Spring,Casual
 55149,Women,Makeup,Spring,Casual
-55150,Women,Deodorant,Spring,Casual
-55151,Women,Deodorant,Spring,Casual
-55152,Women,Deodorant,Spring,Casual
+55150,Women,Makeup,Spring,Casual
+55151,Women,Makeup,Spring,Casual
+55152,Women,Nails,Spring,Casual
 55153,Women,Perfume and Body Mist,Spring,Casual
-55154,Women,Deodorant,Spring,Casual
+55154,Women,Makeup,Spring,Casual
 55155,Women,Perfume and Body Mist,Spring,Casual
 55156,Women,Perfume and Body Mist,Spring,Casual
-55157,Women,Deodorant,Spring,Casual
-55158,Women,Deodorant,Spring,Casual
+55157,Women,Makeup,Spring,Casual
+55158,Women,Makeup,Spring,Casual
 55159,Women,Makeup,Spring,Casual
-55160,Women,Deodorant,Spring,Casual
-55161,Women,Deodorant,Spring,Casual
-55162,Women,Deodorant,Spring,Casual
-55163,Women,Deodorant,Spring,Casual
+55160,Women,Makeup,Spring,Casual
+55161,Women,Makeup,Spring,Casual
+55162,Women,Makeup,Spring,Casual
+55163,Women,Makeup,Spring,Casual
 55164,Women,Perfume and Body Mist,Spring,Casual
 55165,Women,Perfume and Body Mist,Spring,Casual
-55166,Women,Deodorant,Spring,Casual
+55166,Women,Nails,Spring,Casual
 55168,Men,Perfume and Body Mist,Spring,Casual
 55170,Men,Perfume and Body Mist,Spring,Casual
 55172,Women,Perfume and Body Mist,Spring,Casual
@@ -2102,28 +2102,28 @@ id,gender,articleType,season,usage
 55190,Women,Perfume and Body Mist,Spring,Casual
 55191,Women,Perfume and Body Mist,Spring,Casual
 55192,Men,Perfume and Body Mist,Spring,Casual
-55194,Women,Perfume and Body Mist,Spring,Casual
+55194,Women,Deodorant,Spring,Casual
 55195,Women,Perfume and Body Mist,Spring,Casual
 55196,Women,Perfume and Body Mist,Spring,Casual
 55197,Women,Perfume and Body Mist,Spring,Casual
 55198,Women,Deodorant,Spring,Casual
-55200,Men,Perfume and Body Mist,Spring,Casual
-55201,Men,Perfume and Body Mist,Spring,Casual
+55200,Men,Clutches,Spring,Casual
+55201,Men,Clutches,Spring,Casual
 55202,Women,Wristbands,Spring,Casual
-55203,Women,Perfume and Body Mist,Spring,Casual
+55203,Women,Wristbands,Spring,Casual
 55205,Women,Perfume and Body Mist,Spring,Casual
 55206,Women,Lips,Spring,Casual
 55208,Women,Lips,Spring,Casual
-55209,Women,Lips,Spring,Casual
-55210,Women,Lips,Spring,Casual
+55209,Women,Perfume and Body Mist,Spring,Casual
+55210,Women,Perfume and Body Mist,Spring,Casual
 55211,Women,Lips,Spring,Casual
-55212,Men,Fragrance Gift Set,Spring,Casual
+55212,Men,Perfume and Body Mist,Spring,Casual
 55213,Men,Lips,Spring,Casual
 55214,Men,Lips,Spring,Casual
 55215,Women,Lips,Spring,Casual
 55216,Men,Lips,Spring,Casual
 55217,Women,Lips,Spring,Casual
-55218,Women,Lips,Spring,Party
+55218,Women,Eyes,Spring,Party
 55219,Men,Eyes,Spring,Casual
 55220,Women,Eyes,Spring,Casual
 55221,Men,Eyes,Spring,Casual
@@ -2131,115 +2131,115 @@ id,gender,articleType,season,usage
 55223,Women,Lips,Spring,Casual
 55224,Women,Lips,Spring,Casual
 55225,Men,Makeup,Spring,Casual
-55226,Women,Lips,Spring,Casual
+55226,Women,Makeup,Spring,Casual
 55227,Women,Lips,Spring,Casual
 55228,Men,Fragrance Gift Set,Spring,Casual
 55229,Women,Lips,Spring,Casual
 55230,Men,Fragrance Gift Set,Spring,Casual
 55231,Men,Fragrance Gift Set,Spring,Casual
 55232,Men,Fragrance Gift Set,Spring,Casual
-55233,Men,Fragrance Gift Set,Spring,Casual
+55233,Men,Lounge Shorts,Spring,Casual
 55234,Women,Deodorant,Spring,Casual
-55235,Women,Deodorant,Spring,Casual
-55236,Women,Deodorant,Spring,Casual
-55237,Women,Deodorant,Spring,Casual
-55238,Women,Deodorant,Spring,Casual
-55239,Women,Deodorant,Spring,Casual
-55240,Women,Shoe Accessories,Spring,Casual
-55241,Women,Shoe Accessories,Spring,Casual
-55242,Women,Shoe Accessories,Spring,Casual
-55243,Women,Shoe Accessories,Spring,Casual
-55244,Women,Deodorant,Spring,Casual
-55245,Women,Lips,Spring,Casual
-55246,Women,Deodorant,Spring,Casual
+55235,Women,Perfume and Body Mist,Spring,Casual
+55236,Women,Perfume and Body Mist,Spring,Casual
+55237,Women,Bath and Body,Spring,Casual
+55238,Women,Bath and Body,Spring,Casual
+55239,Women,Perfume and Body Mist,Spring,Casual
+55240,Women,Perfume and Body Mist,Spring,Casual
+55241,Women,Perfume and Body Mist,Spring,Casual
+55242,Women,Perfume and Body Mist,Spring,Casual
+55243,Women,Perfume and Body Mist,Spring,Casual
+55244,Women,Eyes,Spring,Casual
+55245,Women,Eyes,Spring,Casual
+55246,Women,Eyes,Spring,Casual
 55247,Women,Makeup,Spring,Casual
 55248,Women,Makeup,Spring,Casual
 55249,Women,Makeup,Spring,Casual
-55250,Women,Perfume and Body Mist,Spring,Casual
-55251,Women,Fragrance Gift Set,Summer,Casual
+55250,Women,Wristbands,Spring,Casual
+55251,Women,Heels,Summer,Casual
 55252,Women,Eyes,Spring,Casual
-55253,Women,Eyes,Spring,Casual
-55254,Women,Eyes,Spring,Casual
-55255,Women,Eyes,Spring,Casual
+55253,Women,Lips,Spring,Casual
+55254,Women,Lips,Spring,Casual
+55255,Women,Lips,Spring,Casual
 55256,Women,Makeup,Spring,Casual
 55257,Men,Eyes,Spring,Casual
-55258,Women,Eyes,Spring,Casual
+55258,Women,Makeup,Spring,Casual
 55259,Women,Eyes,Spring,Casual
 55260,Men,Eyes,Spring,Casual
-55261,Women,Eyes,Spring,Casual
-55262,Women,Eyes,Spring,Casual
+55261,Women,Lips,Spring,Casual
+55262,Women,Makeup,Spring,Casual
 55263,Women,Makeup,Spring,Casual
 55264,Women,Makeup,Spring,Casual
 55265,Women,Makeup,Spring,Casual
 55266,Women,Lips,Spring,Casual
-55267,Women,Eyes,Spring,Casual
-55268,Women,Eyes,Spring,Casual
-55269,Women,Eyes,Spring,Casual
-55270,Women,Pendant,Spring,Casual
+55267,Women,Makeup,Spring,Casual
+55268,Women,Makeup,Spring,Casual
+55269,Women,Makeup,Spring,Casual
+55270,Women,Makeup,Spring,Casual
 55271,Women,Makeup,Spring,Casual
-55272,Men,Eyes,Spring,Casual
+55272,Men,Makeup,Spring,Casual
 55273,Women,Eyes,Spring,Casual
 55274,Women,Eyes,Spring,Casual
-55275,Men,Makeup,Spring,Casual
-55276,Men,Makeup,Spring,Casual
-55277,Women,Wallets,Spring,Casual
-55278,Women,Wallets,Spring,Casual
+55275,Men,Eyes,Spring,Casual
+55276,Men,Eyes,Spring,Casual
+55277,Women,Perfume and Body Mist,Spring,Casual
+55278,Women,Perfume and Body Mist,Spring,Casual
 55280,Women,Wallets,Spring,Casual
-55281,Unisex,Sports Sandals,Summer,Casual
+55281,Unisex,Wristbands,Summer,Casual
 55282,Women,Perfume and Body Mist,Spring,Casual
 55283,Women,Perfume and Body Mist,Spring,Casual
 55284,Women,Perfume and Body Mist,Spring,Casual
-55285,Unisex,Makeup,Spring,Casual
+55285,Unisex,Backpacks,Spring,Casual
 55286,Men,Wallets,Spring,Casual
 55287,Men,Wallets,Spring,Casual
 55288,Men,Wallets,Spring,Casual
 55289,Men,Wallets,Spring,Casual
 55290,Women,Lips,Fall,Casual
 55291,Men,Lips,Fall,Casual
-55292,Women,Leggings,Spring,Casual
+55292,Women,Lips,Spring,Casual
 55293,Women,Lips,Spring,Casual
 55294,Women,Lips,Spring,Casual
 55295,Women,Lips,Spring,Casual
-55296,Women,Handbags,Summer,Casual
-55297,Women,Handbags,Summer,Casual
-55298,Women,Wallets,Summer,Casual
-55299,Women,Wallets,Summer,Casual
+55296,Women,Bags,Summer,Casual
+55297,Women,Bags,Summer,Casual
+55298,Women,Bags,Summer,Casual
+55299,Women,Bags,Summer,Casual
 55300,Women,Makeup,Spring,Casual
 55301,Women,Makeup,Spring,Casual
-55306,Unisex,Socks,Summer,Casual
+55306,Unisex,Briefs,Summer,Casual
 55307,Men,Socks,Fall,Sports
 55314,Men,Socks,Summer,Casual
 55315,Women,Socks,Summer,Casual
 55316,Men,Socks,Summer,Casual
 55317,Women,Perfume and Body Mist,Spring,Casual
 55318,Girls,Perfume and Body Mist,Spring,Casual
-55319,Unisex,Perfume and Body Mist,Spring,Casual
+55319,Unisex,Apparel Set,Spring,Casual
 55320,Women,Perfume and Body Mist,Summer,Casual
 55321,Men,Perfume and Body Mist,Spring,Casual
 55322,Girls,Perfume and Body Mist,Spring,Casual
 55323,Women,Shoe Accessories,Spring,Casual
-55324,Women,Perfume and Body Mist,Summer,Casual
+55324,Women,Deodorant,Summer,Casual
 55325,Women,Perfume and Body Mist,Fall,Casual
 55326,Women,Perfume and Body Mist,Spring,Casual
-55328,Girls,Wristbands,Spring,Casual
-55329,Men,Scarves,Spring,Casual
-55330,Women,Perfume and Body Mist,Spring,Casual
-55331,Women,Perfume and Body Mist,Spring,Casual
+55328,Girls,Perfume and Body Mist,Spring,Casual
+55329,Men,Shoe Accessories,Spring,Casual
+55330,Women,Shoe Accessories,Spring,Casual
+55331,Women,Shoe Accessories,Spring,Casual
 55332,Women,Shoe Accessories,Spring,Casual
-55333,Men,Scarves,Spring,Casual
-55334,Women,Messenger Bag,Spring,Casual
+55333,Men,Wallets,Spring,Casual
+55334,Women,Perfume and Body Mist,Spring,Casual
 55335,Men,Socks,Spring,Casual
-55336,Men,Scarves,Summer,Casual
+55336,Men,Wallets,Summer,Casual
 55337,Women,Deodorant,Spring,Casual
 55338,Women,Perfume and Body Mist,Spring,Casual
-55339,Women,Lips,Spring,Casual
+55339,Women,Perfume and Body Mist,Spring,Casual
 55344,Women,Perfume and Body Mist,Spring,Casual
 55347,Women,Perfume and Body Mist,Spring,Casual
-55349,Women,Perfume and Body Mist,Fall,Casual
-55350,Women,Wallets,Winter,Casual
-55351,Unisex,Mobile Pouch,Spring,Casual
-55352,Women,Perfume and Body Mist,Summer,Casual
-55354,Women,Makeup,Spring,Casual
+55349,Women,Bags,Fall,Casual
+55350,Women,Clutches,Winter,Casual
+55351,Unisex,Wristbands,Spring,Casual
+55352,Women,Nails,Summer,Casual
+55354,Women,Nails,Spring,Casual
 55357,Women,Makeup,Spring,Casual
 55358,Women,Nails,Spring,Casual
 55359,Women,Nails,Spring,Casual
@@ -2252,102 +2252,102 @@ id,gender,articleType,season,usage
 55368,Women,Makeup,Spring,Casual
 55369,Women,Nails,Spring,Casual
 55370,Women,Nails,Spring,Casual
-55373,Women,Makeup,Spring,Casual
+55373,Women,Nails,Spring,Casual
 55375,Women,Makeup,Spring,Casual
-55376,Women,Makeup,Spring,Casual
+55376,Women,Nails,Spring,Casual
 55377,Women,Nails,Spring,Casual
 55378,Women,Nails,Spring,Casual
 55379,Women,Nails,Spring,Casual
-55380,Women,Makeup,Spring,Casual
+55380,Women,Deodorant,Spring,Casual
 55381,Women,Nails,Spring,Casual
 55382,Women,Nails,Spring,Casual
-55383,Women,Makeup,Spring,Casual
+55383,Women,Nails,Spring,Casual
 55384,Women,Nails,Spring,Casual
-55385,Men,Fragrance Gift Set,Spring,Casual
+55385,Men,Lips,Spring,Casual
 55387,Women,Nails,Spring,Casual
 55388,Women,Makeup,Spring,Casual
 55389,Women,Perfume and Body Mist,Spring,Casual
-55390,Women,Makeup,Spring,Casual
-55391,Women,Lips,Spring,Casual
-55392,Men,Nails,Spring,Casual
+55390,Women,Nails,Spring,Casual
+55391,Women,Perfume and Body Mist,Spring,Casual
+55392,Men,Perfume and Body Mist,Spring,Casual
 55394,Women,Perfume and Body Mist,Spring,Casual
 55395,Men,Lips,Spring,Casual
 55396,Women,Eyes,Spring,Casual
 55397,Women,Lips,Spring,Casual
-55398,Women,Socks,Summer,Casual
-55399,Women,Eyes,Spring,Casual
-55400,Women,Eyes,Spring,Casual
-55402,Women,Eyes,Spring,Casual
+55398,Women,Necklace and Chains,Summer,Casual
+55399,Women,Makeup,Spring,Casual
+55400,Women,Makeup,Spring,Casual
+55402,Women,Makeup,Spring,Casual
 55407,Men,Makeup,Spring,Casual
 55408,Women,Lips,Spring,Casual
 55409,Women,Makeup,Spring,Casual
 55410,Men,Makeup,Spring,Casual
-55418,Men,Ties,Spring,Formal
+55418,Men,Makeup,Spring,Formal
 55419,Men,Lips,Spring,Casual
-55420,Women,Deodorant,Spring,Casual
-55421,Men,Ties,Spring,Formal
-55423,Women,Deodorant,Spring,Casual
-55424,Men,Ties,Spring,Formal
-55425,Men,Ties,Spring,Formal
+55420,Women,Lips,Spring,Casual
+55421,Men,Makeup,Spring,Formal
+55423,Women,Lips,Spring,Casual
+55424,Men,Makeup,Spring,Formal
+55425,Men,Makeup,Spring,Formal
 55426,Men,Lips,Spring,Casual
-55427,Men,Ties,Spring,Formal
-55428,Women,Deodorant,Spring,Casual
-55429,Women,Deodorant,Spring,Casual
-55430,Women,Bottomwear,Summer,Casual
-55431,Men,Bottomwear,Summer,Casual
-55432,Women,Bottomwear,Summer,Casual
-55433,Women,Bottomwear,Summer,Casual
-55434,Women,Bottomwear,Summer,Casual
-55436,Women,Bottomwear,Summer,Casual
-55437,Women,Bottomwear,Summer,Casual
-55438,Women,Bottomwear,Summer,Casual
-55439,Women,Bottomwear,Summer,Casual
-55440,Women,Bottomwear,Summer,Casual
-55441,Women,Bottomwear,Summer,Casual
-55442,Women,Bottomwear,Summer,Casual
+55427,Men,Makeup,Spring,Formal
+55428,Women,Lips,Spring,Casual
+55429,Women,Lips,Spring,Casual
+55430,Women,Tops,Summer,Casual
+55431,Men,Tops,Summer,Casual
+55432,Women,Tops,Summer,Casual
+55433,Women,Tops,Summer,Casual
+55434,Women,Tops,Summer,Casual
+55436,Women,Tops,Summer,Casual
+55437,Women,Tops,Summer,Casual
+55438,Women,Tops,Summer,Casual
+55439,Women,Tops,Summer,Casual
+55440,Women,Tops,Summer,Casual
+55441,Women,Tops,Summer,Casual
+55442,Women,Tops,Summer,Casual
 55443,Men,Lips,Spring,Casual
-55444,Women,Perfume and Body Mist,Spring,Casual
-55445,Women,Lips,Spring,Casual
-55446,Women,Perfume and Body Mist,Spring,Casual
-55447,Women,Lips,Spring,Casual
-55448,Women,Lips,Spring,Casual
-55449,Women,Perfume and Body Mist,Spring,Casual
+55444,Women,Makeup,Spring,Casual
+55445,Women,Makeup,Spring,Casual
+55446,Women,Makeup,Spring,Casual
+55447,Women,Makeup,Spring,Casual
+55448,Women,Makeup,Spring,Casual
+55449,Women,Makeup,Spring,Casual
 55450,Men,Deodorant,Spring,Casual
-55451,Women,Lips,Spring,Casual
+55451,Women,Makeup,Spring,Casual
 55454,Women,Lips,Spring,Casual
 55455,Women,Lips,Spring,Casual
-55456,Women,Pendant,Summer,Casual
-55457,Women,Eyes,Spring,Casual
-55458,Women,Eyes,Spring,Casual
-55459,Women,Ties,Summer,Casual
+55456,Women,Lips,Summer,Casual
+55457,Women,Lips,Spring,Casual
+55458,Women,Lips,Spring,Casual
+55459,Women,Lips,Summer,Casual
 55460,Women,Lips,Spring,Casual
-55461,Women,Ties,Summer,Casual
-55462,Women,Eyes,Spring,Casual
-55463,Women,Lips,Spring,Casual
-55464,Women,Lips,Spring,Casual
-55465,Women,Lips,Spring,Casual
-55466,Women,Pendant,Summer,Casual
-55467,Women,Pendant,Summer,Casual
-55468,Women,Lips,Spring,Casual
-55469,Women,Lips,Spring,Casual
+55461,Women,Lips,Summer,Casual
+55462,Women,Lips,Spring,Casual
+55463,Women,Makeup,Spring,Casual
+55464,Women,Makeup,Spring,Casual
+55465,Women,Makeup,Spring,Casual
+55466,Women,Lips,Summer,Casual
+55467,Women,Lips,Summer,Casual
+55468,Women,Makeup,Spring,Casual
+55469,Women,Makeup,Spring,Casual
 55470,Women,Lips,Spring,Casual
-55471,Women,Ties,Summer,Casual
-55472,Women,Pendant,Summer,Casual
-55473,Women,Eyes,Spring,Casual
-55474,Women,Eyes,Spring,Casual
+55471,Women,Lips,Summer,Casual
+55472,Women,Lips,Summer,Casual
+55473,Women,Lips,Spring,Casual
+55474,Women,Lips,Spring,Casual
 55475,Women,Lips,Spring,Casual
-55476,Women,Eyes,Spring,Casual
-55477,Women,Eyes,Spring,Casual
+55476,Women,Lips,Spring,Casual
+55477,Women,Lips,Spring,Casual
 55478,Men,Eyes,Spring,Casual
-55479,Women,Eyes,Spring,Casual
-55480,Women,Eyes,Spring,Casual
+55479,Women,Lips,Spring,Casual
+55480,Women,Lips,Spring,Casual
 55482,Women,Lips,Spring,Casual
 55485,Men,Makeup,Spring,Casual
-55486,Women,Lips,Spring,Casual
+55486,Women,Eyes,Spring,Casual
 55487,Women,Makeup,Spring,Casual
 55488,Women,Lips,Spring,Casual
-55489,Men,Deodorant,Spring,Casual
-55490,Men,Deodorant,Spring,Casual
+55489,Men,Makeup,Spring,Casual
+55490,Men,Makeup,Spring,Casual
 55491,Men,Makeup,Spring,Casual
 55492,Men,Makeup,Spring,Sports
 55493,Men,Makeup,Spring,Casual
@@ -2355,48 +2355,48 @@ id,gender,articleType,season,usage
 55495,Women,Perfume and Body Mist,Spring,Sports
 55496,Women,Perfume and Body Mist,Spring,Sports
 55497,Men,Makeup,Spring,Casual
-55498,Women,Perfume and Body Mist,Spring,Sports
+55498,Women,Makeup,Spring,Sports
 55499,Men,Makeup,Spring,Casual
 55500,Men,Makeup,Spring,Casual
-55501,Men,Deodorant,Spring,Casual
-55502,Women,Deodorant,Spring,Casual
-55503,Women,Perfume and Body Mist,Spring,Casual
-55504,Women,Shoe Accessories,Spring,Casual
+55501,Men,Lips,Spring,Casual
+55502,Women,Lips,Spring,Casual
+55503,Women,Deodorant,Spring,Casual
+55504,Women,Deodorant,Spring,Casual
 55505,Women,Deodorant,Spring,Casual
-55506,Women,Deodorant,Spring,Casual
-55507,Women,Deodorant,Spring,Casual
-55508,Women,Shoe Accessories,Spring,Casual
-55509,Women,Shoe Accessories,Spring,Casual
-55510,Women,Deodorant,Spring,Casual
-55511,Women,Deodorant,Spring,Casual
-55512,Women,Deodorant,Spring,Casual
+55506,Women,Lips,Spring,Casual
+55507,Women,Lips,Spring,Casual
+55508,Women,Deodorant,Spring,Casual
+55509,Women,Lips,Spring,Casual
+55510,Women,Lips,Spring,Casual
+55511,Women,Lips,Spring,Casual
+55512,Women,Lips,Spring,Casual
 55513,Women,Perfume and Body Mist,Spring,Casual
 55514,Women,Perfume and Body Mist,Spring,Casual
 55516,Women,Perfume and Body Mist,Spring,Casual
-55517,Men,Perfume and Body Mist,Spring,Casual
+55517,Men,Fragrance Gift Set,Spring,Casual
 55518,Women,Perfume and Body Mist,Spring,Casual
 55519,Men,Perfume and Body Mist,Summer,Casual
-55520,Women,Deodorant,Spring,Casual
+55520,Women,Makeup,Spring,Casual
 55521,Men,Perfume and Body Mist,Spring,Casual
-55522,Men,Shoe Accessories,Spring,Casual
-55523,Women,Deodorant,Spring,Casual
-55524,Unisex,Makeup,Spring,Casual
-55525,Unisex,Makeup,Spring,Casual
+55522,Men,Perfume and Body Mist,Spring,Casual
+55523,Women,Makeup,Spring,Casual
+55524,Unisex,Perfume and Body Mist,Spring,Casual
+55525,Unisex,Perfume and Body Mist,Spring,Casual
 55526,Women,Perfume and Body Mist,Spring,Casual
 55527,Women,Makeup,Spring,Casual
-55528,Women,Shoe Accessories,Spring,Casual
+55528,Women,Makeup,Spring,Casual
 55529,Women,Perfume and Body Mist,Spring,Casual
-55530,Women,Perfume and Body Mist,Spring,Casual
-55531,Women,Perfume and Body Mist,Spring,Casual
-55532,Women,Perfume and Body Mist,Spring,Casual
-55533,Women,Deodorant,Spring,Casual
+55530,Women,Makeup,Spring,Casual
+55531,Women,Makeup,Spring,Casual
+55532,Women,Makeup,Spring,Casual
+55533,Women,Perfume and Body Mist,Spring,Casual
 55534,Women,Perfume and Body Mist,Spring,Ethnic
-55535,Women,Deodorant,Spring,Casual
-55536,Women,Deodorant,Spring,Casual
-55537,Men,Bath and Body,Spring,Casual
-55538,Women,Makeup,Spring,Casual
+55535,Women,Wallets,Spring,Casual
+55536,Women,Wallets,Spring,Casual
+55537,Men,Wallets,Spring,Casual
+55538,Women,Nails,Spring,Casual
 55539,Women,Makeup,Spring,Casual
-55540,Men,Clutches,Winter,Casual
+55540,Men,Wallets,Winter,Casual
 55541,Men,Eyes,Spring,Casual
 55542,Women,Eyes,Spring,Casual
 55543,Women,Eyes,Spring,Casual
@@ -2405,40 +2405,40 @@ id,gender,articleType,season,usage
 55546,Women,Eyes,Spring,Casual
 55547,Men,Eyes,Spring,Casual
 55548,Men,Eyes,Spring,Casual
-55549,Men,Makeup,Spring,Casual
+55549,Men,Eyes,Spring,Casual
 55550,Men,Eyes,Spring,Casual
 55551,Men,Makeup,Spring,Casual
-55553,Women,Eyes,Spring,Casual
+55553,Women,Lips,Spring,Casual
 55556,Women,Makeup,Spring,Casual
-55557,Women,Eyes,Spring,Casual
+55557,Women,Makeup,Spring,Casual
 55558,Men,Lips,Spring,Casual
 55559,Women,Lips,Spring,Casual
 55560,Women,Perfume and Body Mist,Spring,Casual
-55561,Unisex,Perfume and Body Mist,Spring,Casual
+55561,Unisex,Apparel Set,Spring,Casual
 55564,Men,Deodorant,Spring,Casual
 55565,Women,Deodorant,Spring,Casual
 55568,Men,Deodorant,Spring,Casual
 55569,Women,Deodorant,Spring,Casual
 55570,Men,Deodorant,Spring,Casual
 55571,Men,Deodorant,Spring,Casual
-55572,Women,Makeup,Spring,Casual
+55572,Women,Lips,Spring,Casual
 55573,Women,Lips,Spring,Casual
-55574,Women,Perfume and Body Mist,Spring,Casual
+55574,Women,Wallets,Spring,Casual
 55575,Women,Perfume and Body Mist,Spring,Casual
 55576,Women,Wallets,Spring,Casual
-55577,Men,Makeup,Summer,Casual
-55578,Women,Flats,Winter,Casual
-55579,Women,Flats,Winter,Casual
+55577,Men,Wristbands,Summer,Casual
+55578,Women,Heels,Winter,Casual
+55579,Women,Heels,Winter,Casual
 55580,Women,Wristbands,Summer,Casual
 55581,Women,Wallets,Spring,Casual
-55582,Women,Perfume and Body Mist,Spring,Casual
+55582,Women,Wallets,Spring,Casual
 55583,Women,Deodorant,Spring,Casual
 55584,Women,Wallets,Spring,Casual
 55585,Women,Wallets,Spring,Casual
 55586,Women,Wallets,Spring,Casual
 55587,Men,Makeup,Spring,Casual
-55590,Men,Shirts,Fall,Casual
-55591,Men,Sweatshirts,Summer,Casual
+55590,Men,Jackets,Fall,Casual
+55591,Men,Sweaters,Summer,Casual
 55595,Men,Shirts,Summer,Casual
 55597,Men,Shirts,Summer,Casual
 55599,Men,Shirts,Summer,Casual
@@ -2468,21 +2468,21 @@ id,gender,articleType,season,usage
 55634,Women,Heels,Winter,Casual
 55635,Women,Heels,Winter,Casual
 55636,Women,Flats,Winter,Casual
-55637,Women,Heels,Winter,Casual
+55637,Women,Flats,Winter,Casual
 55638,Women,Heels,Winter,Casual
-55639,Women,Sandals,Summer,Casual
+55639,Women,Heels,Summer,Casual
 55640,Women,Heels,Winter,Casual
-55641,Women,Sports Shoes,Winter,Casual
+55641,Women,Heels,Winter,Casual
 55642,Women,Heels,Winter,Casual
 55643,Women,Heels,Winter,Casual
 55644,Women,Heels,Winter,Casual
 55645,Women,Heels,Summer,Casual
 55646,Women,Sandals,Winter,Casual
 55647,Women,Flats,Winter,Casual
-55648,Women,Heels,Winter,Casual
+55648,Women,Flats,Winter,Casual
 55649,Women,Heels,Winter,Casual
 55650,Women,Heels,Winter,Casual
-55651,Women,Heels,Winter,Casual
+55651,Women,Flats,Winter,Casual
 55652,Women,Flats,Winter,Casual
 55653,Women,Flats,Winter,Casual
 55654,Women,Heels,Winter,Casual
@@ -2492,15 +2492,15 @@ id,gender,articleType,season,usage
 55783,Men,Casual Shoes,Winter,Casual
 55784,Men,Casual Shoes,Summer,Casual
 55785,Men,Casual Shoes,Summer,Casual
-55786,Women,Bra,Summer,Casual
-55787,Women,Dresses,Summer,Casual
-55788,Unisex,Dresses,Summer,Casual
+55786,Women,Tunics,Summer,Casual
+55787,Women,Skirts,Summer,Casual
+55788,Unisex,Tunics,Summer,Casual
 55789,Unisex,Sarees,Summer,Ethnic
 55790,Women,Sarees,Summer,Ethnic
-55791,Women,Dress,Fall,Ethnic
+55791,Women,Night suits,Fall,Ethnic
 55794,Women,Night suits,Summer,Casual
-55795,Women,Kurta Sets,Summer,Ethnic
-55796,Women,Bottomwear,Summer,Ethnic
+55795,Women,Night suits,Summer,Ethnic
+55796,Women,Night suits,Summer,Ethnic
 55797,Women,Dresses,Summer,Casual
 55798,Women,Nightdress,Summer,Casual
 55799,Women,Dresses,Summer,Casual
@@ -2509,7 +2509,7 @@ id,gender,articleType,season,usage
 55802,Women,Night suits,Summer,Casual
 55803,Women,Night suits,Summer,Casual
 55804,Women,Night suits,Summer,Ethnic
-55805,Women,Bottomwear,Summer,Ethnic
+55805,Women,Capris,Summer,Ethnic
 55806,Women,Night suits,Summer,Casual
 55807,Women,Night suits,Summer,Ethnic
 55809,Women,Night suits,Summer,Ethnic
@@ -2517,21 +2517,21 @@ id,gender,articleType,season,usage
 55811,Women,Night suits,Summer,Casual
 55812,Women,Nightdress,Summer,Casual
 55813,Men,Night suits,Summer,Casual
-55814,Women,Kurta Sets,Summer,Casual
-55817,Women,Night suits,Summer,Casual
+55814,Women,Night suits,Summer,Casual
+55817,Women,Kurta Sets,Summer,Casual
 55818,Women,Night suits,Summer,Casual
 55819,Women,Night suits,Summer,Casual
-55821,Women,Bottomwear,Summer,Casual
-55822,Women,Dress,Summer,Ethnic
-55823,Women,Dress,Summer,Ethnic
+55821,Women,Night suits,Summer,Casual
+55822,Women,Night suits,Summer,Ethnic
+55823,Women,Night suits,Summer,Ethnic
 55824,Women,Kurta Sets,Summer,Ethnic
-55825,Women,Dresses,Summer,Ethnic
-55826,Women,Night suits,Summer,Casual
-55827,Women,Night suits,Summer,Casual
-55828,Women,Kurta Sets,Summer,Casual
+55825,Women,Kurta Sets,Summer,Ethnic
+55826,Women,Kurta Sets,Summer,Casual
+55827,Women,Kurta Sets,Summer,Casual
+55828,Women,Night suits,Summer,Casual
 55829,Women,Kurta Sets,Summer,Ethnic
 55830,Women,Kurta Sets,Summer,Ethnic
-55831,Women,Kurta Sets,Summer,Casual
+55831,Women,Night suits,Summer,Casual
 55832,Women,Kurta Sets,Summer,Ethnic
 55833,Men,Makeup,Spring,Casual
 55834,Men,Perfume and Body Mist,Spring,Casual
@@ -2548,7 +2548,7 @@ id,gender,articleType,season,usage
 55845,Women,Perfume and Body Mist,Spring,Casual
 55846,Women,Perfume and Body Mist,Spring,Casual
 55847,Women,Perfume and Body Mist,Spring,Casual
-55848,Men,Perfume and Body Mist,Spring,Casual
+55848,Men,Deodorant,Spring,Casual
 55849,Women,Perfume and Body Mist,Spring,Casual
 55850,Women,Perfume and Body Mist,Spring,Casual
 55851,Women,Perfume and Body Mist,Spring,Casual
@@ -2561,52 +2561,52 @@ id,gender,articleType,season,usage
 55858,Women,Perfume and Body Mist,Spring,Casual
 55859,Women,Perfume and Body Mist,Spring,Casual
 55860,Women,Perfume and Body Mist,Spring,Casual
-55861,Women,Shorts,Spring,Casual
-55862,Unisex,Shorts,Spring,Casual
-55863,Women,Shorts,Spring,Casual
-55864,Unisex,Mobile Pouch,Spring,Casual
-55865,Women,Perfume and Body Mist,Spring,Casual
-55866,Women,Shorts,Spring,Casual
-55867,Women,Dresses,Spring,Casual
-55868,Unisex,Mobile Pouch,Spring,Casual
-55869,Men,Handbags,Spring,Casual
+55861,Women,Perfume and Body Mist,Spring,Casual
+55862,Unisex,Perfume and Body Mist,Spring,Casual
+55863,Women,Perfume and Body Mist,Spring,Casual
+55864,Unisex,Lips,Spring,Casual
+55865,Women,Lips,Spring,Casual
+55866,Women,Perfume and Body Mist,Spring,Casual
+55867,Women,Nails,Spring,Casual
+55868,Unisex,Perfume and Body Mist,Spring,Casual
+55869,Men,Perfume and Body Mist,Spring,Casual
 55870,Women,Perfume and Body Mist,Spring,Casual
 55871,Women,Perfume and Body Mist,Spring,Casual
-55872,Unisex,Shorts,Spring,Casual
+55872,Unisex,Lips,Spring,Casual
 55873,Unisex,Perfume and Body Mist,Spring,Casual
 55874,Unisex,Perfume and Body Mist,Spring,Casual
 55875,Women,Perfume and Body Mist,Spring,Casual
-55876,Women,Mobile Pouch,Spring,Casual
+55876,Women,Lips,Spring,Casual
 55877,Women,Perfume and Body Mist,Spring,Casual
 55878,Unisex,Perfume and Body Mist,Spring,Casual
 55879,Unisex,Perfume and Body Mist,Spring,Casual
 55880,Unisex,Perfume and Body Mist,Spring,Casual
-55881,Women,Shorts,Spring,Casual
+55881,Women,Lips,Spring,Casual
 55882,Unisex,Perfume and Body Mist,Spring,Casual
-55883,Unisex,Dresses,Spring,Casual
+55883,Unisex,Perfume and Body Mist,Spring,Casual
 55884,Unisex,Perfume and Body Mist,Spring,Casual
 55885,Unisex,Perfume and Body Mist,Spring,Casual
 55886,Unisex,Mobile Pouch,Spring,Casual
 55887,Unisex,Perfume and Body Mist,Spring,Casual
 55888,Unisex,Perfume and Body Mist,Spring,Casual
-55889,Unisex,Mobile Pouch,Spring,Casual
-55890,Unisex,Mobile Pouch,Spring,Casual
-55891,Women,Mobile Pouch,Spring,Casual
+55889,Unisex,Perfume and Body Mist,Spring,Casual
+55890,Unisex,Perfume and Body Mist,Spring,Casual
+55891,Women,Perfume and Body Mist,Spring,Casual
 55892,Unisex,Perfume and Body Mist,Spring,Casual
-55893,Unisex,Shorts,Spring,Casual
-55894,Women,Shorts,Spring,Casual
-55895,Women,Shorts,Spring,Casual
-55896,Unisex,Shorts,Spring,Casual
-55897,Unisex,Shorts,Spring,Casual
+55893,Unisex,Lips,Spring,Casual
+55894,Women,Perfume and Body Mist,Spring,Casual
+55895,Women,Perfume and Body Mist,Spring,Casual
+55896,Unisex,Perfume and Body Mist,Spring,Casual
+55897,Unisex,Lips,Spring,Casual
 55898,Women,Perfume and Body Mist,Spring,Casual
-55899,Women,Mobile Pouch,Spring,Casual
+55899,Women,Lips,Spring,Casual
 55900,Unisex,Perfume and Body Mist,Spring,Casual
-55901,Unisex,Dresses,Summer,Casual
-55902,Women,Shorts,Spring,Casual
+55901,Unisex,Perfume and Body Mist,Summer,Casual
+55902,Women,Perfume and Body Mist,Spring,Casual
 55903,Unisex,Perfume and Body Mist,Spring,Casual
-55904,Women,Wristbands,Spring,Casual
-55905,Women,Socks,Spring,Casual
-55906,Women,Mobile Pouch,Spring,Casual
+55904,Women,Perfume and Body Mist,Spring,Casual
+55905,Women,Perfume and Body Mist,Spring,Casual
+55906,Women,Perfume and Body Mist,Spring,Casual
 55907,Women,Perfume and Body Mist,Spring,Casual
 55909,Women,Perfume and Body Mist,Spring,Casual
 55910,Women,Perfume and Body Mist,Spring,Casual
@@ -2618,7 +2618,7 @@ id,gender,articleType,season,usage
 55916,Women,Perfume and Body Mist,Spring,Casual
 55917,Women,Perfume and Body Mist,Spring,Casual
 55918,Women,Perfume and Body Mist,Spring,Casual
-55919,Unisex,Mobile Pouch,Spring,Casual
+55919,Unisex,Perfume and Body Mist,Spring,Casual
 55920,Women,Perfume and Body Mist,Spring,Casual
 55921,Women,Perfume and Body Mist,Spring,Casual
 55922,Women,Perfume and Body Mist,Spring,Casual
@@ -2652,42 +2652,42 @@ id,gender,articleType,season,usage
 55951,Women,Perfume and Body Mist,Spring,Casual
 55952,Women,Perfume and Body Mist,Spring,Casual
 55953,Women,Perfume and Body Mist,Spring,Casual
-55954,Unisex,Mobile Pouch,Spring,Casual
+55954,Unisex,Lips,Spring,Casual
 55955,Women,Perfume and Body Mist,Spring,Casual
-55956,Women,Earrings,Winter,Casual
+55956,Women,Lips,Winter,Casual
 55957,Women,Lips,Spring,Casual
 55958,Women,Lips,Spring,Casual
 55959,Women,Lips,Spring,Casual
 55960,Women,Lips,Spring,Casual
 55961,Women,Lips,Spring,Casual
 55962,Women,Lips,Spring,Casual
-55963,Women,Eyes,Spring,Casual
+55963,Women,Wallets,Spring,Casual
 55964,Women,Lips,Spring,Casual
-55965,Women,Lips,Spring,Casual
+55965,Women,Perfume and Body Mist,Spring,Casual
 55966,Men,Lips,Spring,Casual
 55967,Men,Lips,Spring,Casual
-55968,Men,Lips,Spring,Casual
+55968,Men,Perfume and Body Mist,Spring,Casual
 55969,Men,Lips,Spring,Casual
 55970,Women,Lips,Spring,Casual
 55971,Women,Lips,Spring,Casual
 55972,Men,Lips,Summer,Casual
 55973,Men,Lips,Spring,Casual
 55974,Men,Lips,Spring,Casual
-55975,Men,Lips,Spring,Casual
+55975,Men,Perfume and Body Mist,Spring,Casual
 55976,Women,Lips,Spring,Casual
-55977,Women,Dresses,Spring,Casual
+55977,Women,Scarves,Spring,Casual
 55978,Women,Lips,Spring,Casual
 55979,Women,Lips,Spring,Casual
 55980,Men,Lips,Spring,Casual
-55981,Men,Lips,Spring,Casual
+55981,Men,Perfume and Body Mist,Spring,Casual
 55982,Women,Lips,Spring,Casual
-55983,Women,Lips,Spring,Casual
-55984,Men,Lips,Spring,Casual
+55983,Women,Perfume and Body Mist,Spring,Casual
+55984,Men,Perfume and Body Mist,Spring,Casual
 55985,Men,Lips,Spring,Casual
-55986,Women,Lips,Spring,Casual
+55986,Women,Perfume and Body Mist,Spring,Casual
 55987,Men,Lips,Spring,Casual
 55988,Men,Lips,Spring,Casual
-55989,Women,Deodorant,Winter,Casual
+55989,Women,Scarves,Winter,Casual
 55990,Men,Lips,Spring,Casual
 55991,Boys,Lips,Spring,Casual
 55992,Men,Lips,Spring,Casual
@@ -2696,12 +2696,12 @@ id,gender,articleType,season,usage
 55995,Women,Lips,Spring,Casual
 55996,Men,Lips,Spring,Casual
 55997,Men,Lips,Spring,Casual
-55998,Men,Lips,Spring,Casual
+55998,Men,Perfume and Body Mist,Spring,Casual
 55999,Men,Lips,Spring,Casual
 56000,Women,Lips,Spring,Casual
 56001,Men,Lips,Spring,Casual
 56002,Men,Lips,Spring,Casual
-56003,Men,Lips,Spring,Casual
+56003,Men,Perfume and Body Mist,Spring,Casual
 56004,Women,Lips,Spring,Casual
 56005,Men,Lips,Spring,Casual
 56006,Men,Lips,Spring,Casual
@@ -2714,7 +2714,7 @@ id,gender,articleType,season,usage
 56013,Women,Lips,Spring,Casual
 56014,Women,Lips,Spring,Casual
 56015,Women,Lips,Spring,Casual
-56016,Women,Earrings,Summer,Casual
+56016,Women,Lips,Summer,Casual
 56017,Unisex,Lips,Spring,Casual
 56018,Women,Lips,Spring,Casual
 56019,Men,Lips,Spring,Casual
@@ -2738,162 +2738,162 @@ id,gender,articleType,season,usage
 56037,Women,Lips,Spring,Casual
 56038,Women,Lips,Spring,Casual
 56039,Women,Lips,Spring,Casual
-56040,Men,Eyes,Spring,Casual
-56041,Men,Eyes,Spring,Casual
-56042,Men,Eyes,Spring,Casual
-56043,Men,Eyes,Spring,Casual
-56044,Men,Eyes,Spring,Casual
-56045,Men,Eyes,Spring,Casual
-56046,Men,Eyes,Spring,Casual
-56047,Men,Eyes,Spring,Casual
-56048,Men,Eyes,Spring,Casual
-56049,Men,Eyes,Spring,Casual
-56050,Men,Eyes,Spring,Casual
+56040,Men,Lips,Spring,Casual
+56041,Men,Lips,Spring,Casual
+56042,Men,Lips,Spring,Casual
+56043,Men,Lips,Spring,Casual
+56044,Men,Lips,Spring,Casual
+56045,Men,Lips,Spring,Casual
+56046,Men,Lips,Spring,Casual
+56047,Men,Lips,Spring,Casual
+56048,Men,Lips,Spring,Casual
+56049,Men,Lips,Spring,Casual
+56050,Men,Lips,Spring,Casual
 56051,Men,Lips,Spring,Casual
-56052,Women,Lounge Shorts,Spring,Casual
+56052,Women,Lips,Spring,Casual
 56053,Women,Lips,Spring,Casual
-56054,Women,Lounge Shorts,Spring,Casual
+56054,Women,Eyes,Spring,Casual
 56055,Women,Lips,Spring,Casual
 56056,Women,Lips,Spring,Casual
 56057,Women,Lips,Spring,Casual
-56058,Women,Lounge Shorts,Spring,Casual
+56058,Women,Lips,Spring,Casual
 56059,Women,Lips,Spring,Casual
-56060,Women,Lounge Shorts,Spring,Casual
-56061,Women,Lounge Shorts,Spring,Casual
-56062,Women,Lounge Shorts,Spring,Casual
-56063,Women,Lounge Shorts,Spring,Casual
-56064,Women,Lounge Shorts,Spring,Casual
-56065,Women,Lounge Shorts,Spring,Casual
+56060,Women,Lips,Spring,Casual
+56061,Women,Lips,Spring,Casual
+56062,Women,Lips,Spring,Casual
+56063,Women,Lips,Spring,Casual
+56064,Women,Eyes,Spring,Casual
+56065,Women,Lips,Spring,Casual
 56066,Women,Lips,Spring,Casual
-56067,Women,Pendant,Fall,Casual
-56068,Men,Socks,Fall,Casual
-56069,Men,Makeup,Spring,Casual
+56067,Women,Lips,Fall,Casual
+56068,Men,Perfume and Body Mist,Fall,Casual
+56069,Men,Perfume and Body Mist,Spring,Casual
 56070,Women,Eyes,Spring,Casual
 56071,Women,Lips,Spring,Casual
-56072,Women,Wristbands,Spring,Casual
+56072,Women,Eyes,Spring,Casual
 56073,Women,Eyes,Spring,Casual
-56074,Men,Makeup,Spring,Casual
+56074,Men,Lips,Spring,Casual
 56075,Men,Makeup,Spring,Casual
-56076,Women,Necklace and Chains,Spring,Casual
+56076,Women,Eyes,Spring,Casual
 56077,Men,Eyes,Spring,Casual
 56078,Women,Lips,Spring,Casual
 56079,Women,Lips,Spring,Casual
 56080,Men,Lips,Spring,Casual
 56081,Women,Lips,Spring,Casual
-56082,Men,Lounge Shorts,Spring,Casual
-56083,Women,Lounge Shorts,Spring,Casual
+56082,Men,Lips,Spring,Casual
+56083,Women,Lips,Spring,Casual
 56084,Men,Lips,Spring,Casual
-56085,Women,Lounge Shorts,Spring,Casual
+56085,Women,Lips,Spring,Casual
 56086,Women,Lips,Spring,Casual
-56087,Women,Lounge Shorts,Spring,Casual
-56088,Men,Lounge Shorts,Spring,Casual
-56089,Women,Lounge Shorts,Spring,Casual
-56090,Women,Lounge Shorts,Spring,Casual
-56091,Women,Lounge Shorts,Spring,Casual
-56092,Women,Lounge Shorts,Spring,Casual
-56093,Women,Lounge Shorts,Spring,Casual
-56094,Women,Lips,Spring,Casual
+56087,Women,Lips,Spring,Casual
+56088,Men,Lips,Spring,Casual
+56089,Women,Lips,Spring,Casual
+56090,Women,Lips,Spring,Casual
+56091,Women,Lips,Spring,Casual
+56092,Women,Lips,Spring,Casual
+56093,Women,Lips,Spring,Casual
+56094,Women,Makeup,Spring,Casual
 56095,Women,Lips,Spring,Casual
-56096,Women,Lounge Shorts,Spring,Casual
-56097,Men,Lounge Shorts,Spring,Casual
-56098,Women,Lounge Shorts,Spring,Casual
-56099,Men,Lounge Shorts,Spring,Casual
+56096,Women,Lips,Spring,Casual
+56097,Men,Lips,Spring,Casual
+56098,Women,Lips,Spring,Casual
+56099,Men,Lips,Spring,Casual
 56100,Men,Lips,Spring,Casual
 56101,Women,Lips,Spring,Casual
-56102,Women,Lounge Shorts,Spring,Casual
-56103,Women,Lounge Shorts,Spring,Casual
-56104,Men,Lounge Shorts,Spring,Casual
-56105,Women,Lounge Shorts,Spring,Casual
-56106,Women,Lounge Shorts,Spring,Casual
-56107,Men,Lounge Shorts,Spring,Casual
+56102,Women,Lips,Spring,Casual
+56103,Women,Perfume and Body Mist,Spring,Casual
+56104,Men,Lips,Spring,Casual
+56105,Women,Lips,Spring,Casual
+56106,Women,Lips,Spring,Casual
+56107,Men,Lips,Spring,Casual
 56108,Men,Lips,Spring,Casual
 56109,Men,Perfume and Body Mist,Spring,Casual
 56110,Men,Perfume and Body Mist,Spring,Casual
 56111,Men,Perfume and Body Mist,Spring,Casual
 56112,Men,Perfume and Body Mist,Spring,Casual
-56113,Men,Wristbands,Spring,Casual
-56114,Women,Wristbands,Spring,Sports
-56115,Women,Wristbands,Spring,Casual
-56116,Men,Wristbands,Spring,Casual
-56117,Women,Wristbands,Spring,Casual
+56113,Men,Perfume and Body Mist,Spring,Casual
+56114,Women,Perfume and Body Mist,Spring,Sports
+56115,Women,Perfume and Body Mist,Spring,Casual
+56116,Men,Perfume and Body Mist,Spring,Casual
+56117,Women,Perfume and Body Mist,Spring,Casual
 56118,Men,Perfume and Body Mist,Spring,Casual
-56119,Men,Wristbands,Spring,Casual
+56119,Men,Perfume and Body Mist,Spring,Casual
 56120,Men,Perfume and Body Mist,Spring,Casual
-56121,Women,Makeup,Spring,Casual
-56122,Women,Shoe Accessories,Spring,Casual
-56123,Women,Shoe Accessories,Spring,Casual
+56121,Women,Lips,Spring,Casual
+56122,Women,Makeup,Spring,Casual
+56123,Women,Makeup,Spring,Casual
 56124,Men,Makeup,Spring,Casual
 56125,Men,Perfume and Body Mist,Winter,Casual
 56126,Women,Perfume and Body Mist,Spring,Casual
-56127,Men,Lips,Spring,Casual
+56127,Men,Makeup,Spring,Casual
 56128,Men,Lips,Spring,Casual
 56129,Men,Lips,Spring,Casual
-56133,Women,Deodorant,Spring,Casual
+56133,Women,Perfume and Body Mist,Spring,Casual
 56134,Women,Perfume and Body Mist,Spring,Casual
-56135,Women,Flats,Summer,Casual
-56136,Men,Flats,Spring,Casual
-56137,Men,Flip Flops,Spring,Casual
+56135,Women,Perfume and Body Mist,Summer,Casual
+56136,Men,Perfume and Body Mist,Spring,Casual
+56137,Men,Perfume and Body Mist,Spring,Casual
 56138,Women,Perfume and Body Mist,Spring,Casual
-56139,Women,Flats,Spring,Casual
-56140,Women,Flats,Spring,Casual
-56141,Men,Flats,Spring,Casual
+56139,Women,Perfume and Body Mist,Spring,Casual
+56140,Women,Perfume and Body Mist,Spring,Casual
+56141,Men,Perfume and Body Mist,Spring,Casual
 56142,Men,Perfume and Body Mist,Spring,Casual
 56143,Women,Sports Shoes,Winter,Casual
 56144,Unisex,Heels,Winter,Casual
-56145,Women,Casual Shoes,Winter,Casual
+56145,Women,Heels,Winter,Casual
 56146,Women,Sports Shoes,Winter,Casual
-56147,Women,Sports Shoes,Winter,Casual
-56148,Women,Sports Shoes,Winter,Casual
+56147,Women,Heels,Winter,Casual
+56148,Women,Heels,Winter,Casual
 56149,Women,Eyes,Spring,Casual
 56150,Women,Eyes,Spring,Casual
 56151,Men,Eyes,Spring,Casual
-56152,Women,Eyes,Spring,Casual
-56153,Men,Makeup,Spring,Casual
-56154,Women,Eyes,Spring,Casual
+56152,Women,Lips,Spring,Casual
+56153,Men,Eyes,Spring,Casual
+56154,Women,Perfume and Body Mist,Spring,Casual
 56155,Men,Lips,Spring,Casual
 56156,Women,Eyes,Spring,Casual
-56157,Women,Eyes,Spring,Casual
+56157,Women,Perfume and Body Mist,Spring,Casual
 56158,Women,Eyes,Spring,Casual
-56159,Women,Ties,Spring,Casual
-56160,Women,Ties,Spring,Casual
-56161,Women,Eyes,Spring,Casual
+56159,Women,Eyes,Spring,Casual
+56160,Women,Eyes,Spring,Casual
+56161,Women,Lips,Spring,Casual
 56162,Men,Eyes,Spring,Casual
 56164,Women,Eyes,Spring,Casual
 56165,Women,Eyes,Spring,Casual
-56166,Women,Eyes,Spring,Casual
-56167,Women,Eyes,Spring,Casual
+56166,Women,Trunk,Spring,Casual
+56167,Women,Makeup,Spring,Casual
 56168,Women,Lips,Spring,Casual
-56170,Women,Lounge Shorts,Spring,Casual
-56171,Women,Earrings,Spring,Casual
+56170,Women,Perfume and Body Mist,Spring,Casual
+56171,Women,Lips,Spring,Casual
 56172,Women,Lips,Spring,Casual
-56173,Men,Earrings,Spring,Casual
-56174,Men,Innerwear Vests,Spring,Casual
+56173,Men,Lips,Spring,Casual
+56174,Men,Lips,Spring,Casual
 56175,Men,Lips,Spring,Casual
-56176,Men,Earrings,Spring,Casual
-56177,Men,Innerwear Vests,Spring,Casual
+56176,Men,Lips,Spring,Casual
+56177,Men,Lips,Spring,Casual
 56178,Men,Perfume and Body Mist,Spring,Casual
-56179,Women,Nails,Spring,Casual
+56179,Women,Perfume and Body Mist,Spring,Casual
 56180,Men,Perfume and Body Mist,Spring,Casual
-56181,Men,Flats,Spring,Casual
-56182,Men,Flats,Spring,Casual
+56181,Men,Heels,Spring,Casual
+56182,Men,Heels,Spring,Casual
 56183,Men,Flats,Spring,Casual
 56184,Men,Flats,Spring,Casual
-56185,Men,Heels,Fall,Casual
-56186,Women,Heels,Summer,Casual
-56187,Women,Heels,Spring,Casual
-56188,Women,Heels,Winter,Casual
-56189,Men,Sandals,Spring,Casual
-56190,Women,Heels,Fall,Casual
+56185,Men,Makeup,Fall,Casual
+56186,Women,Makeup,Summer,Casual
+56187,Women,Makeup,Spring,Casual
+56188,Women,Makeup,Winter,Casual
+56189,Men,Watches,Spring,Casual
+56190,Women,Socks,Fall,Casual
 56191,Women,Socks,Fall,Casual
 56192,Women,Socks,Fall,Casual
-56193,Women,Flats,Fall,Casual
-56194,Women,Wristbands,Summer,Casual
-56195,Unisex,Watches,Fall,Casual
-56196,Women,Wristbands,Fall,Casual
+56193,Women,Perfume and Body Mist,Fall,Casual
+56194,Women,Perfume and Body Mist,Summer,Casual
+56195,Unisex,Makeup,Fall,Casual
+56196,Women,Perfume and Body Mist,Fall,Casual
 56198,Women,Bangle,Summer,Casual
 56199,Women,Jewellery Set,Winter,Sports
 56201,Women,Jewellery Set,Winter,Sports
-56202,Women,Pendant,Summer,Casual
+56202,Women,Earrings,Summer,Casual
 56203,Women,Pendant,Summer,Casual
 56205,Women,Pendant,Summer,Formal
 56206,Women,Earrings,Summer,Casual
@@ -2901,7 +2901,7 @@ id,gender,articleType,season,usage
 56208,Women,Pendant,Winter,Casual
 56209,Women,Pendant,Winter,Casual
 56210,Women,Pendant,Summer,Casual
-56211,Women,Pendant,Summer,Casual
+56211,Women,Earrings,Summer,Casual
 56212,Women,Pendant,Winter,Formal
 56213,Women,Earrings,Summer,Casual
 56214,Women,Earrings,Winter,Ethnic
@@ -2913,45 +2913,45 @@ id,gender,articleType,season,usage
 56220,Women,Jewellery Set,Winter,Casual
 56221,Men,Night suits,Summer,Casual
 56222,Men,Night suits,Summer,Casual
-56223,Men,Night suits,Summer,Ethnic
-56224,Women,Bottomwear,Summer,Casual
-56225,Men,Night suits,Summer,Casual
-56226,Men,Night suits,Winter,Casual
+56223,Men,Sarees,Summer,Ethnic
+56224,Women,Leggings,Summer,Casual
+56225,Men,Tracksuits,Summer,Casual
+56226,Men,Tracksuits,Winter,Casual
 56227,Men,Night suits,Summer,Casual
-56228,Men,Leggings,Fall,Casual
-56229,Men,Bottomwear,Summer,Casual
-56230,Women,Bottomwear,Summer,Casual
+56228,Men,Night suits,Fall,Casual
+56229,Men,Night suits,Summer,Casual
+56230,Women,Tracksuits,Summer,Casual
 56231,Women,Night suits,Summer,Casual
-56232,Men,Night suits,Summer,Casual
+56232,Men,Jeans,Summer,Casual
 56233,Men,Night suits,Summer,Casual
-56234,Men,Night suits,Summer,Casual
+56234,Men,Tracksuits,Summer,Casual
 56235,Women,Night suits,Fall,Casual
 56236,Men,Night suits,Summer,Casual
-56237,Men,Trousers,Summer,Casual
+56237,Men,Jeans,Summer,Casual
 56238,Men,Tracksuits,Summer,Casual
 56239,Women,Night suits,Summer,Casual
 56240,Men,Night suits,Fall,Casual
 56241,Men,Night suits,Fall,Casual
 56243,Men,Night suits,Summer,Casual
-56244,Women,Bottomwear,Summer,Casual
-56245,Women,Night suits,Fall,Casual
+56244,Women,Jeans,Summer,Casual
+56245,Women,Jeans,Fall,Casual
 56247,Men,Night suits,Summer,Casual
 56248,Women,Track Pants,Summer,Casual
 56249,Men,Night suits,Summer,Casual
-56250,Men,Night suits,Summer,Casual
-56251,Women,Night suits,Summer,Casual
+56250,Men,Tracksuits,Summer,Casual
+56251,Women,Tracksuits,Summer,Casual
 56252,Women,Night suits,Summer,Casual
 56253,Men,Night suits,Summer,Casual
 56254,Men,Night suits,Summer,Casual
 56255,Men,Night suits,Summer,Casual
 56256,Men,Night suits,Summer,Casual
-56257,Women,Night suits,Summer,Casual
+56257,Women,Capris,Summer,Casual
 56258,Men,Night suits,Summer,Casual
 56260,Men,Night suits,Summer,Casual
 56261,Men,Night suits,Summer,Casual
 56262,Men,Night suits,Summer,Casual
-56263,Women,Capris,Summer,Casual
-56265,Women,Dresses,Summer,Casual
+56263,Women,Night suits,Summer,Casual
+56265,Women,Night suits,Summer,Casual
 56266,Women,Night suits,Summer,Casual
 56267,Men,Night suits,Summer,Casual
 56268,Men,Night suits,Summer,Casual
@@ -3026,17 +3026,17 @@ id,gender,articleType,season,usage
 56340,Men,Watches,Winter,Casual
 56341,Men,Watches,Winter,Casual
 56342,Men,Watches,Winter,Casual
-56343,Men,Watches,Winter,Casual
+56343,Men,Free Gifts,Winter,Casual
 56344,Men,Watches,Winter,Casual
 56346,Men,Watches,Winter,Casual
 56348,Women,Watches,Winter,Casual
-56349,Men,Deodorant,Spring,Casual
+56349,Men,Perfume and Body Mist,Spring,Casual
 56351,Men,Perfume and Body Mist,Spring,Casual
 56352,Men,Perfume and Body Mist,Spring,Casual
 56353,Men,Perfume and Body Mist,Spring,Casual
 56354,Men,Perfume and Body Mist,Spring,Casual
 56355,Women,Fragrance Gift Set,Spring,Casual
-56356,Men,Fragrance Gift Set,Spring,Casual
+56356,Men,Deodorant,Spring,Casual
 56359,Women,Perfume and Body Mist,Spring,Casual
 56360,Women,Perfume and Body Mist,Spring,Casual
 56361,Women,Perfume and Body Mist,Spring,Casual
@@ -3048,7 +3048,7 @@ id,gender,articleType,season,usage
 56367,Unisex,Perfume and Body Mist,Spring,Casual
 56368,Men,Perfume and Body Mist,Spring,Casual
 56375,Women,Perfume and Body Mist,Spring,Casual
-56376,Men,Deodorant,Spring,Casual
+56376,Men,Perfume and Body Mist,Spring,Casual
 56377,Women,Perfume and Body Mist,Spring,Casual
 56378,Women,Perfume and Body Mist,Spring,Casual
 56379,Women,Perfume and Body Mist,Spring,Casual
@@ -3064,7 +3064,7 @@ id,gender,articleType,season,usage
 56393,Men,Perfume and Body Mist,Spring,Casual
 56394,Women,Perfume and Body Mist,Spring,Casual
 56395,Women,Perfume and Body Mist,Spring,Casual
-56402,Women,Flats,Spring,Casual
+56402,Women,Heels,Spring,Casual
 56403,Women,Flats,Winter,Casual
 56404,Women,Flats,Spring,Casual
 56405,Women,Flats,Winter,Casual
@@ -3084,47 +3084,47 @@ id,gender,articleType,season,usage
 56421,Women,Bra,Summer,Casual
 56422,Women,Bra,Summer,Casual
 56423,Women,Bra,Winter,Casual
-56424,Men,Makeup,Spring,Casual
-56425,Women,Bangle,Spring,Casual
-56427,Unisex,Handbags,Spring,Casual
+56424,Men,Sports Equipment,Spring,Casual
+56425,Women,Mobile Pouch,Spring,Casual
+56427,Unisex,Mobile Pouch,Spring,Casual
 56428,Women,Handbags,Summer,Casual
-56429,Unisex,Sports Shoes,Spring,Casual
+56429,Unisex,Casual Shoes,Spring,Casual
 56432,Women,Perfume and Body Mist,Spring,Casual
 56436,Women,Nails,Spring,Casual
 56440,Women,Nails,Spring,Casual
-56443,Women,Nails,Spring,Casual
+56443,Women,Perfume and Body Mist,Spring,Casual
 56444,Women,Nails,Spring,Casual
-56446,Women,Nails,Spring,Casual
-56447,Women,Nails,Spring,Casual
+56446,Women,Perfume and Body Mist,Spring,Casual
+56447,Women,Perfume and Body Mist,Spring,Casual
 56448,Women,Nails,Spring,Casual
 56450,Women,Perfume and Body Mist,Spring,Casual
-56451,Women,Nails,Spring,Casual
+56451,Women,Perfume and Body Mist,Spring,Casual
 56452,Women,Nails,Spring,Casual
 56454,Women,Perfume and Body Mist,Spring,Casual
 56455,Women,Perfume and Body Mist,Spring,Casual
-56456,Women,Nails,Spring,Casual
+56456,Women,Perfume and Body Mist,Spring,Casual
 56458,Women,Nails,Spring,Casual
-56460,Women,Nails,Spring,Casual
+56460,Women,Perfume and Body Mist,Spring,Casual
 56461,Women,Nails,Spring,Casual
-56462,Women,Nails,Spring,Casual
+56462,Women,Perfume and Body Mist,Spring,Casual
 56463,Women,Nails,Spring,Casual
 56464,Women,Perfume and Body Mist,Spring,Casual
-56465,Women,Nails,Spring,Casual
+56465,Women,Perfume and Body Mist,Spring,Casual
 56466,Women,Nails,Spring,Casual
-56467,Men,Nails,Spring,Casual
+56467,Men,Perfume and Body Mist,Spring,Casual
 56468,Women,Perfume and Body Mist,Spring,Casual
-56469,Women,Nails,Spring,Casual
+56469,Women,Perfume and Body Mist,Spring,Casual
 56470,Women,Nails,Spring,Casual
 56471,Women,Perfume and Body Mist,Spring,Casual
 56472,Women,Nails,Spring,Casual
 56473,Women,Nails,Spring,Casual
-56474,Women,Nails,Spring,Casual
+56474,Women,Perfume and Body Mist,Spring,Casual
 56475,Women,Perfume and Body Mist,Spring,Casual
 56476,Women,Perfume and Body Mist,Spring,Casual
-56477,Women,Nails,Spring,Casual
+56477,Women,Perfume and Body Mist,Spring,Casual
 56478,Women,Perfume and Body Mist,Spring,Casual
-56479,Women,Nails,Spring,Casual
-56480,Women,Nails,Spring,Casual
+56479,Women,Perfume and Body Mist,Spring,Casual
+56480,Women,Perfume and Body Mist,Spring,Casual
 56481,Women,Nails,Spring,Casual
 56482,Women,Perfume and Body Mist,Spring,Casual
 56483,Women,Perfume and Body Mist,Spring,Casual
@@ -3132,13 +3132,13 @@ id,gender,articleType,season,usage
 56485,Women,Nails,Spring,Casual
 56486,Women,Nails,Spring,Casual
 56488,Women,Perfume and Body Mist,Spring,Casual
-56489,Women,Nails,Spring,Casual
-56490,Women,Nails,Spring,Casual
+56489,Women,Perfume and Body Mist,Spring,Casual
+56490,Women,Makeup,Spring,Casual
 56491,Women,Perfume and Body Mist,Spring,Casual
-56492,Women,Nails,Spring,Casual
-56493,Women,Nails,Spring,Casual
-56494,Women,Nails,Spring,Casual
-56495,Women,Nails,Spring,Casual
+56492,Women,Perfume and Body Mist,Spring,Casual
+56493,Women,Perfume and Body Mist,Spring,Casual
+56494,Women,Perfume and Body Mist,Spring,Casual
+56495,Women,Perfume and Body Mist,Spring,Casual
 56496,Women,Nails,Spring,Casual
 56497,Women,Nails,Spring,Casual
 56498,Women,Nails,Spring,Casual
@@ -3147,18 +3147,18 @@ id,gender,articleType,season,usage
 56501,Women,Perfume and Body Mist,Spring,Casual
 56502,Women,Nails,Spring,Casual
 56503,Women,Nails,Spring,Casual
-56504,Women,Perfume and Body Mist,Spring,Casual
+56504,Women,Nails,Spring,Casual
 56505,Women,Nails,Spring,Casual
 56506,Women,Lips,Spring,Casual
 56507,Women,Lips,Spring,Casual
-56508,Women,Eyes,Spring,Casual
-56509,Women,Eyes,Spring,Casual
-56511,Women,Eyes,Spring,Casual
-56512,Women,Eyes,Spring,Casual
-56513,Women,Eyes,Spring,Casual
+56508,Women,Lips,Spring,Casual
+56509,Women,Lips,Spring,Casual
+56511,Women,Lips,Spring,Casual
+56512,Women,Lips,Spring,Casual
+56513,Women,Lips,Spring,Casual
 56515,Men,Lips,Spring,Casual
 56516,Men,Lips,Spring,Casual
-56517,Women,Eyes,Spring,Casual
+56517,Women,Lips,Spring,Casual
 56518,Women,Lips,Spring,Casual
 56519,Women,Lips,Spring,Casual
 56520,Men,Lips,Spring,Casual
@@ -3183,18 +3183,18 @@ id,gender,articleType,season,usage
 56540,Men,Lips,Spring,Casual
 56541,Men,Lips,Spring,Casual
 56542,Men,Lips,Spring,Casual
-56543,Women,Lips,Spring,Casual
+56543,Women,Perfume and Body Mist,Spring,Casual
 56544,Women,Makeup,Spring,Casual
 56545,Women,Makeup,Spring,Casual
-56546,Women,Shoe Accessories,Spring,Casual
+56546,Women,Perfume and Body Mist,Spring,Casual
 56547,Women,Makeup,Spring,Casual
 56548,Men,Makeup,Spring,Casual
 56549,Men,Makeup,Spring,Casual
 56550,Women,Eyes,Spring,Casual
-56551,Women,Makeup,Spring,Casual
-56553,Women,Scarves,Spring,Casual
-56554,Women,Nails,Spring,Casual
-56555,Women,Makeup,Spring,Casual
+56551,Women,Lips,Spring,Casual
+56553,Women,Deodorant,Spring,Casual
+56554,Women,Deodorant,Spring,Casual
+56555,Women,Lips,Spring,Casual
 56556,Unisex,Lips,Spring,Casual
 56558,Women,Lips,Spring,Casual
 56559,Women,Lips,Spring,Casual
@@ -3204,61 +3204,61 @@ id,gender,articleType,season,usage
 56563,Women,Lips,Spring,Casual
 56564,Women,Lips,Spring,Casual
 56565,Women,Lips,Spring,Casual
-56566,Women,Eyes,Spring,Casual
+56566,Women,Lips,Spring,Casual
 56568,Women,Perfume and Body Mist,Spring,Casual
 56569,Women,Perfume and Body Mist,Spring,Casual
 56570,Women,Perfume and Body Mist,Spring,Casual
-56571,Women,Pendant,Spring,Casual
-56572,Women,Perfume and Body Mist,Spring,Casual
-56573,Women,Pendant,Spring,Casual
-56574,Men,Clutches,Spring,Casual
-56575,Men,Fragrance Gift Set,Spring,Casual
-56576,Men,Fragrance Gift Set,Spring,Casual
-56579,Women,Deodorant,Spring,Casual
+56571,Women,Perfume and Body Mist,Spring,Casual
+56572,Women,Nails,Spring,Casual
+56573,Women,Perfume and Body Mist,Spring,Casual
+56574,Men,Perfume and Body Mist,Spring,Casual
+56575,Men,Lips,Spring,Casual
+56576,Men,Lips,Spring,Casual
+56579,Women,Perfume and Body Mist,Spring,Casual
 56580,Women,Perfume and Body Mist,Winter,Casual
-56581,Unisex,Nails,Winter,Casual
-56582,Unisex,Nails,Winter,Casual
+56581,Unisex,Wallets,Winter,Casual
+56582,Unisex,Wallets,Winter,Casual
 56583,Women,Deodorant,Spring,Casual
 56584,Men,Deodorant,Spring,Casual
 56585,Men,Deodorant,Spring,Casual
 56588,Women,Lips,Spring,Casual
-56590,Women,Perfume and Body Mist,Spring,Casual
+56590,Women,Water Bottle,Spring,Casual
 56591,Women,Perfume and Body Mist,Spring,Casual
 56592,Women,Perfume and Body Mist,Spring,Casual
 56593,Women,Perfume and Body Mist,Spring,Casual
-56594,Women,Eyes,Spring,Casual
-56597,Men,Makeup,Spring,Casual
+56594,Women,Lips,Spring,Casual
+56597,Men,Eyes,Spring,Casual
 56598,Men,Eyes,Spring,Casual
-56599,Men,Eyes,Spring,Casual
-56600,Women,Lips,Spring,Casual
+56599,Men,Makeup,Spring,Casual
+56600,Women,Makeup,Spring,Casual
 56601,Women,Makeup,Spring,Casual
 56602,Women,Makeup,Spring,Casual
 56603,Women,Makeup,Spring,Casual
 56604,Women,Makeup,Spring,Casual
-56605,Women,Eyes,Spring,Casual
-56606,Unisex,Flats,Spring,Casual
-56607,Women,Flats,Spring,Casual
-56608,Women,Flats,Spring,Casual
-56609,Men,Shoe Accessories,Spring,Casual
-56610,Men,Shoe Accessories,Spring,Casual
-56611,Women,Flats,Summer,Casual
+56605,Women,Lips,Spring,Casual
+56606,Unisex,Watches,Spring,Casual
+56607,Women,Makeup,Spring,Casual
+56608,Women,Makeup,Spring,Casual
+56609,Men,Makeup,Spring,Casual
+56610,Men,Makeup,Spring,Casual
+56611,Women,Makeup,Summer,Casual
 56612,Women,Wallets,Spring,Casual
-56613,Women,Perfume and Body Mist,Spring,Casual
-56614,Women,Wallets,Spring,Casual
-56615,Women,Perfume and Body Mist,Spring,Casual
-56616,Women,Perfume and Body Mist,Spring,Casual
+56613,Women,Shoe Accessories,Spring,Casual
+56614,Women,Shoe Accessories,Spring,Casual
+56615,Women,Wristbands,Spring,Casual
+56616,Women,Wristbands,Spring,Casual
 56617,Women,Perfume and Body Mist,Spring,Casual
-56618,Men,Flats,Summer,Casual
+56618,Men,Shoe Accessories,Summer,Casual
 56619,Men,Sports Equipment,Spring,Casual
-56620,Men,Handbags,Spring,Casual
+56620,Men,Perfume and Body Mist,Spring,Casual
 56622,Women,Perfume and Body Mist,Spring,Casual
 56624,Women,Perfume and Body Mist,Spring,Ethnic
 56626,Men,Perfume and Body Mist,Fall,Casual
 56627,Women,Deodorant,Spring,Casual
 56631,Women,Deodorant,Spring,Casual
-56632,Women,Deodorant,Spring,Casual
-56634,Women,Deodorant,Spring,Casual
-56638,Women,Kurtis,Summer,Casual
+56632,Women,Perfume and Body Mist,Spring,Casual
+56634,Women,Socks,Spring,Casual
+56638,Women,Tunics,Summer,Casual
 56639,Women,Kurtis,Fall,Casual
 56640,Women,Kurtis,Summer,Ethnic
 56642,Women,Kurtis,Summer,Casual
@@ -3280,7 +3280,7 @@ id,gender,articleType,season,usage
 56661,Men,Sandals,Winter,Casual
 56662,Unisex,Casual Shoes,Fall,Sports
 56663,Unisex,Formal Shoes,Winter,Casual
-56664,Men,Formal Shoes,Winter,Casual
+56664,Men,Sandals,Winter,Casual
 56665,Men,Formal Shoes,Winter,Casual
 56666,Men,Casual Shoes,Summer,Casual
 56667,Men,Watches,Winter,Casual
@@ -3302,22 +3302,22 @@ id,gender,articleType,season,usage
 56684,Women,Sarees,Summer,Ethnic
 56685,Women,Sarees,Summer,Ethnic
 56686,Unisex,Sarees,Summer,Ethnic
-56687,Men,Kurtas,Summer,Casual
+56687,Men,Sarees,Summer,Casual
 56688,Men,Kurtas,Summer,Ethnic
 56689,Men,Kurtas,Summer,Casual
 56691,Men,Kurtas,Summer,Casual
 56692,Men,Kurtas,Summer,Casual
-56693,Men,Shirts,Summer,Ethnic
-56694,Men,Shirts,Summer,Formal
+56693,Men,Kurtis,Summer,Ethnic
+56694,Men,Tunics,Summer,Formal
 56695,Men,Shirts,Summer,Casual
 56696,Men,Tshirts,Winter,Casual
-56697,Men,Jackets,Summer,Casual
-56698,Men,Shirts,Summer,Casual
-56699,Men,Shirts,Summer,Casual
-56700,Men,Shirts,Summer,Casual
-56701,Men,Shirts,Summer,Casual
+56697,Men,Shirts,Summer,Casual
+56698,Men,Tshirts,Summer,Casual
+56699,Men,Kurtis,Summer,Casual
+56700,Men,Tshirts,Summer,Casual
+56701,Men,Tshirts,Summer,Casual
 56702,Men,Shirts,Summer,Casual
-56703,Men,Shirts,Summer,Casual
+56703,Men,Tshirts,Summer,Casual
 56704,Men,Tshirts,Winter,Casual
 56705,Women,Kurtas,Summer,Ethnic
 56709,Women,Kurtas,Summer,Casual
@@ -3333,43 +3333,43 @@ id,gender,articleType,season,usage
 56724,Men,Flip Flops,Winter,Casual
 56725,Men,Tshirts,Fall,Casual
 56733,Men,Tshirts,Summer,Casual
-56734,Men,Tshirts,Summer,Casual
+56734,Men,Innerwear Vests,Summer,Casual
 56736,Men,Tshirts,Summer,Casual
 56752,Men,Tshirts,Summer,Casual
 56753,Men,Tshirts,Winter,Casual
-56765,Men,Tshirts,Summer,Casual
+56765,Men,Jackets,Summer,Casual
 56769,Men,Shirts,Fall,Casual
 56770,Men,Shirts,Summer,Casual
 56771,Men,Shirts,Summer,Casual
 56787,Men,Shirts,Summer,Casual
 56795,Men,Jeans,Summer,Casual
 56798,Men,Jeans,Summer,Casual
-56805,Women,Sarees,Summer,Ethnic
+56805,Women,Kurta Sets,Summer,Ethnic
 56806,Women,Kurtas,Summer,Ethnic
-56807,Women,Kurtis,Summer,Casual
+56807,Women,Tunics,Summer,Casual
 56808,Women,Kurtas,Summer,Casual
-56809,Women,Kurtas,Summer,Ethnic
+56809,Women,Kurtis,Summer,Ethnic
 56810,Women,Kurtas,Summer,Casual
-56811,Women,Kurtas,Summer,Casual
+56811,Women,Kurtis,Summer,Casual
 56812,Men,Kurtas,Summer,Ethnic
-56813,Women,Kurtas,Summer,Ethnic
-56814,Women,Kurtas,Summer,Casual
+56813,Women,Kurtis,Summer,Ethnic
+56814,Women,Tunics,Summer,Casual
 56815,Women,Kurtas,Summer,Ethnic
 56816,Men,Shirts,Fall,Casual
-56817,Men,Tshirts,Summer,Casual
-56818,Men,Shirts,Summer,Casual
+56817,Men,Innerwear Vests,Summer,Casual
+56818,Men,Tshirts,Summer,Casual
 56819,Men,Shirts,Summer,Casual
 56820,Men,Shirts,Summer,Casual
 56821,Men,Shorts,Fall,Casual
 56822,Men,Shorts,Summer,Casual
-56825,Men,Sweatshirts,Fall,Casual
+56825,Men,Jackets,Fall,Casual
 56827,Men,Jeans,Summer,Casual
 56828,Men,Jeans,Fall,Casual
-56829,Men,Sweatshirts,Summer,Casual
+56829,Men,Jeans,Summer,Casual
 56843,Men,Jeans,Summer,Casual
 56844,Men,Jeans,Winter,Casual
 56845,Men,Jeans,Summer,Casual
-56846,Men,Track Pants,Fall,Casual
+56846,Men,Jeans,Fall,Casual
 56847,Men,Jeans,Summer,Casual
 56849,Men,Jeans,Summer,Casual
 56850,Men,Jeans,Summer,Casual
@@ -3387,7 +3387,7 @@ id,gender,articleType,season,usage
 56864,Women,Heels,Winter,Casual
 56865,Women,Flats,Winter,Casual
 56866,Women,Flats,Winter,Casual
-56867,Women,Sandals,Winter,Casual
+56867,Women,Flats,Winter,Casual
 56868,Women,Flats,Winter,Casual
 56869,Women,Flats,Winter,Casual
 56870,Women,Flats,Winter,Casual
@@ -3406,8 +3406,8 @@ id,gender,articleType,season,usage
 56883,Women,Heels,Winter,Casual
 56884,Women,Flats,Winter,Casual
 56885,Women,Flats,Winter,Casual
-56886,Women,Flats,Winter,Casual
-56887,Women,Flats,Winter,Casual
+56886,Women,Heels,Winter,Casual
+56887,Women,Heels,Winter,Casual
 56888,Women,Flats,Winter,Casual
 56889,Women,Flats,Winter,Casual
 56890,Women,Flats,Winter,Casual
@@ -3419,10 +3419,10 @@ id,gender,articleType,season,usage
 56897,Women,Heels,Winter,Casual
 56898,Women,Heels,Winter,Casual
 56899,Women,Heels,Winter,Casual
-56900,Women,Flats,Winter,Casual
+56900,Women,Heels,Winter,Casual
 56901,Women,Heels,Winter,Casual
 56902,Women,Flats,Winter,Casual
-56903,Women,Heels,Winter,Casual
+56903,Women,Flats,Winter,Casual
 56904,Women,Flats,Winter,Casual
 56905,Women,Flats,Winter,Casual
 56906,Women,Flats,Winter,Casual
@@ -3431,8 +3431,8 @@ id,gender,articleType,season,usage
 56909,Women,Flats,Summer,Casual
 56910,Women,Flats,Winter,Casual
 56911,Women,Flats,Winter,Casual
-56912,Women,Heels,Winter,Casual
-56913,Women,Heels,Winter,Casual
+56912,Women,Flats,Winter,Casual
+56913,Women,Flats,Winter,Casual
 56914,Women,Flats,Winter,Casual
 56915,Women,Heels,Winter,Casual
 56916,Women,Flats,Winter,Casual
@@ -3446,20 +3446,20 @@ id,gender,articleType,season,usage
 56924,Women,Flats,Winter,Casual
 56925,Women,Flats,Winter,Casual
 56926,Women,Flats,Winter,Casual
-56927,Women,Flats,Winter,Casual
-56928,Women,Flats,Winter,Casual
-56929,Women,Flats,Winter,Casual
+56927,Women,Heels,Winter,Casual
+56928,Women,Heels,Winter,Casual
+56929,Women,Heels,Winter,Casual
 56930,Women,Heels,Winter,Casual
-56931,Women,Flats,Summer,Casual
+56931,Women,Heels,Summer,Casual
 56932,Women,Flats,Fall,Casual
-56933,Women,Flats,Winter,Casual
-56934,Women,Flats,Winter,Casual
+56933,Women,Heels,Winter,Casual
+56934,Women,Heels,Winter,Casual
 56935,Women,Flats,Winter,Casual
-56936,Women,Flats,Winter,Casual
+56936,Women,Heels,Winter,Casual
 56937,Women,Heels,Winter,Casual
 56938,Women,Heels,Winter,Casual
-56939,Women,Flats,Winter,Casual
-56940,Women,Flats,Winter,Casual
+56939,Women,Heels,Winter,Casual
+56940,Women,Heels,Winter,Casual
 56941,Women,Heels,Winter,Casual
 56942,Women,Heels,Winter,Casual
 56943,Women,Heels,Winter,Casual
@@ -3467,17 +3467,17 @@ id,gender,articleType,season,usage
 56945,Women,Heels,Winter,Casual
 56946,Women,Heels,Winter,Casual
 56947,Women,Heels,Winter,Casual
-56948,Women,Heels,Winter,Casual
+56948,Women,Flats,Winter,Casual
 56949,Women,Heels,Winter,Casual
-56950,Women,Flats,Winter,Casual
+56950,Women,Heels,Winter,Casual
 56951,Women,Heels,Winter,Casual
 56952,Women,Heels,Winter,Casual
-56953,Women,Flats,Winter,Casual
-56954,Women,Flats,Winter,Casual
+56953,Women,Heels,Winter,Casual
+56954,Women,Heels,Winter,Casual
 56955,Women,Heels,Winter,Casual
 56956,Women,Flats,Winter,Casual
 56957,Women,Flats,Winter,Casual
-56958,Women,Flip Flops,Fall,Casual
+56958,Women,Flats,Fall,Casual
 56959,Women,Flip Flops,Summer,Casual
 56960,Women,Heels,Winter,Casual
 56961,Women,Flats,Winter,Casual
@@ -3486,7 +3486,7 @@ id,gender,articleType,season,usage
 56964,Women,Flats,Winter,Casual
 56965,Women,Flats,Winter,Casual
 56966,Women,Flats,Winter,Casual
-56967,Women,Flats,Winter,Casual
+56967,Women,Heels,Winter,Casual
 56968,Women,Flats,Winter,Casual
 56969,Women,Flats,Winter,Casual
 56970,Women,Flats,Winter,Casual
@@ -3499,27 +3499,27 @@ id,gender,articleType,season,usage
 56977,Women,Heels,Winter,Casual
 56978,Women,Flats,Spring,Casual
 56979,Women,Flats,Winter,Casual
-56980,Women,Flip Flops,Summer,Casual
+56980,Women,Flats,Summer,Casual
 56981,Women,Flats,Winter,Casual
 56982,Women,Flats,Winter,Casual
 56983,Women,Flats,Winter,Casual
 56984,Women,Heels,Winter,Casual
-56985,Women,Flats,Winter,Casual
+56985,Women,Heels,Winter,Casual
 56986,Women,Flats,Winter,Casual
-56987,Women,Flats,Winter,Casual
+56987,Women,Heels,Winter,Casual
 56988,Women,Flats,Winter,Casual
-56989,Women,Flats,Winter,Casual
+56989,Women,Heels,Winter,Casual
 56990,Women,Flats,Winter,Casual
 56991,Women,Flats,Winter,Casual
 56992,Women,Flats,Fall,Casual
 56993,Women,Flats,Winter,Casual
 56994,Women,Heels,Winter,Casual
-56995,Women,Flats,Winter,Formal
+56995,Women,Heels,Winter,Formal
 56996,Women,Heels,Winter,Casual
 56997,Women,Heels,Winter,Casual
 56998,Women,Flats,Winter,Casual
 56999,Women,Flats,Winter,Casual
-57000,Women,Flats,Winter,Casual
+57000,Women,Heels,Winter,Casual
 57001,Women,Flats,Winter,Casual
 57002,Women,Flats,Winter,Casual
 57003,Women,Flats,Winter,Casual
@@ -3547,19 +3547,19 @@ id,gender,articleType,season,usage
 57026,Men,Briefs,Winter,Casual
 57027,Women,Briefs,Summer,Sports
 57028,Men,Tshirts,Summer,Casual
-57029,Men,Tshirts,Summer,Casual
+57029,Men,Innerwear Vests,Summer,Casual
 57030,Women,Tunics,Summer,Casual
 57031,Women,Dresses,Summer,Casual
 57032,Men,Tops,Summer,Casual
-57033,Men,Tops,Summer,Casual
+57033,Men,Innerwear Vests,Summer,Casual
 57034,Women,Nightdress,Winter,Casual
 57035,Women,Dresses,Summer,Casual
-57036,Women,Dresses,Summer,Ethnic
-57037,Women,Dresses,Summer,Casual
-57038,Women,Nightdress,Summer,Casual
+57036,Women,Sarees,Summer,Ethnic
+57037,Women,Tunics,Summer,Casual
+57038,Women,Sarees,Summer,Casual
 57039,Women,Dresses,Summer,Casual
 57040,Women,Dresses,Summer,Casual
-57041,Women,Tops,Summer,Casual
+57041,Women,Dresses,Summer,Casual
 57042,Women,Dresses,Summer,Casual
 57043,Women,Dresses,Summer,Casual
 57044,Women,Dresses,Summer,Casual
@@ -3569,12 +3569,12 @@ id,gender,articleType,season,usage
 57048,Women,Dresses,Summer,Casual
 57049,Women,Dresses,Summer,Casual
 57050,Women,Dresses,Summer,Casual
-57051,Women,Dresses,Summer,Casual
+57051,Women,Skirts,Summer,Casual
 57052,Women,Dresses,Summer,Ethnic
 57053,Women,Dresses,Summer,Casual
 57054,Women,Dresses,Summer,Casual
-57055,Women,Nightdress,Summer,Casual
-57056,Women,Nightdress,Summer,Casual
+57055,Women,Tunics,Summer,Casual
+57056,Women,Dresses,Summer,Casual
 57057,Men,Dresses,Summer,Casual
 57058,Women,Dresses,Summer,Casual
 57059,Women,Dresses,Summer,Casual
@@ -3582,28 +3582,28 @@ id,gender,articleType,season,usage
 57061,Women,Dresses,Summer,Casual
 57062,Women,Tshirts,Summer,Casual
 57063,Women,Sweaters,Summer,Casual
-57064,Women,Dupatta,Fall,Casual
-57065,Women,Sweaters,Summer,Casual
-57066,Women,Tops,Fall,Casual
+57064,Women,Sweaters,Fall,Casual
+57065,Women,Tops,Summer,Casual
+57066,Women,Kurtis,Fall,Casual
 57067,Women,Dresses,Summer,Casual
-57068,Women,Jackets,Fall,Casual
-57069,Men,Tops,Summer,Casual
-57070,Women,Leggings,Summer,Casual
+57068,Women,Topwear,Fall,Casual
+57069,Men,Innerwear Vests,Summer,Casual
+57070,Women,Jeans,Summer,Casual
 57071,Women,Trousers,Summer,Casual
-57072,Women,Bottomwear,Summer,Casual
+57072,Women,Trousers,Summer,Casual
 57073,Women,Jeans,Fall,Casual
 57074,Women,Jeans,Summer,Casual
-57075,Women,Churidar,Summer,Casual
-57076,Women,Bottomwear,Summer,Casual
+57075,Women,Leggings,Summer,Casual
+57076,Women,Jeans,Summer,Casual
 57077,Men,Jeans,Summer,Casual
 57078,Women,Track Pants,Summer,Casual
 57079,Women,Tops,Summer,Casual
 57080,Women,Sweatshirts,Summer,Casual
-57081,Women,Tops,Summer,Casual
-57082,Women,Skirts,Summer,Casual
+57081,Women,Innerwear Vests,Summer,Casual
+57082,Women,Shorts,Summer,Casual
 57083,Women,Skirts,Summer,Casual
 57084,Women,Skirts,Summer,Casual
-57085,Women,Shorts,Summer,Casual
+57085,Women,Capris,Summer,Casual
 57086,Women,Skirts,Summer,Casual
 57087,Women,Dresses,Summer,Casual
 57088,Women,Skirts,Summer,Casual
@@ -3611,32 +3611,32 @@ id,gender,articleType,season,usage
 57090,Women,Shorts,Summer,Casual
 57091,Women,Skirts,Summer,Casual
 57092,Women,Dresses,Summer,Casual
-57093,Women,Shorts,Summer,Casual
-57094,Women,Skirts,Summer,Casual
-57095,Women,Skirts,Summer,Casual
-57096,Men,Shorts,Summer,Casual
+57093,Women,Capris,Summer,Casual
+57094,Women,Shorts,Summer,Casual
+57095,Women,Shorts,Summer,Casual
+57096,Men,Capris,Summer,Casual
 57097,Women,Capris,Summer,Casual
 57099,Women,Skirts,Summer,Casual
 57100,Women,Tops,Summer,Casual
 57101,Women,Tops,Summer,Casual
 57102,Women,Tops,Fall,Casual
-57103,Women,Kurtis,Summer,Casual
-57104,Men,Tops,Summer,Casual
+57103,Women,Tunics,Summer,Casual
+57104,Men,Tshirts,Summer,Casual
 57105,Women,Tops,Summer,Casual
-57106,Women,Kurtis,Fall,Casual
-57107,Women,Tops,Summer,Casual
+57106,Women,Tops,Fall,Casual
+57107,Women,Tshirts,Summer,Casual
 57108,Women,Tops,Summer,Casual
-57109,Men,Tops,Summer,Casual
+57109,Men,Tunics,Summer,Casual
 57110,Men,Shirts,Summer,Casual
 57111,Women,Tops,Summer,Casual
 57112,Women,Tops,Summer,Casual
 57114,Women,Tops,Summer,Casual
 57115,Women,Dresses,Summer,Casual
-57116,Women,Kurtas,Summer,Casual
+57116,Women,Tops,Summer,Casual
 57117,Women,Tops,Summer,Casual
 57118,Women,Tops,Summer,Casual
 57119,Women,Tops,Summer,Casual
-57120,Women,Sweatshirts,Summer,Casual
+57120,Women,Jackets,Summer,Casual
 57121,Women,Jackets,Fall,Casual
 57122,Women,Tops,Summer,Casual
 57123,Women,Tops,Summer,Casual
@@ -3644,93 +3644,93 @@ id,gender,articleType,season,usage
 57125,Women,Tops,Summer,Casual
 57126,Women,Tops,Summer,Casual
 57127,Women,Tops,Summer,Casual
-57128,Women,Tops,Summer,Casual
+57128,Women,Tunics,Summer,Casual
 57129,Women,Tops,Summer,Casual
 57130,Women,Tops,Summer,Casual
 57131,Women,Tops,Summer,Casual
 57132,Women,Tops,Summer,Casual
-57133,Women,Kurtas,Summer,Casual
+57133,Women,Topwear,Summer,Casual
 57134,Women,Tops,Summer,Casual
 57135,Women,Tshirts,Summer,Casual
-57136,Women,Capris,Summer,Casual
+57136,Women,Jeans,Summer,Casual
 57137,Women,Trousers,Summer,Casual
-57138,Men,Leggings,Summer,Casual
+57138,Men,Lounge Pants,Summer,Casual
 57139,Women,Lounge Pants,Winter,Casual
-57140,Women,Trousers,Summer,Casual
+57140,Women,Leggings,Summer,Casual
 57141,Women,Trousers,Summer,Casual
 57142,Men,Tops,Summer,Casual
 57143,Women,Tops,Summer,Casual
 57144,Women,Dresses,Summer,Casual
 57145,Women,Tops,Summer,Casual
-57146,Women,Tops,Summer,Casual
-57147,Men,Innerwear,Fall,Casual
+57146,Women,Innerwear Vests,Summer,Casual
+57147,Men,Tops,Fall,Casual
 57148,Women,Tops,Summer,Casual
-57149,Women,Tunics,Summer,Casual
-57150,Women,Kurtis,Summer,Casual
-57151,Women,Dresses,Summer,Casual
-57152,Women,Tops,Summer,Casual
-57153,Women,Tops,Winter,Casual
+57149,Women,Tops,Summer,Casual
+57150,Women,Tops,Summer,Casual
+57151,Women,Tops,Summer,Casual
+57152,Women,Tshirts,Summer,Casual
+57153,Women,Innerwear Vests,Winter,Casual
 57154,Women,Tops,Summer,Casual
-57155,Women,Kurtis,Summer,Casual
+57155,Women,Tops,Summer,Casual
 57156,Women,Tops,Summer,Casual
-57157,Women,Tops,Summer,Casual
+57157,Women,Tshirts,Summer,Casual
 57158,Women,Tshirts,Summer,Casual
 57159,Women,Tops,Summer,Casual
 57160,Women,Tops,Summer,Casual
-57161,Women,Tops,Summer,Casual
-57162,Women,Tops,Fall,Casual
-57163,Women,Tshirts,Summer,Casual
+57161,Women,Tshirts,Summer,Casual
+57162,Women,Tshirts,Fall,Casual
+57163,Women,Tops,Summer,Casual
 57164,Women,Tops,Summer,Casual
 57165,Women,Tops,Summer,Casual
 57166,Women,Tops,Summer,Casual
 57167,Women,Innerwear Vests,Summer,Casual
 57168,Women,Tops,Summer,Casual
 57169,Women,Tops,Summer,Casual
-57170,Women,Tops,Summer,Casual
+57170,Women,Jackets,Summer,Casual
 57171,Women,Skirts,Summer,Casual
-57172,Women,Tops,Summer,Casual
+57172,Women,Tshirts,Summer,Casual
 57173,Women,Tops,Summer,Casual
 57174,Women,Tops,Summer,Casual
-57175,Women,Tops,Summer,Casual
+57175,Women,Tshirts,Summer,Casual
 57176,Women,Tops,Summer,Casual
-57177,Men,Kurtas,Summer,Casual
+57177,Men,Kurtis,Summer,Casual
 57178,Women,Shirts,Summer,Casual
-57179,Women,Tunics,Summer,Casual
+57179,Women,Kurtis,Summer,Casual
 57180,Women,Tunics,Summer,Casual
 57181,Women,Dresses,Summer,Casual
 57182,Women,Dresses,Summer,Casual
 57183,Women,Tops,Summer,Casual
-57184,Women,Dresses,Summer,Casual
+57184,Women,Tunics,Summer,Casual
 57185,Women,Dresses,Summer,Casual
 57186,Women,Dresses,Summer,Casual
 57187,Women,Dresses,Summer,Casual
-57188,Women,Tunics,Summer,Casual
-57189,Women,Tunics,Summer,Casual
+57188,Women,Kurtas,Summer,Casual
+57189,Women,Tops,Summer,Casual
 57190,Women,Shirts,Fall,Casual
 57191,Women,Tops,Summer,Casual
 57192,Women,Dresses,Summer,Casual
 57193,Women,Tops,Summer,Casual
 57194,Women,Tops,Summer,Casual
 57195,Women,Tunics,Summer,Casual
-57196,Women,Dresses,Summer,Casual
+57196,Women,Tunics,Summer,Casual
 57197,Women,Tops,Summer,Casual
-57198,Women,Tunics,Summer,Casual
+57198,Women,Tops,Summer,Casual
 57199,Women,Dresses,Summer,Casual
 57200,Women,Dresses,Summer,Casual
 57201,Women,Tops,Summer,Casual
 57202,Women,Dresses,Summer,Casual
-57203,Women,Kurtas,Summer,Casual
+57203,Women,Tunics,Summer,Casual
 57204,Women,Capris,Summer,Casual
 57205,Women,Capris,Summer,Casual
 57207,Women,Capris,Summer,Casual
-57208,Women,Leggings,Winter,Casual
+57208,Women,Jeans,Winter,Casual
 57209,Women,Jeans,Summer,Casual
-57210,Women,Bottomwear,Summer,Casual
+57210,Women,Jeans,Summer,Casual
 57211,Women,Leggings,Summer,Casual
 57212,Women,Jeans,Summer,Casual
 57213,Men,Jeans,Summer,Casual
 57214,Women,Shorts,Summer,Casual
-57215,Men,Shorts,Summer,Casual
+57215,Men,Trousers,Summer,Casual
 57216,Men,Shorts,Summer,Casual
 57217,Women,Capris,Summer,Casual
 57218,Women,Capris,Summer,Casual
@@ -3746,7 +3746,7 @@ id,gender,articleType,season,usage
 57239,Women,Handbags,Summer,Casual
 57240,Women,Handbags,Summer,Casual
 57241,Women,Handbags,Summer,Casual
-57242,Unisex,Laptop Bag,Summer,Casual
+57242,Unisex,Duffel Bag,Summer,Casual
 57243,Women,Handbags,Winter,Casual
 57244,Women,Handbags,Summer,Casual
 57246,Women,Handbags,Winter,Casual
@@ -3760,11 +3760,11 @@ id,gender,articleType,season,usage
 57259,Women,Handbags,Summer,Casual
 57261,Women,Handbags,Summer,Casual
 57262,Women,Handbags,Summer,Casual
-57263,Unisex,Handbags,Winter,Casual
-57264,Women,Messenger Bag,Winter,Casual
+57263,Unisex,Bags,Winter,Casual
+57264,Women,Handbags,Winter,Casual
 57266,Women,Handbags,Winter,Casual
 57268,Men,Tshirts,Fall,Casual
-57273,Men,Shirts,Summer,Casual
+57273,Men,Jackets,Summer,Casual
 57274,Men,Shirts,Fall,Casual
 57275,Men,Shirts,Summer,Casual
 57276,Men,Shirts,Fall,Casual
@@ -3773,16 +3773,16 @@ id,gender,articleType,season,usage
 57281,Men,Shirts,Summer,Ethnic
 57282,Men,Shirts,Summer,Casual
 57283,Men,Shirts,Fall,Casual
-57284,Men,Shirts,Summer,Casual
+57284,Men,Kurtis,Summer,Casual
 57285,Men,Shirts,Summer,Casual
 57286,Men,Shirts,Summer,Casual
 57287,Men,Shirts,Summer,Casual
 57288,Men,Shirts,Summer,Casual
-57289,Men,Tunics,Summer,Casual
+57289,Men,Shirts,Summer,Casual
 57290,Men,Shirts,Summer,Casual
 57291,Men,Shirts,Summer,Casual
-57292,Men,Tshirts,Summer,Casual
-57293,Men,Tshirts,Summer,Casual
+57292,Men,Shirts,Summer,Casual
+57293,Men,Tunics,Summer,Casual
 57294,Men,Shirts,Summer,Casual
 57295,Men,Shirts,Summer,Casual
 57296,Men,Shirts,Fall,Casual
@@ -3790,11 +3790,11 @@ id,gender,articleType,season,usage
 57298,Women,Flats,Winter,Casual
 57299,Women,Flats,Winter,Casual
 57300,Women,Flats,Winter,Casual
-57301,Women,Flats,Winter,Casual
+57301,Women,Heels,Winter,Casual
 57302,Women,Flats,Winter,Casual
-57303,Women,Flats,Winter,Casual
+57303,Women,Heels,Winter,Casual
 57304,Women,Heels,Winter,Casual
-57305,Women,Heels,Winter,Casual
+57305,Women,Flats,Winter,Casual
 57306,Women,Heels,Winter,Casual
 57307,Women,Flats,Winter,Casual
 57308,Women,Flats,Winter,Casual
@@ -3892,42 +3892,42 @@ id,gender,articleType,season,usage
 57414,Women,Briefs,Summer,Casual
 57415,Women,Briefs,Summer,Casual
 57416,Women,Tracksuits,Summer,Casual
-57418,Women,Dresses,Summer,Casual
+57418,Women,Nightdress,Summer,Casual
 57419,Men,Dresses,Summer,Casual
 57420,Women,Tshirts,Winter,Casual
 57421,Women,Tshirts,Summer,Casual
 57422,Women,Tshirts,Winter,Casual
-57423,Women,Tops,Summer,Casual
-57424,Women,Tops,Summer,Casual
+57423,Women,Tshirts,Summer,Casual
+57424,Women,Tshirts,Summer,Casual
 57425,Women,Tshirts,Summer,Casual
 57426,Women,Tops,Summer,Casual
-57427,Women,Tshirts,Summer,Casual
+57427,Women,Tops,Summer,Casual
 57428,Women,Tshirts,Summer,Casual
-57429,Women,Tops,Summer,Casual
-57430,Women,Tops,Summer,Casual
+57429,Women,Tshirts,Summer,Casual
+57430,Women,Tshirts,Summer,Casual
 57431,Women,Tshirts,Summer,Casual
-57432,Women,Tops,Summer,Casual
-57433,Women,Tops,Summer,Casual
+57432,Women,Tshirts,Summer,Casual
+57433,Women,Tshirts,Summer,Casual
 57434,Women,Tshirts,Summer,Casual
-57435,Women,Tops,Summer,Casual
+57435,Women,Tshirts,Summer,Casual
 57436,Women,Tshirts,Summer,Casual
 57437,Women,Tshirts,Summer,Casual
 57438,Women,Tshirts,Summer,Casual
-57439,Women,Tops,Summer,Casual
+57439,Women,Tshirts,Summer,Casual
 57440,Women,Tshirts,Summer,Casual
-57441,Women,Tops,Summer,Casual
+57441,Women,Tshirts,Summer,Casual
 57442,Women,Tops,Summer,Casual
 57443,Women,Tshirts,Summer,Casual
-57444,Women,Tops,Summer,Casual
+57444,Women,Tshirts,Summer,Casual
 57445,Women,Tshirts,Summer,Casual
 57446,Women,Tshirts,Summer,Casual
 57447,Women,Tshirts,Summer,Casual
-57448,Women,Tops,Summer,Casual
-57449,Women,Tops,Summer,Casual
-57450,Women,Tops,Summer,Casual
+57448,Women,Tshirts,Summer,Casual
+57449,Women,Tshirts,Summer,Casual
+57450,Women,Tshirts,Summer,Casual
 57457,Women,Handbags,Spring,Casual
 57458,Women,Handbags,Summer,Casual
-57459,Women,Handbags,Winter,Casual
+57459,Women,Bags,Winter,Casual
 57462,Women,Clutches,Winter,Casual
 57463,Women,Belts,Winter,Formal
 57466,Unisex,Flip Flops,Winter,Casual
@@ -3935,17 +3935,17 @@ id,gender,articleType,season,usage
 57468,Men,Flip Flops,Spring,Casual
 57469,Men,Casual Shoes,Fall,Casual
 57470,Unisex,Casual Shoes,Summer,Casual
-57471,Men,Casual Shoes,Fall,Casual
+57471,Men,Sandals,Fall,Casual
 57475,Men,Sandals,Summer,Casual
 57476,Men,Formal Shoes,Winter,Smart Casual
-57477,Men,Sports Shoes,Fall,Casual
+57477,Men,Casual Shoes,Fall,Casual
 57478,Men,Casual Shoes,Fall,Casual
-57479,Men,Sports Shoes,Summer,Casual
+57479,Men,Casual Shoes,Summer,Casual
 57480,Men,Casual Shoes,Fall,Casual
 57481,Men,Casual Shoes,Fall,Casual
 57482,Men,Casual Shoes,Summer,Casual
 57483,Men,Casual Shoes,Fall,Casual
-57484,Men,Flip Flops,Fall,Casual
+57484,Men,Sandals,Fall,Casual
 57487,Men,Formal Shoes,Summer,Formal
 57488,Men,Formal Shoes,Winter,Formal
 57489,Men,Formal Shoes,Winter,Formal
@@ -3999,10 +3999,10 @@ id,gender,articleType,season,usage
 57543,Women,Lips,Spring,Casual
 57544,Women,Lips,Spring,Casual
 57545,Women,Lips,Spring,Casual
-57547,Women,Deodorant,Spring,Casual
+57547,Women,Lips,Spring,Casual
 57548,Women,Lips,Spring,Casual
 57549,Women,Lips,Spring,Casual
-57550,Women,Lips,Spring,Casual
+57550,Women,Eyes,Spring,Casual
 57552,Women,Lips,Spring,Casual
 57553,Women,Lips,Spring,Casual
 57554,Women,Lips,Spring,Casual
@@ -4016,86 +4016,86 @@ id,gender,articleType,season,usage
 57562,Women,Lips,Spring,Casual
 57563,Women,Lips,Spring,Casual
 57566,Women,Lips,Spring,Casual
-57567,Women,Perfume and Body Mist,Spring,Casual
+57567,Women,Lips,Spring,Casual
 57568,Women,Lips,Spring,Casual
 57569,Women,Lips,Spring,Casual
 57570,Women,Lips,Spring,Casual
 57571,Women,Lips,Spring,Casual
-57572,Men,Perfume and Body Mist,Spring,Casual
+57572,Men,Lips,Spring,Casual
 57573,Women,Lips,Spring,Casual
-57574,Women,Perfume and Body Mist,Spring,Casual
-57575,Women,Bracelet,Spring,Casual
-57576,Men,Fragrance Gift Set,Spring,Casual
+57574,Women,Lips,Spring,Casual
+57575,Women,Lips,Spring,Casual
+57576,Men,Makeup,Spring,Casual
 57577,Women,Lips,Spring,Casual
 57578,Women,Lips,Spring,Casual
 57579,Women,Lips,Spring,Casual
 57580,Women,Lips,Spring,Casual
-57581,Men,Perfume and Body Mist,Spring,Casual
+57581,Men,Ring,Spring,Casual
 57582,Women,Lips,Spring,Casual
-57583,Women,Lips,Spring,Casual
-57584,Women,Lips,Spring,Casual
-57586,Women,Lips,Spring,Casual
-57587,Women,Lips,Spring,Casual
+57583,Women,Shoe Accessories,Spring,Casual
+57584,Women,Shoe Accessories,Spring,Casual
+57586,Women,Shoe Accessories,Spring,Casual
+57587,Women,Shoe Accessories,Spring,Casual
 57588,Women,Lips,Spring,Casual
-57589,Women,Lips,Spring,Casual
+57589,Women,Shoe Accessories,Spring,Casual
 57591,Women,Lips,Spring,Casual
 57592,Women,Lips,Spring,Casual
-57593,Women,Lips,Spring,Casual
-57594,Women,Lips,Spring,Casual
-57595,Women,Lips,Spring,Casual
+57593,Women,Shoe Accessories,Spring,Casual
+57594,Women,Shoe Accessories,Spring,Casual
+57595,Women,Shoe Accessories,Spring,Casual
 57596,Women,Lips,Spring,Casual
-57597,Women,Lips,Spring,Casual
+57597,Women,Shoe Accessories,Spring,Casual
 57598,Women,Lips,Spring,Casual
-57599,Women,Lips,Spring,Casual
-57600,Women,Lips,Spring,Casual
-57601,Women,Lips,Spring,Casual
-57603,Women,Lips,Spring,Casual
+57599,Women,Shoe Accessories,Spring,Casual
+57600,Women,Shoe Accessories,Spring,Casual
+57601,Women,Shoe Accessories,Spring,Casual
+57603,Women,Shoe Accessories,Spring,Casual
 57604,Women,Lips,Spring,Casual
-57605,Women,Lips,Spring,Casual
-57606,Women,Lips,Spring,Casual
+57605,Women,Shoe Accessories,Spring,Casual
+57606,Women,Shoe Accessories,Spring,Casual
 57607,Women,Perfume and Body Mist,Spring,Casual
 57608,Women,Deodorant,Spring,Casual
-57609,Women,Deodorant,Spring,Casual
+57609,Women,Lips,Spring,Casual
 57610,Women,Shoe Accessories,Spring,Casual
 57611,Women,Deodorant,Spring,Casual
-57613,Men,Wallets,Summer,Casual
+57613,Men,Innerwear Vests,Summer,Casual
 57614,Women,Shoe Accessories,Spring,Casual
-57615,Girls,Shoe Accessories,Summer,Casual
+57615,Girls,Perfume and Body Mist,Summer,Casual
 57616,Women,Deodorant,Spring,Casual
 57617,Women,Shoe Accessories,Spring,Casual
 57619,Unisex,Shoe Accessories,Spring,Casual
 57620,Women,Shoe Accessories,Spring,Casual
-57621,Women,Perfume and Body Mist,Spring,Casual
-57622,Women,Deodorant,Spring,Casual
-57623,Women,Deodorant,Spring,Casual
+57621,Women,Shoe Accessories,Spring,Casual
+57622,Women,Makeup,Spring,Casual
+57623,Women,Shoe Accessories,Spring,Casual
 57624,Women,Shoe Accessories,Spring,Casual
 57625,Girls,Perfume and Body Mist,Spring,Casual
-57627,Women,Deodorant,Spring,Casual
-57628,Women,Perfume and Body Mist,Spring,Casual
-57629,Women,Perfume and Body Mist,Spring,Casual
-57630,Men,Handbags,Summer,Casual
+57627,Women,Makeup,Spring,Casual
+57628,Women,Makeup,Spring,Casual
+57629,Women,Deodorant,Spring,Casual
+57630,Men,Clutches,Summer,Casual
 57631,Men,Makeup,Spring,Casual
-57632,Men,Makeup,Spring,Casual
-57633,Men,Makeup,Spring,Casual
-57634,Men,Makeup,Spring,Casual
+57632,Men,Lips,Spring,Casual
+57633,Men,Lips,Spring,Casual
+57634,Men,Lips,Spring,Casual
 57635,Men,Makeup,Spring,Casual
-57636,Men,Makeup,Spring,Casual
-57637,Men,Makeup,Spring,Casual
-57638,Women,Makeup,Spring,Casual
-57639,Women,Lips,Spring,Casual
-57640,Men,Lips,Spring,Casual
-57642,Men,Makeup,Spring,Casual
+57636,Men,Lips,Spring,Casual
+57637,Men,Lips,Spring,Casual
+57638,Women,Perfume and Body Mist,Spring,Casual
+57639,Women,Makeup,Spring,Casual
+57640,Men,Makeup,Spring,Casual
+57642,Men,Lips,Spring,Casual
 57643,Men,Makeup,Spring,Casual
 57644,Women,Makeup,Spring,Casual
 57645,Men,Makeup,Spring,Casual
 57646,Men,Makeup,Spring,Casual
 57647,Men,Makeup,Spring,Casual
-57649,Women,Perfume and Body Mist,Spring,Casual
+57649,Women,Makeup,Spring,Casual
 57650,Women,Deodorant,Spring,Casual
-57651,Men,Makeup,Spring,Casual
+57651,Men,Lips,Spring,Casual
 57652,Men,Makeup,Spring,Casual
 57653,Men,Makeup,Spring,Casual
-57654,Men,Makeup,Spring,Casual
+57654,Men,Lips,Spring,Casual
 57655,Men,Makeup,Spring,Casual
 57656,Women,Deodorant,Spring,Casual
 57657,Men,Makeup,Spring,Casual
@@ -4105,16 +4105,16 @@ id,gender,articleType,season,usage
 57662,Men,Makeup,Spring,Casual
 57664,Women,Makeup,Spring,Casual
 57667,Women,Deodorant,Spring,Casual
-57668,Men,Makeup,Spring,Casual
+57668,Men,Lips,Spring,Casual
 57669,Men,Makeup,Spring,Casual
 57670,Men,Makeup,Spring,Casual
-57671,Men,Makeup,Spring,Casual
+57671,Men,Perfume and Body Mist,Spring,Casual
 57672,Men,Makeup,Spring,Casual
 57673,Women,Makeup,Spring,Casual
-57674,Women,Perfume and Body Mist,Spring,Casual
-57675,Women,Deodorant,Spring,Casual
-57676,Women,Fragrance Gift Set,Spring,Casual
-57677,Men,Handbags,Spring,Casual
+57674,Women,Deodorant,Spring,Casual
+57675,Women,Perfume and Body Mist,Spring,Casual
+57676,Women,Deodorant,Spring,Casual
+57677,Men,Perfume and Body Mist,Spring,Casual
 57678,Women,Perfume and Body Mist,Spring,Casual
 57679,Women,Perfume and Body Mist,Spring,Casual
 57681,Women,Perfume and Body Mist,Spring,Casual
@@ -4127,13 +4127,13 @@ id,gender,articleType,season,usage
 57692,Women,Perfume and Body Mist,Spring,Casual
 57694,Women,Deodorant,Spring,Casual
 57696,Women,Perfume and Body Mist,Spring,Casual
-57697,Women,Caps,Winter,Casual
+57697,Women,Perfume and Body Mist,Winter,Casual
 57698,Women,Perfume and Body Mist,Winter,Casual
-57699,Women,Handbags,Winter,Casual
+57699,Women,Wallets,Winter,Casual
 57700,Unisex,Perfume and Body Mist,Spring,Casual
-57701,Men,Belts,Spring,Casual
-57702,Women,Perfume and Body Mist,Summer,Casual
-57703,Women,Deodorant,Spring,Casual
+57701,Men,Shoe Accessories,Spring,Casual
+57702,Women,Wallets,Summer,Casual
+57703,Women,Watches,Spring,Casual
 57704,Women,Deodorant,Spring,Casual
 57705,Women,Deodorant,Spring,Casual
 57706,Women,Lips,Spring,Casual
@@ -4143,40 +4143,40 @@ id,gender,articleType,season,usage
 57710,Women,Lips,Spring,Casual
 57711,Women,Lips,Spring,Casual
 57712,Women,Lips,Spring,Casual
-57713,Men,Makeup,Spring,Casual
-57714,Women,Perfume and Body Mist,Spring,Casual
+57713,Men,Perfume and Body Mist,Spring,Casual
+57714,Women,Lips,Spring,Casual
 57715,Women,Lips,Spring,Casual
 57716,Women,Lips,Spring,Casual
 57717,Women,Lips,Spring,Casual
 57718,Women,Perfume and Body Mist,Spring,Casual
 57719,Women,Lips,Spring,Casual
-57720,Women,Makeup,Spring,Casual
+57720,Women,Perfume and Body Mist,Spring,Casual
 57721,Women,Lips,Spring,Casual
 57724,Women,Makeup,Spring,Casual
-57725,Women,Perfume and Body Mist,Spring,Casual
-57727,Women,Makeup,Spring,Casual
+57725,Women,Makeup,Spring,Casual
+57727,Women,Lips,Spring,Casual
 57728,Women,Wallets,Spring,Casual
 57729,Women,Wallets,Spring,Casual
-57730,Unisex,Handbags,Summer,Casual
+57730,Unisex,Wallets,Summer,Casual
 57731,Women,Wallets,Spring,Casual
-57732,Women,Perfume and Body Mist,Summer,Casual
+57732,Women,Wallets,Summer,Casual
 57733,Women,Wallets,Spring,Casual
 57734,Women,Perfume and Body Mist,Spring,Casual
 57735,Women,Perfume and Body Mist,Spring,Casual
-57736,Women,Perfume and Body Mist,Spring,Casual
+57736,Women,Shoe Accessories,Spring,Casual
 57737,Women,Perfume and Body Mist,Spring,Casual
 57738,Men,Wallets,Spring,Casual
 57739,Women,Shoe Accessories,Summer,Casual
-57740,Girls,Shoe Accessories,Summer,Casual
+57740,Girls,Apparel Set,Summer,Casual
 57741,Girls,Shoe Accessories,Summer,Casual
 57742,Women,Shoe Accessories,Summer,Casual
 57743,Girls,Shoe Accessories,Summer,Casual
 57744,Women,Shoe Accessories,Summer,Casual
-57745,Men,Lips,Spring,Casual
-57746,Women,Lips,Spring,Casual
-57747,Men,Lips,Spring,Casual
-57749,Women,Perfume and Body Mist,Spring,Casual
-57750,Women,Perfume and Body Mist,Spring,Casual
+57745,Men,Shoe Accessories,Spring,Casual
+57746,Women,Shoe Accessories,Spring,Casual
+57747,Men,Shoe Accessories,Spring,Casual
+57749,Women,Makeup,Spring,Casual
+57750,Women,Makeup,Spring,Casual
 57752,Men,Perfume and Body Mist,Spring,Casual
 57753,Men,Makeup,Spring,Casual
 57754,Women,Deodorant,Spring,Casual
@@ -4184,42 +4184,42 @@ id,gender,articleType,season,usage
 57756,Women,Deodorant,Spring,Casual
 57757,Women,Perfume and Body Mist,Spring,Casual
 57758,Women,Deodorant,Spring,Casual
-57759,Women,Perfume and Body Mist,Spring,Casual
-57760,Women,Perfume and Body Mist,Spring,Casual
+57759,Women,Deodorant,Spring,Casual
+57760,Women,Deodorant,Spring,Casual
 57761,Women,Deodorant,Spring,Casual
-57762,Women,Perfume and Body Mist,Spring,Casual
+57762,Women,Deodorant,Spring,Casual
 57763,Men,Perfume and Body Mist,Fall,Casual
 57764,Women,Deodorant,Spring,Casual
 57765,Women,Deodorant,Spring,Casual
-57766,Women,Apparel Set,Summer,Casual
-57767,Women,Makeup,Spring,Casual
+57766,Women,Shoe Accessories,Summer,Casual
+57767,Women,Deodorant,Spring,Casual
 57768,Women,Deodorant,Spring,Casual
 57770,Men,Perfume and Body Mist,Spring,Casual
 57771,Women,Deodorant,Spring,Casual
 57772,Women,Deodorant,Spring,Casual
 57773,Women,Perfume and Body Mist,Spring,Casual
-57774,Women,Shoe Accessories,Spring,Casual
-57776,Men,Perfume and Body Mist,Spring,Casual
-57777,Women,Shoe Accessories,Spring,Casual
+57774,Women,Deodorant,Spring,Casual
+57776,Men,Wallets,Spring,Casual
+57777,Women,Makeup,Spring,Casual
 57778,Men,Wallets,Spring,Casual
-57779,Men,Perfume and Body Mist,Spring,Casual
+57779,Men,Wallets,Spring,Casual
 57780,Women,Eyes,Spring,Casual
 57781,Men,Wallets,Spring,Casual
-57782,Women,Duffel Bag,Spring,Casual
-57783,Women,Deodorant,Spring,Casual
-57784,Women,Caps,Spring,Casual
-57785,Women,Caps,Spring,Casual
-57786,Women,Caps,Winter,Casual
+57782,Women,Wallets,Spring,Casual
+57783,Women,Makeup,Spring,Casual
+57784,Women,Ring,Spring,Casual
+57785,Women,Ring,Spring,Casual
+57786,Women,Ring,Winter,Casual
 57787,Women,Makeup,Spring,Casual
-57788,Women,Makeup,Spring,Casual
+57788,Women,Perfume and Body Mist,Spring,Casual
 57789,Women,Makeup,Spring,Casual
-57790,Women,Makeup,Spring,Casual
-57791,Women,Makeup,Spring,Casual
+57790,Women,Perfume and Body Mist,Spring,Casual
+57791,Women,Accessories,Spring,Casual
 57792,Women,Makeup,Spring,Casual
-57793,Women,Makeup,Spring,Casual
+57793,Women,Accessories,Spring,Casual
 57794,Women,Perfume and Body Mist,Spring,Casual
 57795,Women,Wallets,Spring,Casual
-57796,Men,Backpacks,Spring,Casual
+57796,Men,Caps,Spring,Casual
 57798,Women,Deodorant,Spring,Casual
 57800,Women,Deodorant,Spring,Casual
 57801,Women,Deodorant,Spring,Casual
@@ -4231,15 +4231,15 @@ id,gender,articleType,season,usage
 57811,Women,Dresses,Summer,Casual
 57812,Women,Dresses,Summer,Ethnic
 57815,Women,Tops,Summer,Casual
-57816,Women,Tops,Summer,Casual
+57816,Women,Tunics,Summer,Casual
 57817,Women,Tops,Summer,Casual
 57818,Women,Tops,Summer,Casual
 57819,Women,Dresses,Summer,Casual
 57820,Women,Tops,Winter,Casual
 57823,Women,Tops,Summer,Casual
-57824,Women,Bottomwear,Summer,Casual
+57824,Women,Jeans,Summer,Casual
 57832,Women,Tops,Summer,Casual
-57833,Men,Tshirts,Summer,Casual
+57833,Men,Innerwear Vests,Summer,Casual
 57834,Men,Tshirts,Summer,Casual
 57835,Women,Clutches,Summer,Casual
 57836,Women,Wallets,Summer,Casual
@@ -4247,38 +4247,38 @@ id,gender,articleType,season,usage
 57838,Women,Mobile Pouch,Summer,Casual
 57845,Women,Mobile Pouch,Summer,Casual
 57846,Women,Mobile Pouch,Summer,Casual
-57847,Unisex,Mobile Pouch,Winter,Casual
+57847,Unisex,Clutches,Winter,Casual
 57849,Women,Heels,Winter,Casual
 57850,Women,Heels,Winter,Casual
-57851,Women,Sports Shoes,Fall,Casual
+57851,Women,Casual Shoes,Fall,Casual
 57852,Women,Heels,Winter,Casual
 57853,Women,Flats,Winter,Casual
 57854,Women,Heels,Winter,Casual
-57855,Women,Flats,Winter,Casual
+57855,Women,Heels,Winter,Casual
 57856,Women,Heels,Winter,Casual
-57857,Women,Heels,Winter,Casual
+57857,Women,Flats,Winter,Casual
 57858,Women,Flats,Winter,Casual
 57859,Men,Deodorant,Spring,Casual
 57860,Women,Deodorant,Spring,Casual
 57861,Women,Deodorant,Spring,Casual
 57862,Women,Perfume and Body Mist,Spring,Casual
 57863,Unisex,Perfume and Body Mist,Spring,Casual
-57864,Women,Deodorant,Spring,Casual
-57865,Women,Deodorant,Spring,Casual
+57864,Women,Perfume and Body Mist,Spring,Casual
+57865,Women,Perfume and Body Mist,Spring,Casual
 57866,Men,Perfume and Body Mist,Spring,Casual
 57867,Women,Perfume and Body Mist,Spring,Casual
 57868,Women,Perfume and Body Mist,Spring,Casual
-57869,Women,Fragrance Gift Set,Spring,Casual
-57870,Women,Deodorant,Spring,Casual
+57869,Women,Perfume and Body Mist,Spring,Casual
+57870,Women,Perfume and Body Mist,Spring,Casual
 57871,Men,Deodorant,Spring,Casual
-57872,Men,Perfume and Body Mist,Spring,Casual
-57873,Men,Wristbands,Spring,Casual
-57874,Men,Wristbands,Fall,Casual
+57872,Men,Ring,Spring,Casual
+57873,Men,Sports Equipment,Spring,Casual
+57874,Men,Perfume and Body Mist,Fall,Casual
 57875,Women,Perfume and Body Mist,Spring,Casual
 57876,Women,Perfume and Body Mist,Spring,Casual
-57877,Men,Wristbands,Spring,Casual
+57877,Men,Perfume and Body Mist,Spring,Casual
 57878,Unisex,Perfume and Body Mist,Fall,Casual
-57879,Unisex,Perfume and Body Mist,Spring,Casual
+57879,Unisex,Trunk,Spring,Casual
 57880,Boys,Perfume and Body Mist,Spring,Casual
 57881,Women,Deodorant,Spring,Casual
 57883,Men,Perfume and Body Mist,Spring,Casual
@@ -4286,28 +4286,28 @@ id,gender,articleType,season,usage
 57885,Unisex,Perfume and Body Mist,Spring,Casual
 57886,Women,Perfume and Body Mist,Spring,Casual
 57887,Men,Perfume and Body Mist,Spring,Casual
-57888,Men,Fragrance Gift Set,Spring,Casual
+57888,Men,Perfume and Body Mist,Spring,Casual
 57889,Men,Perfume and Body Mist,Spring,Casual
-57890,Men,Messenger Bag,Spring,Casual
+57890,Men,Clutches,Spring,Casual
 57891,Men,Makeup,Spring,Casual
 57892,Men,Wallets,Winter,Casual
 57893,Women,Leggings,Summer,Casual
 57894,Women,Leggings,Summer,Ethnic
 57895,Women,Kurtis,Summer,Casual
 57896,Women,Leggings,Summer,Casual
-57897,Women,Tops,Summer,Casual
+57897,Women,Scarves,Summer,Casual
 57898,Women,Tops,Summer,Casual
-57899,Women,Leggings,Fall,Casual
+57899,Women,Jeans,Fall,Casual
 57906,Women,Socks,Summer,Casual
 57907,Men,Socks,Summer,Formal
-57908,Women,Socks,Summer,Sports
+57908,Women,Handbags,Summer,Sports
 57909,Unisex,Socks,Summer,Formal
 57910,Unisex,Socks,Summer,Casual
 57911,Men,Socks,Summer,Casual
 57912,Men,Socks,Summer,Casual
 57913,Unisex,Socks,Summer,Casual
 57914,Women,Socks,Summer,Casual
-57915,Unisex,Gloves,Summer,Formal
+57915,Unisex,Backpacks,Summer,Formal
 57916,Men,Socks,Summer,Formal
 57917,Women,Socks,Summer,Casual
 57918,Unisex,Socks,Summer,Formal
@@ -4324,13 +4324,13 @@ id,gender,articleType,season,usage
 57933,Men,Tshirts,Summer,Casual
 57934,Men,Sandals,Winter,Casual
 57935,Men,Sandals,Fall,Casual
-57936,Men,Sports Shoes,Winter,Casual
+57936,Men,Casual Shoes,Winter,Casual
 57937,Men,Sports Shoes,Fall,Sports
 57938,Men,Sandals,Spring,Casual
-57939,Men,Formal Shoes,Winter,Casual
+57939,Men,Casual Shoes,Winter,Casual
 57940,Men,Sandals,Summer,Casual
 57941,Men,Formal Shoes,Winter,Casual
-57942,Men,Casual Shoes,Winter,Casual
+57942,Men,Formal Shoes,Winter,Casual
 57943,Men,Formal Shoes,Winter,Casual
 57944,Men,Sandals,Summer,Casual
 57945,Men,Sandals,Summer,Casual
@@ -4370,11 +4370,11 @@ id,gender,articleType,season,usage
 57985,Women,Tunics,Summer,Casual
 57986,Women,Dresses,Summer,Casual
 57987,Women,Dresses,Summer,Casual
-57988,Women,Dresses,Summer,Casual
+57988,Women,Nightdress,Summer,Casual
 57989,Women,Dresses,Summer,Casual
 57990,Women,Dresses,Summer,Ethnic
 57991,Women,Dresses,Summer,Ethnic
-57992,Women,Shirts,Summer,Casual
+57992,Women,Kurtis,Summer,Casual
 57993,Women,Dresses,Summer,Casual
 57994,Women,Tunics,Summer,Casual
 57995,Women,Dresses,Summer,Casual
@@ -4384,16 +4384,16 @@ id,gender,articleType,season,usage
 57999,Women,Dresses,Summer,Casual
 58000,Women,Dresses,Summer,Casual
 58001,Women,Dresses,Summer,Casual
-58002,Women,Dresses,Summer,Casual
+58002,Women,Nightdress,Summer,Casual
 58003,Women,Dresses,Summer,Casual
 58004,Women,Sweaters,Summer,Casual
-58005,Women,Tops,Summer,Casual
+58005,Women,Tunics,Summer,Casual
 58006,Women,Tops,Summer,Casual
 58007,Women,Tops,Summer,Casual
-58008,Women,Tops,Summer,Casual
+58008,Women,Tshirts,Summer,Casual
 58009,Women,Tops,Summer,Casual
 58010,Women,Tops,Summer,Casual
-58011,Women,Tops,Summer,Casual
+58011,Women,Jackets,Summer,Casual
 58012,Women,Tunics,Summer,Casual
 58013,Women,Tops,Summer,Casual
 58014,Women,Tops,Summer,Casual
@@ -4409,7 +4409,7 @@ id,gender,articleType,season,usage
 58028,Women,Earrings,Fall,Ethnic
 58030,Women,Earrings,Winter,Ethnic
 58032,Women,Earrings,Winter,Casual
-58035,Women,Sports Shoes,Summer,Casual
+58035,Women,Necklace and Chains,Summer,Casual
 58037,Unisex,Earrings,Summer,Casual
 58039,Women,Earrings,Summer,Casual
 58041,Women,Earrings,Winter,Casual
@@ -4441,8 +4441,8 @@ id,gender,articleType,season,usage
 58087,Women,Earrings,Summer,Smart Casual
 58093,Women,Earrings,Winter,Casual
 58096,Women,Pendant,Fall,Casual
-58097,Women,Shoe Accessories,Spring,Casual
-58098,Women,Cufflinks,Spring,Casual
+58097,Women,Tshirts,Spring,Casual
+58098,Women,Ring,Spring,Casual
 58099,Men,Ring,Winter,Casual
 58100,Women,Bra,Winter,Casual
 58104,Women,Ring,Winter,Casual
@@ -4452,10 +4452,10 @@ id,gender,articleType,season,usage
 58110,Women,Earrings,Summer,Casual
 58111,Women,Earrings,Winter,Ethnic
 58112,Women,Earrings,Summer,Casual
-58115,Women,Perfume and Body Mist,Summer,Casual
+58115,Women,Pendant,Summer,Casual
 58116,Women,Pendant,Spring,Casual
 58117,Women,Perfume and Body Mist,Winter,Casual
-58118,Women,Perfume and Body Mist,Spring,Casual
+58118,Women,Pendant,Spring,Casual
 58121,Women,Earrings,Summer,Casual
 58123,Women,Earrings,Winter,Casual
 58128,Women,Earrings,Winter,Ethnic
@@ -4466,7 +4466,7 @@ id,gender,articleType,season,usage
 58135,Women,Earrings,Winter,Casual
 58136,Girls,Earrings,Winter,Casual
 58137,Women,Earrings,Fall,Casual
-58138,Women,Ring,Summer,Casual
+58138,Women,Earrings,Summer,Casual
 58139,Women,Mobile Pouch,Summer,Casual
 58140,Women,Earrings,Winter,Ethnic
 58141,Women,Earrings,Winter,Casual
@@ -4483,21 +4483,21 @@ id,gender,articleType,season,usage
 58153,Unisex,Caps,Summer,Casual
 58154,Unisex,Caps,Summer,Sports
 58155,Women,Handbags,Winter,Casual
-58156,Women,Backpacks,Winter,Casual
+58156,Women,Handbags,Winter,Casual
 58157,Women,Handbags,Winter,Casual
 58158,Women,Dupatta,Summer,Casual
 58159,Women,Wallets,Summer,Casual
 58160,Women,Clutches,Summer,Casual
 58161,Women,Wallets,Summer,Casual
-58162,Women,Wallets,Spring,Casual
+58162,Women,Perfume and Body Mist,Spring,Casual
 58163,Women,Wallets,Summer,Casual
 58164,Women,Wallets,Summer,Casual
-58165,Women,Wallets,Summer,Casual
+58165,Women,Clutches,Summer,Casual
 58166,Women,Wallets,Summer,Casual
 58167,Women,Clutches,Summer,Casual
-58168,Women,Wallets,Winter,Casual
+58168,Women,Clutches,Winter,Casual
 58169,Women,Clutches,Summer,Casual
-58170,Women,Wallets,Summer,Casual
+58170,Women,Clutches,Summer,Casual
 58171,Women,Handbags,Summer,Casual
 58172,Women,Handbags,Summer,Casual
 58173,Women,Handbags,Winter,Casual
@@ -4506,7 +4506,7 @@ id,gender,articleType,season,usage
 58176,Women,Handbags,Summer,Casual
 58177,Women,Handbags,Summer,Casual
 58178,Women,Handbags,Summer,Casual
-58179,Women,Handbags,Summer,Casual
+58179,Women,Bra,Summer,Casual
 58180,Women,Handbags,Winter,Casual
 58181,Women,Handbags,Winter,Casual
 58182,Women,Handbags,Summer,Casual
@@ -4520,7 +4520,7 @@ id,gender,articleType,season,usage
 58190,Unisex,Handbags,Summer,Casual
 58191,Women,Handbags,Winter,Casual
 58194,Women,Handbags,Winter,Casual
-58195,Women,Handbags,Summer,Casual
+58195,Women,Bra,Summer,Casual
 58196,Women,Handbags,Summer,Casual
 58200,Men,Formal Shoes,Winter,Casual
 58201,Unisex,Wallets,Winter,Formal
@@ -4546,7 +4546,7 @@ id,gender,articleType,season,usage
 58226,Men,Sandals,Summer,Casual
 58227,Men,Sandals,Fall,Casual
 58229,Men,Sandals,Spring,Casual
-58231,Women,Flip Flops,Summer,Casual
+58231,Women,Flats,Summer,Casual
 58232,Men,Flip Flops,Summer,Casual
 58233,Men,Wallets,Winter,Casual
 58234,Unisex,Wallets,Summer,Casual
@@ -4562,23 +4562,23 @@ id,gender,articleType,season,usage
 58244,Women,Wallets,Summer,Casual
 58245,Women,Wallets,Summer,Casual
 58246,Women,Wallets,Summer,Casual
-58247,Women,Wallets,Summer,Casual
+58247,Women,Clutches,Summer,Casual
 58248,Women,Wallets,Summer,Casual
 58249,Women,Wallets,Summer,Casual
 58250,Women,Wallets,Summer,Casual
-58251,Women,Clutches,Summer,Casual
+58251,Women,Wallets,Summer,Casual
 58252,Unisex,Wallets,Winter,Casual
 58253,Women,Clutches,Summer,Casual
-58254,Women,Wallets,Summer,Casual
-58255,Women,Wallets,Summer,Casual
+58254,Women,Mobile Pouch,Summer,Casual
+58255,Women,Clutches,Summer,Casual
 58256,Women,Clutches,Summer,Casual
 58257,Women,Wallets,Winter,Casual
 58258,Women,Wallets,Summer,Casual
-58259,Women,Handbags,Summer,Casual
+58259,Women,Clutches,Summer,Casual
 58260,Women,Wallets,Summer,Casual
-58261,Women,Clutches,Summer,Casual
+58261,Women,Wallets,Summer,Casual
 58262,Women,Clutches,Summer,Casual
-58263,Women,Wallets,Summer,Casual
+58263,Women,Clutches,Summer,Casual
 58264,Women,Handbags,Winter,Casual
 58265,Women,Handbags,Winter,Casual
 58266,Women,Handbags,Summer,Casual
@@ -4587,16 +4587,16 @@ id,gender,articleType,season,usage
 58269,Women,Handbags,Summer,Casual
 58270,Women,Clutches,Summer,Casual
 58271,Women,Handbags,Summer,Casual
-58272,Women,Messenger Bag,Summer,Casual
+58272,Women,Handbags,Summer,Casual
 58273,Women,Handbags,Winter,Casual
 58274,Women,Handbags,Winter,Casual
 58275,Women,Bags,Summer,Casual
 58276,Women,Handbags,Summer,Casual
-58277,Unisex,Handbags,Winter,Casual
+58277,Unisex,Messenger Bag,Winter,Casual
 58278,Women,Handbags,Winter,Casual
 58279,Women,Handbags,Summer,Casual
 58280,Women,Handbags,Summer,Casual
-58281,Unisex,Wallets,Winter,Casual
+58281,Unisex,Mobile Pouch,Winter,Casual
 58282,Unisex,Wallets,Winter,Casual
 58283,Women,Clutches,Summer,Casual
 58284,Women,Clutches,Summer,Casual
@@ -4640,13 +4640,13 @@ id,gender,articleType,season,usage
 58329,Men,Flip Flops,Summer,Casual
 58330,Men,Flip Flops,Summer,Casual
 58331,Men,Flip Flops,Summer,Casual
-58332,Men,Flip Flops,Summer,Casual
+58332,Men,Sandals,Summer,Casual
 58333,Men,Flip Flops,Summer,Casual
 58334,Men,Flip Flops,Summer,Casual
 58335,Men,Flip Flops,Summer,Casual
 58336,Men,Flip Flops,Summer,Casual
 58337,Women,Flats,Summer,Casual
-58338,Women,Flip Flops,Winter,Casual
+58338,Women,Flats,Winter,Casual
 58339,Women,Flats,Fall,Casual
 58340,Women,Flip Flops,Fall,Casual
 58349,Men,Tshirts,Summer,Casual
@@ -4658,13 +4658,13 @@ id,gender,articleType,season,usage
 58381,Men,Tshirts,Summer,Casual
 58385,Men,Tshirts,Summer,Casual
 58394,Men,Tshirts,Summer,Casual
-58395,Men,Shirts,Summer,Casual
+58395,Men,Tshirts,Summer,Casual
 58411,Men,Jeans,Summer,Casual
 58418,Men,Jeans,Summer,Casual
 58425,Women,Kurtas,Summer,Casual
 58439,Women,Dresses,Summer,Casual
 58444,Women,Watches,Winter,Casual
-58445,Men,Watches,Winter,Casual
+58445,Men,Free Gifts,Winter,Casual
 58446,Women,Kurtis,Fall,Casual
 58447,Men,Watches,Winter,Casual
 58448,Men,Watches,Winter,Casual
@@ -4707,38 +4707,38 @@ id,gender,articleType,season,usage
 58489,Women,Dresses,Summer,Casual
 58490,Women,Dresses,Summer,Casual
 58491,Women,Shorts,Summer,Casual
-58492,Women,Dresses,Summer,Casual
+58492,Women,Tunics,Summer,Casual
 58493,Women,Dresses,Summer,Casual
-58494,Women,Nightdress,Fall,Casual
+58494,Women,Free Gifts,Fall,Casual
 58495,Women,Tops,Summer,Casual
 58496,Women,Tshirts,Summer,Casual
 58497,Women,Tops,Summer,Casual
 58498,Women,Tunics,Summer,Casual
-58499,Women,Tops,Summer,Casual
-58500,Women,Tops,Summer,Casual
+58499,Women,Dresses,Summer,Casual
+58500,Women,Tunics,Summer,Casual
 58501,Women,Bottomwear,Summer,Casual
-58502,Women,Kurtis,Summer,Ethnic
+58502,Women,Tunics,Summer,Ethnic
 58503,Women,Dresses,Winter,Casual
-58504,Women,Dresses,Winter,Casual
-58505,Women,Dresses,Summer,Casual
+58504,Women,Skirts,Winter,Casual
+58505,Women,Tunics,Summer,Casual
 58506,Women,Dresses,Summer,Casual
-58507,Women,Tops,Summer,Casual
-58508,Women,Tops,Summer,Casual
+58507,Women,Tshirts,Summer,Casual
+58508,Women,Tshirts,Summer,Casual
 58509,Women,Dresses,Summer,Casual
 58510,Women,Tops,Summer,Casual
 58511,Women,Sweaters,Summer,Casual
 58512,Women,Tops,Summer,Casual
 58513,Women,Tops,Summer,Casual
 58514,Women,Tops,Summer,Casual
-58515,Women,Tops,Summer,Casual
+58515,Women,Innerwear Vests,Summer,Casual
 58516,Women,Tops,Summer,Casual
 58517,Women,Tshirts,Summer,Casual
-58518,Women,Tshirts,Fall,Casual
+58518,Women,Sweaters,Fall,Casual
 58519,Women,Necklace and Chains,Fall,Casual
-58520,Women,Dresses,Winter,Casual
+58520,Women,Innerwear,Winter,Casual
 58521,Unisex,Socks,Summer,Casual
-58522,Unisex,Messenger Bag,Fall,Casual
-58523,Unisex,Handbags,Winter,Casual
+58522,Unisex,Backpacks,Fall,Casual
+58523,Unisex,Wallets,Winter,Casual
 58524,Men,Mobile Pouch,Summer,Casual
 58525,Unisex,Wallets,Summer,Casual
 58526,Men,Jackets,Fall,Casual
@@ -4773,9 +4773,9 @@ id,gender,articleType,season,usage
 58559,Men,Tshirts,Summer,Casual
 58560,Women,Jeans,Summer,Casual
 58561,Women,Jeans,Fall,Casual
-58562,Women,Leggings,Summer,Casual
+58562,Women,Jeans,Summer,Casual
 58563,Men,Shirts,Summer,Formal
-58565,Men,Innerwear Vests,Summer,Casual
+58565,Men,Tshirts,Summer,Casual
 58566,Men,Tshirts,Summer,Casual
 58567,Men,Tracksuits,Summer,Ethnic
 58569,Men,Tshirts,Summer,Casual
@@ -4787,12 +4787,12 @@ id,gender,articleType,season,usage
 58577,Men,Tshirts,Summer,Casual
 58581,Women,Ring,Winter,Casual
 58586,Women,Necklace and Chains,Summer,Casual
-58588,Women,Pendant,Summer,Formal
+58588,Women,Necklace and Chains,Summer,Formal
 58589,Women,Necklace and Chains,Summer,Casual
 58590,Men,Necklace and Chains,Fall,Sports
-58591,Women,Pendant,Summer,Casual
+58591,Women,Necklace and Chains,Summer,Casual
 58600,Girls,Earrings,Fall,Casual
-58603,Girls,Messenger Bag,Summer,Casual
+58603,Girls,Tshirts,Summer,Casual
 58605,Women,Earrings,Winter,Casual
 58606,Women,Earrings,Winter,Ethnic
 58607,Women,Earrings,Winter,Casual
@@ -4801,20 +4801,20 @@ id,gender,articleType,season,usage
 58610,Women,Earrings,Summer,Casual
 58611,Unisex,Earrings,Summer,Ethnic
 58612,Women,Earrings,Winter,Casual
-58614,Men,Shorts,Winter,Casual
-58615,Women,Shorts,Winter,Casual
+58614,Men,Gloves,Winter,Casual
+58615,Women,Gloves,Winter,Casual
 58616,Women,Earrings,Winter,Casual
 58618,Women,Earrings,Winter,Ethnic
 58619,Women,Earrings,Summer,Casual
 58620,Women,Earrings,Summer,Casual
-58621,Women,Shorts,Summer,Casual
-58622,Women,Handbags,Summer,Casual
+58621,Women,Caps,Summer,Casual
+58622,Women,Watches,Summer,Casual
 58624,Unisex,Caps,Summer,Casual
 58625,Men,Bangle,Winter,Casual
-58626,Men,Bags,Summer,Casual
+58626,Men,Belts,Summer,Casual
 58627,Men,Caps,Summer,Casual
-58628,Women,Sweaters,Winter,Casual
-58629,Men,Bags,Winter,Casual
+58628,Women,Trunk,Winter,Casual
+58629,Men,Wallets,Winter,Casual
 58634,Men,Socks,Summer,Casual
 58635,Men,Socks,Summer,Casual
 58636,Men,Socks,Summer,Casual
@@ -4824,21 +4824,21 @@ id,gender,articleType,season,usage
 58640,Men,Socks,Summer,Casual
 58641,Men,Socks,Summer,Casual
 58642,Unisex,Socks,Summer,Casual
-58643,Women,Tunics,Summer,Casual
-58644,Women,Tunics,Summer,Casual
-58645,Women,Kurtas,Summer,Ethnic
-58646,Women,Tunics,Summer,Casual
+58643,Women,Kurtas,Summer,Casual
+58644,Women,Kurtas,Summer,Casual
+58645,Women,Stoles,Summer,Ethnic
+58646,Women,Kurtas,Summer,Casual
 58647,Women,Kurtas,Summer,Casual
-58648,Women,Kurtas,Summer,Casual
-58652,Women,Kurtas,Summer,Ethnic
+58648,Women,Tunics,Summer,Casual
+58652,Women,Tunics,Summer,Ethnic
 58653,Women,Tunics,Summer,Ethnic
-58654,Women,Kurtas,Summer,Ethnic
-58655,Women,Tunics,Summer,Ethnic
-58656,Women,Tunics,Summer,Ethnic
+58654,Women,Kurtis,Summer,Ethnic
+58655,Women,Kurtas,Summer,Ethnic
+58656,Women,Kurtis,Summer,Ethnic
 58657,Women,Tunics,Summer,Ethnic
 58658,Women,Kurtas,Summer,Ethnic
 58659,Women,Tunics,Summer,Ethnic
-58660,Women,Kurtas,Summer,Ethnic
+58660,Women,Kurtis,Summer,Ethnic
 58661,Women,Kurtas,Summer,Ethnic
 58662,Women,Kurtas,Fall,Ethnic
 58663,Women,Tunics,Summer,Ethnic
@@ -4847,37 +4847,37 @@ id,gender,articleType,season,usage
 58667,Women,Kurtas,Summer,Ethnic
 58668,Women,Kurtas,Summer,Ethnic
 58669,Women,Kurtas,Summer,Ethnic
-58670,Women,Tunics,Summer,Ethnic
+58670,Women,Kurtas,Summer,Ethnic
 58671,Women,Kurtas,Summer,Ethnic
 58672,Women,Kurtas,Summer,Ethnic
 58673,Women,Kurtas,Summer,Casual
-58674,Women,Kurtas,Summer,Ethnic
+58674,Women,Kurtis,Summer,Ethnic
 58675,Women,Kurtas,Summer,Ethnic
 58676,Women,Kurtas,Summer,Ethnic
-58677,Women,Tunics,Summer,Casual
+58677,Women,Kurtas,Summer,Casual
 58678,Women,Kurtas,Summer,Casual
 58680,Women,Kurtas,Summer,Casual
 58681,Women,Kurtas,Summer,Ethnic
-58682,Women,Tunics,Summer,Ethnic
+58682,Women,Kurtis,Summer,Ethnic
 58683,Women,Kurtas,Summer,Ethnic
 58684,Women,Kurtas,Summer,Ethnic
-58685,Women,Kurtas,Summer,Ethnic
-58686,Women,Stoles,Summer,Casual
-58687,Women,Dupatta,Summer,Casual
-58689,Women,Kurtas,Summer,Ethnic
-58690,Women,Kurtas,Summer,Ethnic
-58691,Women,Kurtas,Summer,Ethnic
+58685,Women,Dresses,Summer,Ethnic
+58686,Women,Kurtas,Summer,Casual
+58687,Women,Kurtas,Summer,Casual
+58689,Women,Kurtis,Summer,Ethnic
+58690,Women,Tunics,Summer,Ethnic
+58691,Women,Tunics,Summer,Ethnic
 58692,Women,Kurtas,Summer,Ethnic
 58693,Women,Tunics,Summer,Ethnic
 58694,Women,Kurtas,Summer,Ethnic
-58695,Women,Kurtas,Summer,Ethnic
-58696,Women,Kurtas,Summer,Ethnic
-58698,Women,Tunics,Summer,Casual
+58695,Women,Tunics,Summer,Ethnic
+58696,Women,Tunics,Summer,Ethnic
+58698,Women,Kurtas,Summer,Casual
 58700,Women,Tunics,Summer,Ethnic
 58701,Women,Kurtas,Summer,Ethnic
-58702,Women,Kurtas,Summer,Ethnic
+58702,Women,Kurtis,Summer,Ethnic
 58703,Women,Tunics,Summer,Ethnic
-58718,Women,Tunics,Summer,Ethnic
+58718,Women,Kurtas,Summer,Ethnic
 58719,Women,Kurtas,Summer,Ethnic
 58720,Men,Tshirts,Fall,Casual
 58722,Men,Tshirts,Fall,Casual
@@ -4886,48 +4886,48 @@ id,gender,articleType,season,usage
 58725,Men,Tshirts,Summer,Casual
 58726,Men,Tshirts,Summer,Casual
 58727,Women,Tshirts,Summer,Casual
-58728,Women,Tops,Summer,Casual
+58728,Women,Tshirts,Summer,Casual
 58729,Women,Tshirts,Summer,Casual
-58730,Women,Tops,Summer,Casual
-58731,Women,Tops,Summer,Casual
+58730,Women,Tshirts,Summer,Casual
+58731,Women,Tshirts,Summer,Casual
 58732,Men,Tshirts,Summer,Casual
 58734,Men,Tshirts,Fall,Casual
-58735,Women,Tops,Summer,Casual
+58735,Women,Tshirts,Summer,Casual
 58736,Women,Capris,Summer,Casual
 58737,Women,Tunics,Summer,Casual
 58738,Women,Tops,Summer,Casual
-58740,Men,Shirts,Summer,Casual
+58740,Men,Tshirts,Summer,Casual
 58741,Men,Tshirts,Summer,Casual
 58742,Men,Tshirts,Summer,Casual
-58743,Men,Shirts,Summer,Casual
-58744,Men,Shirts,Summer,Casual
-58745,Men,Socks,Winter,Casual
-58765,Men,Shirts,Summer,Casual
+58743,Men,Tshirts,Summer,Casual
+58744,Men,Tshirts,Summer,Casual
+58745,Men,Watches,Winter,Casual
+58765,Men,Tshirts,Summer,Casual
 58770,Men,Shirts,Summer,Casual
 58793,Men,Shirts,Summer,Casual
-58794,Men,Shirts,Fall,Casual
+58794,Men,Tshirts,Fall,Casual
 58795,Men,Shirts,Fall,Casual
 58796,Men,Shirts,Fall,Casual
 58797,Men,Shirts,Summer,Casual
-58798,Men,Shirts,Winter,Casual
+58798,Men,Jackets,Winter,Casual
 58800,Men,Shirts,Fall,Casual
 58801,Men,Sweaters,Fall,Casual
 58802,Men,Shirts,Fall,Formal
 58805,Men,Shirts,Fall,Casual
-58807,Men,Mufflers,Winter,Casual
+58807,Men,Sweatshirts,Winter,Casual
 58808,Men,Shirts,Summer,Casual
 58809,Men,Shirts,Fall,Formal
 58810,Men,Shirts,Fall,Casual
 58815,Women,Flats,Winter,Casual
-58816,Women,Casual Shoes,Winter,Casual
-58817,Women,Casual Shoes,Spring,Casual
-58818,Women,Casual Shoes,Winter,Casual
+58816,Women,Flats,Winter,Casual
+58817,Women,Heels,Spring,Casual
+58818,Women,Flats,Winter,Casual
 58819,Women,Casual Shoes,Winter,Casual
 58820,Men,Sandals,Summer,Casual
 58821,Men,Watches,Winter,Casual
-58822,Men,Watches,Winter,Casual
+58822,Men,Free Gifts,Winter,Casual
 58823,Men,Watches,Winter,Casual
-58825,Men,Accessories,Winter,Casual
+58825,Men,Watches,Winter,Casual
 58827,Men,Watches,Winter,Casual
 58828,Women,Watches,Winter,Casual
 58829,Women,Watches,Winter,Casual
@@ -4956,14 +4956,14 @@ id,gender,articleType,season,usage
 58852,Men,Cufflinks,Winter,Formal
 58853,Women,Cufflinks,Spring,Formal
 58854,Men,Cufflinks,Summer,Formal
-58855,Men,Bracelet,Summer,Formal
+58855,Men,Sunglasses,Summer,Formal
 58856,Men,Cufflinks,Fall,Casual
 58857,Men,Cufflinks,Winter,Formal
 58858,Women,Cufflinks,Fall,Formal
 58859,Women,Cufflinks,Summer,Casual
 58860,Women,Cufflinks,Summer,Formal
 58861,Women,Cufflinks,Winter,Formal
-58862,Women,Cufflinks,Winter,Casual
+58862,Women,Shoe Accessories,Winter,Casual
 58863,Women,Cufflinks,Winter,Casual
 58864,Men,Cufflinks,Fall,Casual
 58865,Unisex,Cufflinks,Winter,Casual
@@ -5021,15 +5021,15 @@ id,gender,articleType,season,usage
 58918,Men,Ties,Summer,Formal
 58919,Men,Ties,Summer,Formal
 58920,Men,Accessory Gift Set,Fall,Casual
-58921,Men,Socks,Fall,Casual
-58922,Men,Socks,Fall,Casual
+58921,Men,Accessory Gift Set,Fall,Casual
+58922,Men,Accessory Gift Set,Fall,Casual
 58923,Men,Accessory Gift Set,Fall,Casual
 58924,Men,Accessory Gift Set,Fall,Casual
-58925,Women,Messenger Bag,Winter,Casual
-58926,Women,Handbags,Winter,Casual
+58925,Women,Bags,Winter,Casual
+58926,Women,Perfume and Body Mist,Winter,Casual
 58928,Unisex,Messenger Bag,Winter,Casual
-58931,Women,Clutches,Summer,Casual
-58932,Women,Clutches,Summer,Casual
+58931,Women,Mobile Pouch,Summer,Casual
+58932,Women,Mobile Pouch,Summer,Casual
 58934,Men,Watches,Winter,Casual
 58935,Men,Watches,Winter,Casual
 58937,Men,Watches,Winter,Casual
@@ -5040,7 +5040,7 @@ id,gender,articleType,season,usage
 58943,Women,Perfume and Body Mist,Spring,Casual
 58944,Women,Perfume and Body Mist,Spring,Casual
 58945,Women,Deodorant,Spring,Casual
-58946,Women,Deodorant,Spring,Casual
+58946,Women,Perfume and Body Mist,Spring,Casual
 58947,Women,Deodorant,Spring,Casual
 58948,Women,Deodorant,Spring,Casual
 58949,Women,Deodorant,Spring,Casual
@@ -5057,7 +5057,7 @@ id,gender,articleType,season,usage
 58962,Women,Perfume and Body Mist,Spring,Casual
 58963,Men,Deodorant,Spring,Casual
 58964,Women,Deodorant,Spring,Casual
-58965,Women,Deodorant,Spring,Casual
+58965,Women,Perfume and Body Mist,Spring,Casual
 58966,Women,Perfume and Body Mist,Spring,Casual
 58967,Women,Deodorant,Spring,Casual
 58968,Women,Perfume and Body Mist,Spring,Casual
@@ -5065,7 +5065,7 @@ id,gender,articleType,season,usage
 58970,Women,Deodorant,Spring,Casual
 58971,Women,Deodorant,Spring,Casual
 58972,Men,Deodorant,Spring,Casual
-58973,Women,Perfume and Body Mist,Spring,Casual
+58973,Women,Deodorant,Spring,Casual
 58974,Women,Deodorant,Spring,Casual
 58975,Women,Deodorant,Spring,Casual
 58976,Women,Deodorant,Spring,Casual
@@ -5086,19 +5086,19 @@ id,gender,articleType,season,usage
 58991,Men,Deodorant,Spring,Casual
 58992,Men,Deodorant,Spring,Casual
 59002,Women,Deodorant,Spring,Casual
-59003,Women,Deodorant,Spring,Casual
+59003,Women,Perfume and Body Mist,Spring,Casual
 59004,Men,Deodorant,Spring,Casual
 59005,Men,Deodorant,Spring,Casual
 59006,Men,Deodorant,Spring,Casual
 59008,Women,Sports Shoes,Summer,Sports
 59010,Men,Casual Shoes,Winter,Casual
 59011,Men,Sports Shoes,Fall,Sports
-59012,Men,Sports Shoes,Fall,Sports
-59013,Men,Sports Shoes,Winter,Casual
+59012,Men,Casual Shoes,Fall,Sports
+59013,Men,Casual Shoes,Winter,Casual
 59014,Men,Sports Shoes,Fall,Casual
 59015,Men,Sports Shoes,Fall,Sports
 59016,Men,Sports Shoes,Fall,Sports
-59017,Men,Sandals,Summer,Casual
+59017,Men,Flip Flops,Summer,Casual
 59018,Women,Heels,Winter,Casual
 59019,Women,Flats,Winter,Casual
 59020,Women,Heels,Winter,Casual
@@ -5137,7 +5137,7 @@ id,gender,articleType,season,usage
 59054,Women,Heels,Winter,Casual
 59055,Women,Flats,Winter,Casual
 59056,Women,Flats,Winter,Casual
-59058,Women,Tunics,Summer,Casual
+59058,Women,Kurtis,Summer,Casual
 59059,Women,Kurtas,Summer,Ethnic
 59060,Women,Kurtas,Summer,Ethnic
 59061,Women,Kurtas,Summer,Ethnic
@@ -5184,11 +5184,11 @@ id,gender,articleType,season,usage
 59102,Men,Sweatshirts,Summer,Casual
 59103,Men,Jackets,Fall,Casual
 59104,Men,Backpacks,Fall,Casual
-59105,Men,Jackets,Fall,Casual
-59106,Men,Shirts,Fall,Casual
+59105,Men,Sweatshirts,Fall,Casual
+59106,Men,Jackets,Fall,Casual
 59112,Men,Sweatshirts,Fall,Casual
 59115,Men,Sweatshirts,Summer,Casual
-59116,Men,Jackets,Summer,Casual
+59116,Men,Topwear,Summer,Casual
 59117,Men,Jackets,Fall,Casual
 59118,Men,Jackets,Summer,Casual
 59119,Men,Jackets,Summer,Casual
@@ -5197,16 +5197,16 @@ id,gender,articleType,season,usage
 59122,Men,Jackets,Summer,Casual
 59123,Men,Jackets,Summer,Casual
 59124,Men,Jackets,Summer,Casual
-59126,Men,Tshirts,Fall,Casual
+59126,Men,Jackets,Fall,Casual
 59127,Men,Jackets,Fall,Casual
 59128,Men,Jackets,Summer,Casual
 59129,Men,Jackets,Fall,Casual
 59130,Men,Jackets,Summer,Casual
 59131,Men,Jackets,Summer,Casual
-59132,Men,Shirts,Summer,Casual
-59133,Men,Scarves,Summer,Casual
+59132,Men,Jackets,Summer,Casual
+59133,Men,Jackets,Summer,Casual
 59142,Women,Flats,Winter,Casual
-59143,Women,Sports Sandals,Winter,Casual
+59143,Women,Flats,Winter,Casual
 59144,Women,Flats,Winter,Casual
 59145,Women,Flats,Winter,Casual
 59146,Women,Flats,Summer,Casual
@@ -5235,7 +5235,7 @@ id,gender,articleType,season,usage
 59215,Men,Watches,Winter,Casual
 59216,Men,Watches,Winter,Casual
 59217,Men,Watches,Winter,Casual
-59218,Men,Fragrance Gift Set,Winter,Casual
+59218,Men,Socks,Winter,Casual
 59219,Men,Watches,Winter,Casual
 59220,Women,Watches,Winter,Casual
 59221,Women,Watches,Winter,Casual
@@ -5246,28 +5246,28 @@ id,gender,articleType,season,usage
 59226,Women,Watches,Winter,Casual
 59227,Women,Watches,Winter,Casual
 59228,Women,Watches,Winter,Casual
-59229,Men,Watches,Winter,Casual
+59229,Men,Free Gifts,Winter,Casual
 59230,Men,Watches,Winter,Casual
 59231,Men,Watches,Winter,Casual
 59232,Men,Watches,Winter,Casual
 59233,Women,Watches,Winter,Casual
-59235,Men,Watches,Winter,Casual
-59236,Men,Watches,Winter,Casual
-59237,Men,Free Gifts,Winter,Casual
+59235,Men,Free Gifts,Winter,Casual
+59236,Men,Free Gifts,Winter,Casual
+59237,Men,Watches,Winter,Casual
 59238,Men,Watches,Winter,Casual
 59239,Men,Watches,Winter,Casual
 59240,Men,Watches,Winter,Casual
 59241,Men,Watches,Winter,Casual
 59242,Men,Watches,Winter,Casual
 59243,Men,Watches,Winter,Casual
-59244,Men,Watches,Winter,Casual
+59244,Men,Free Gifts,Winter,Casual
 59245,Men,Watches,Winter,Casual
 59246,Men,Watches,Winter,Casual
 59247,Women,Watches,Winter,Casual
 59248,Men,Watches,Winter,Casual
 59249,Men,Watches,Winter,Casual
 59250,Men,Watches,Winter,Casual
-59251,Women,Free Gifts,Winter,Casual
+59251,Women,Watches,Winter,Casual
 59252,Men,Watches,Winter,Casual
 59253,Men,Watches,Winter,Casual
 59254,Men,Watches,Winter,Casual
@@ -5277,14 +5277,14 @@ id,gender,articleType,season,usage
 59258,Women,Watches,Winter,Casual
 59259,Women,Watches,Winter,Casual
 59260,Women,Watches,Winter,Casual
-59261,Women,Pendant,Winter,Casual
+59261,Women,Watches,Winter,Casual
 59262,Men,Watches,Winter,Casual
 59263,Women,Watches,Winter,Casual
 59264,Women,Watches,Winter,Casual
 59265,Women,Watches,Winter,Casual
 59266,Men,Watches,Winter,Casual
 59267,Women,Watches,Winter,Casual
-59268,Men,Watches,Winter,Casual
+59268,Men,Socks,Winter,Casual
 59269,Women,Watches,Winter,Casual
 59270,Men,Watches,Winter,Casual
 59271,Women,Watches,Winter,Casual
@@ -5299,11 +5299,11 @@ id,gender,articleType,season,usage
 59280,Women,Watches,Winter,Casual
 59281,Men,Watches,Winter,Casual
 59282,Men,Socks,Summer,Smart Casual
-59283,Men,Watches,Winter,Casual
+59283,Men,Free Gifts,Winter,Casual
 59284,Men,Watches,Winter,Casual
 59286,Women,Watches,Winter,Casual
 59287,Women,Watches,Winter,Casual
-59290,Men,Watches,Winter,Casual
+59290,Men,Free Gifts,Winter,Casual
 59291,Men,Watches,Winter,Casual
 59292,Men,Watches,Winter,Casual
 59293,Men,Watches,Winter,Casual
@@ -5315,32 +5315,32 @@ id,gender,articleType,season,usage
 59299,Men,Shirts,Summer,Casual
 59300,Men,Shirts,Summer,Casual
 59301,Men,Shirts,Summer,Casual
-59302,Men,Shirts,Fall,Casual
-59303,Men,Shirts,Fall,Casual
+59302,Men,Tshirts,Fall,Casual
+59303,Men,Tshirts,Fall,Casual
 59304,Men,Shirts,Fall,Casual
 59305,Men,Shirts,Fall,Casual
-59306,Men,Shirts,Fall,Casual
+59306,Men,Tshirts,Fall,Casual
 59311,Men,Sports Sandals,Fall,Casual
-59312,Men,Sports Sandals,Winter,Casual
+59312,Men,Sandals,Winter,Casual
 59315,Women,Casual Shoes,Winter,Casual
 59323,Men,Sandals,Winter,Casual
 59324,Men,Sandals,Summer,Casual
 59326,Women,Casual Shoes,Summer,Casual
 59329,Men,Sports Shoes,Summer,Casual
 59330,Men,Casual Shoes,Summer,Casual
-59338,Women,Casual Shoes,Winter,Casual
-59342,Men,Formal Shoes,Winter,Formal
+59338,Women,Flats,Winter,Casual
+59342,Men,Casual Shoes,Winter,Formal
 59349,Men,Sandals,Fall,Casual
 59352,Women,Kurtas,Summer,Ethnic
 59353,Women,Tunics,Summer,Ethnic
-59354,Men,Kurtas,Summer,Casual
+59354,Men,Tunics,Summer,Casual
 59355,Women,Kurtas,Summer,Ethnic
-59356,Women,Kurtas,Summer,Ethnic
-59357,Women,Tunics,Summer,Ethnic
+59356,Women,Kurtis,Summer,Ethnic
+59357,Women,Kurtis,Summer,Ethnic
 59358,Women,Kurtas,Summer,Casual
 59359,Women,Kurtas,Summer,Ethnic
 59360,Women,Kurtas,Summer,Ethnic
-59361,Women,Kurtas,Summer,Ethnic
+59361,Women,Kurtis,Summer,Ethnic
 59362,Men,Kurtas,Summer,Casual
 59363,Women,Kurtas,Summer,Ethnic
 59364,Women,Kurtas,Summer,Ethnic
@@ -5351,30 +5351,30 @@ id,gender,articleType,season,usage
 59369,Women,Kurtas,Summer,Ethnic
 59370,Women,Kurtas,Summer,Ethnic
 59371,Women,Kurtas,Summer,Ethnic
-59372,Women,Kurtas,Summer,Ethnic
-59373,Women,Kurtas,Summer,Ethnic
+59372,Women,Kurtis,Summer,Ethnic
+59373,Women,Kurtis,Summer,Ethnic
 59374,Women,Kurtas,Summer,Ethnic
-59375,Women,Kurtas,Summer,Ethnic
+59375,Women,Kurtis,Summer,Ethnic
 59376,Women,Kurtas,Summer,Ethnic
 59377,Men,Kurtas,Summer,Casual
 59378,Women,Kurtas,Summer,Ethnic
 59379,Women,Kurtas,Summer,Ethnic
 59380,Women,Kurtas,Summer,Ethnic
-59381,Women,Tunics,Summer,Casual
+59381,Women,Stoles,Summer,Casual
 59382,Women,Kurtas,Summer,Ethnic
 59383,Women,Kurtas,Summer,Ethnic
 59387,Women,Flats,Winter,Casual
 59388,Women,Flats,Winter,Casual
 59390,Men,Formal Shoes,Winter,Formal
-59396,Men,Sports Shoes,Fall,Casual
+59396,Men,Casual Shoes,Fall,Casual
 59399,Women,Kurtas,Summer,Casual
-59400,Women,Dresses,Summer,Ethnic
-59403,Women,Kurtis,Summer,Casual
+59400,Women,Tunics,Summer,Ethnic
+59403,Women,Tunics,Summer,Casual
 59404,Women,Tops,Summer,Casual
-59405,Women,Tops,Summer,Casual
-59407,Women,Tops,Summer,Casual
+59405,Women,Jackets,Summer,Casual
+59407,Women,Tunics,Summer,Casual
 59410,Women,Tops,Summer,Casual
-59413,Women,Tshirts,Summer,Casual
+59413,Women,Heels,Summer,Casual
 59418,Women,Tops,Summer,Casual
 59421,Women,Tops,Summer,Casual
 59422,Women,Tops,Summer,Casual
@@ -5401,40 +5401,40 @@ id,gender,articleType,season,usage
 59455,Women,Bangle,Summer,Casual
 59456,Women,Ring,Summer,Casual
 59457,Women,Ring,Summer,Casual
-59458,Women,Flats,Summer,Casual
-59459,Women,Heels,Summer,Casual
+59458,Women,Ring,Summer,Casual
+59459,Women,Bangle,Summer,Casual
 59460,Women,Ring,Summer,Casual
 59461,Women,Ring,Summer,Casual
 59462,Women,Ring,Summer,Casual
 59463,Women,Ring,Summer,Casual
 59464,Women,Ring,Summer,Casual
 59465,Women,Ring,Summer,Casual
-59466,Women,Sandals,Summer,Casual
+59466,Women,Bangle,Summer,Casual
 59467,Women,Ring,Summer,Casual
 59468,Women,Ring,Summer,Casual
 59469,Women,Ring,Summer,Casual
-59470,Women,Ring,Summer,Casual
+59470,Women,Earrings,Summer,Casual
 59471,Women,Ring,Summer,Casual
 59474,Women,Ring,Summer,Casual
 59481,Women,Ring,Summer,Casual
 59484,Women,Ring,Summer,Casual
 59498,Women,Necklace and Chains,Summer,Sports
-59499,Women,Pendant,Summer,Casual
+59499,Women,Necklace and Chains,Summer,Casual
 59501,Women,Pendant,Summer,Casual
 59502,Women,Necklace and Chains,Fall,Sports
 59503,Women,Pendant,Summer,Casual
-59504,Women,Pendant,Summer,Casual
+59504,Women,Necklace and Chains,Summer,Casual
 59505,Women,Pendant,Summer,Casual
 59507,Women,Pendant,Summer,Casual
 59508,Women,Pendant,Summer,Casual
 59509,Women,Pendant,Summer,Casual
 59510,Women,Pendant,Summer,Casual
 59511,Women,Pendant,Summer,Casual
-59512,Women,Pendant,Summer,Formal
-59513,Women,Pendant,Summer,Casual
-59514,Women,Pendant,Summer,Casual
-59515,Women,Pendant,Summer,Formal
-59516,Women,Pendant,Summer,Casual
+59512,Women,Necklace and Chains,Summer,Formal
+59513,Women,Necklace and Chains,Summer,Casual
+59514,Women,Necklace and Chains,Summer,Casual
+59515,Women,Necklace and Chains,Summer,Formal
+59516,Women,Necklace and Chains,Summer,Casual
 59518,Women,Necklace and Chains,Spring,Casual
 59519,Women,Necklace and Chains,Fall,Casual
 59520,Women,Earrings,Winter,Casual
@@ -5462,7 +5462,7 @@ id,gender,articleType,season,usage
 59547,Women,Earrings,Winter,Casual
 59550,Women,Earrings,Summer,Casual
 59551,Women,Earrings,Summer,Formal
-59552,Men,Bracelet,Summer,Casual
+59552,Men,Bangle,Summer,Casual
 59553,Men,Bracelet,Summer,Casual
 59554,Women,Bracelet,Winter,Casual
 59555,Women,Bracelet,Winter,Casual
@@ -5472,9 +5472,9 @@ id,gender,articleType,season,usage
 59559,Women,Bracelet,Summer,Sports
 59560,Women,Bracelet,Winter,Casual
 59561,Women,Ring,Summer,Casual
-59563,Women,Pendant,Summer,Casual
+59563,Women,Earrings,Summer,Casual
 59564,Women,Cufflinks,Winter,Formal
-59565,Women,Headwear,Winter,Formal
+59565,Women,Cufflinks,Winter,Formal
 59566,Men,Cufflinks,Fall,Casual
 59567,Women,Cufflinks,Summer,Formal
 59568,Men,Cufflinks,Summer,Casual
@@ -5487,7 +5487,7 @@ id,gender,articleType,season,usage
 59575,Girls,Cufflinks,Summer,Casual
 59576,Unisex,Cufflinks,Winter,Formal
 59577,Men,Cufflinks,Fall,Formal
-59578,Women,Earrings,Summer,Formal
+59578,Women,Cufflinks,Summer,Formal
 59579,Men,Cufflinks,Fall,Formal
 59580,Women,Cufflinks,Summer,Formal
 59581,Women,Cufflinks,Summer,Formal
@@ -5496,7 +5496,7 @@ id,gender,articleType,season,usage
 59584,Men,Cufflinks,Fall,Formal
 59585,Women,Cufflinks,Summer,Casual
 59586,Men,Cufflinks,Summer,Casual
-59587,Women,Cufflinks,Summer,Formal
+59587,Women,Earrings,Summer,Formal
 59589,Women,Sarees,Fall,Ethnic
 59590,Women,Sarees,Fall,Ethnic
 59591,Women,Sarees,Summer,Ethnic
@@ -5529,7 +5529,7 @@ id,gender,articleType,season,usage
 59621,Women,Sarees,Summer,Ethnic
 59622,Women,Sarees,Summer,Ethnic
 59623,Women,Sarees,Summer,Ethnic
-59624,Women,Sarees,Summer,Ethnic
+59624,Women,Free Gifts,Summer,Ethnic
 59625,Women,Sarees,Summer,Ethnic
 59626,Women,Sarees,Summer,Casual
 59628,Women,Sarees,Summer,Ethnic
@@ -5644,11 +5644,11 @@ id,gender,articleType,season,usage
 59741,Women,Bra,Summer,Casual
 59742,Women,Briefs,Summer,Casual
 59743,Women,Briefs,Summer,Casual
-59744,Women,Nightdress,Summer,Casual
-59745,Women,Dresses,Summer,Casual
+59744,Women,Tops,Summer,Casual
+59745,Women,Skirts,Summer,Casual
 59746,Women,Dresses,Summer,Casual
 59747,Women,Nightdress,Summer,Casual
-59748,Women,Sarees,Summer,Ethnic
+59748,Women,Night suits,Summer,Ethnic
 59749,Women,Night suits,Summer,Ethnic
 59750,Women,Briefs,Summer,Casual
 59751,Men,Briefs,Summer,Casual
@@ -5656,29 +5656,29 @@ id,gender,articleType,season,usage
 59753,Men,Briefs,Summer,Casual
 59754,Women,Tops,Summer,Casual
 59755,Women,Briefs,Summer,Casual
-59756,Women,Bottomwear,Summer,Casual
+59756,Women,Tshirts,Summer,Casual
 59757,Women,Flats,Winter,Casual
 59758,Women,Flats,Winter,Casual
-59759,Women,Flats,Winter,Casual
+59759,Women,Heels,Winter,Casual
 59760,Women,Flats,Winter,Casual
-59761,Women,Heels,Winter,Casual
+59761,Women,Flats,Winter,Casual
 59762,Women,Flats,Winter,Casual
 59763,Women,Flats,Fall,Casual
 59764,Women,Flats,Fall,Casual
 59765,Women,Earrings,Winter,Ethnic
 59766,Women,Earrings,Winter,Casual
 59767,Women,Earrings,Winter,Ethnic
-59768,Men,Necklace and Chains,Winter,Casual
+59768,Men,Sports Shoes,Winter,Casual
 59769,Women,Jewellery Set,Winter,Casual
 59770,Women,Jewellery Set,Winter,Casual
-59771,Women,Jewellery Set,Winter,Casual
+59771,Women,Pendant,Winter,Casual
 59772,Women,Pendant,Winter,Sports
-59773,Women,Lips,Fall,Casual
+59773,Women,Necklace and Chains,Fall,Casual
 59774,Women,Necklace and Chains,Winter,Sports
 59775,Women,Bangle,Winter,Casual
 59776,Women,Bangle,Winter,Casual
 59777,Women,Bracelet,Winter,Casual
-59778,Women,Bangle,Winter,Casual
+59778,Women,Bracelet,Winter,Casual
 59779,Women,Bracelet,Winter,Casual
 59780,Girls,Bangle,Winter,Casual
 59781,Women,Bracelet,Winter,Casual
@@ -5686,12 +5686,12 @@ id,gender,articleType,season,usage
 59783,Women,Belts,Summer,Casual
 59784,Women,Bracelet,Winter,Casual
 59794,Women,Tunics,Summer,Casual
-59795,Women,Tunics,Summer,Casual
+59795,Women,Tops,Summer,Casual
 59796,Women,Tops,Summer,Casual
 59797,Men,Tshirts,Summer,Casual
 59810,Men,Tshirts,Fall,Casual
 59811,Women,Kurtis,Summer,Casual
-59813,Women,Trousers,Summer,Casual
+59813,Women,Jeans,Summer,Casual
 59814,Men,Jeans,Summer,Casual
 59819,Men,Shirts,Summer,Casual
 59824,Men,Shirts,Summer,Casual
@@ -5700,10 +5700,10 @@ id,gender,articleType,season,usage
 59832,Men,Shirts,Summer,Casual
 59833,Men,Shirts,Summer,Casual
 59834,Men,Tshirts,Summer,Casual
-59838,Men,Shirts,Summer,Casual
+59838,Men,Tshirts,Summer,Casual
 59839,Women,Fragrance Gift Set,Spring,Casual
 59851,Women,Perfume and Body Mist,Spring,Casual
-59853,Women,Trunk,Spring,Casual
+59853,Women,Perfume and Body Mist,Spring,Casual
 59856,Men,Perfume and Body Mist,Spring,Casual
 59858,Women,Perfume and Body Mist,Spring,Casual
 59859,Women,Perfume and Body Mist,Spring,Casual
@@ -5713,25 +5713,25 @@ id,gender,articleType,season,usage
 59866,Men,Perfume and Body Mist,Spring,Casual
 59872,Women,Tops,Summer,Casual
 59873,Women,Skirts,Summer,Casual
-59874,Women,Shirts,Summer,Casual
-59875,Women,Tops,Summer,Casual
+59874,Women,Tunics,Summer,Casual
+59875,Women,Kurtis,Summer,Casual
 59876,Women,Sarees,Summer,Ethnic
 59877,Women,Leggings,Summer,Casual
 59878,Women,Stockings,Summer,Casual
-59879,Men,Leggings,Fall,Casual
-59880,Women,Leggings,Summer,Casual
-59881,Women,Stockings,Summer,Casual
-59882,Women,Tops,Summer,Casual
+59879,Men,Jeans,Fall,Casual
+59880,Women,Trousers,Summer,Casual
+59881,Women,Trousers,Summer,Casual
+59882,Women,Innerwear Vests,Summer,Casual
 59883,Women,Tops,Summer,Casual
 59884,Women,Tops,Summer,Casual
 59885,Women,Tops,Summer,Casual
 59886,Women,Tops,Summer,Casual
-59887,Women,Tops,Summer,Casual
+59887,Women,Innerwear Vests,Summer,Casual
 59888,Women,Tops,Summer,Casual
-59889,Women,Tops,Summer,Casual
-59890,Women,Tunics,Summer,Casual
-59891,Women,Shirts,Summer,Casual
-59892,Women,Tops,Summer,Casual
+59889,Women,Tshirts,Summer,Casual
+59890,Women,Dresses,Summer,Casual
+59891,Women,Tops,Summer,Casual
+59892,Women,Shirts,Summer,Casual
 59893,Women,Shirts,Summer,Casual
 59894,Women,Tops,Summer,Casual
 59895,Women,Dresses,Summer,Casual
@@ -5739,15 +5739,15 @@ id,gender,articleType,season,usage
 59897,Women,Sarees,Summer,Ethnic
 59898,Women,Tops,Winter,Casual
 59900,Women,Dupatta,Summer,Casual
-59901,Women,Scarves,Summer,Casual
-59902,Women,Tops,Summer,Casual
+59901,Women,Jackets,Summer,Casual
+59902,Women,Tunics,Summer,Casual
 59903,Women,Tops,Summer,Casual
-59904,Women,Dupatta,Summer,Casual
+59904,Women,Stoles,Summer,Casual
 59905,Women,Stoles,Summer,Casual
-59906,Women,Kurtas,Summer,Casual
+59906,Women,Kurtis,Summer,Casual
 59907,Women,Stoles,Summer,Casual
-59908,Women,Kurta Sets,Summer,Ethnic
-59909,Men,Dresses,Summer,Ethnic
+59908,Women,Sarees,Summer,Ethnic
+59909,Men,Sarees,Summer,Ethnic
 59910,Women,Kurtas,Summer,Casual
 59911,Women,Kurtas,Summer,Casual
 59912,Women,Kurtas,Summer,Casual
@@ -5766,8 +5766,8 @@ id,gender,articleType,season,usage
 59926,Women,Kurtas,Summer,Casual
 59927,Women,Kurtas,Summer,Casual
 59928,Women,Kurtis,Fall,Casual
-59929,Women,Kurtas,Summer,Casual
-59930,Women,Kurtas,Summer,Ethnic
+59929,Women,Tunics,Summer,Casual
+59930,Women,Kurtis,Summer,Ethnic
 59931,Women,Kurtas,Summer,Ethnic
 59932,Women,Kurtas,Summer,Casual
 59933,Women,Kurtas,Summer,Ethnic
@@ -5784,7 +5784,7 @@ id,gender,articleType,season,usage
 59944,Unisex,Casual Shoes,Fall,Casual
 59945,Unisex,Casual Shoes,Fall,Casual
 59946,Women,Perfume and Body Mist,Spring,Casual
-59947,Women,Deodorant,Spring,Casual
+59947,Women,Perfume and Body Mist,Spring,Casual
 59948,Women,Deodorant,Spring,Casual
 59949,Women,Deodorant,Spring,Casual
 59950,Women,Deodorant,Spring,Casual
@@ -5795,10 +5795,10 @@ id,gender,articleType,season,usage
 59964,Women,Dresses,Fall,Casual
 59965,Men,Dresses,Summer,Casual
 59966,Women,Dresses,Summer,Casual
-59967,Women,Dresses,Summer,Ethnic
+59967,Women,Kurtas,Summer,Ethnic
 59968,Women,Dresses,Summer,Casual
 59969,Women,Dresses,Summer,Casual
-59970,Women,Dresses,Summer,Casual
+59970,Women,Dress,Summer,Casual
 59971,Women,Dresses,Summer,Casual
 59972,Women,Dresses,Summer,Casual
 59973,Women,Dresses,Summer,Casual
@@ -5817,14 +5817,14 @@ id,gender,articleType,season,usage
 59986,Women,Dresses,Summer,Casual
 59987,Women,Dresses,Summer,Casual
 59988,Women,Dresses,Summer,Casual
-59989,Women,Dupatta,Summer,Casual
+59989,Women,Dresses,Summer,Casual
 59990,Women,Dresses,Summer,Casual
 59991,Women,Dresses,Summer,Casual
-59992,Women,Dresses,Summer,Casual
+59992,Women,Kurtas,Summer,Casual
 59993,Women,Dresses,Summer,Casual
 59994,Women,Dresses,Summer,Casual
-59995,Men,Watches,Summer,Casual
-59996,Women,Dresses,Summer,Casual
+59995,Men,Dresses,Summer,Casual
+59996,Women,Kurtas,Summer,Casual
 59998,Women,Heels,Winter,Casual
 59999,Women,Heels,Winter,Casual
 60000,Women,Tunics,Summer,Ethnic
