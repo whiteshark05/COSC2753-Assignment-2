@@ -1,5 +1,8 @@
 """Build the Task 4 handoff package in outputs/task4_models/, matching the layout
-Tasks 1-3 use so COSC2753_A2_Pipeline_simplified.ipynb can consume it unchanged.
+Tasks 1-3 use. The consumer notebook it was originally written for
+(COSC2753_A2_Pipeline_simplified.ipynb) has since been removed from the repo; the package
+stands on its own through task4_model.py, and Task 4 fills no column of
+styles_prediction.csv, so nothing downstream loads these weights automatically.
 
 Produces, from the selected ablation rung's checkpoint:
     task4_visual_search.pt          inference weights + preprocessing, dict-style
@@ -20,7 +23,8 @@ import torch
 
 REPO = Path(__file__).resolve().parent.parent
 EXP = REPO / "experiments"
-PROC = REPO / "data" / "processed_task4"
+PROC = REPO / "data" / "processed"      # the team's shared split, same as Tasks 1-3
+LOG = REPO / "experiments" / "log"     # where rung_ablation.py writes results
 IMAGES = REPO / "data" / "raw" / "FashionDataset" / "train" / "images_train"
 OUT = REPO / "outputs" / "task4_models"
 
@@ -40,7 +44,7 @@ from task4_model import (Task4VisualSearchEncoder, Task4VisualSearchModel,  # no
 def main(device="cpu"):
     OUT.mkdir(parents=True, exist_ok=True)
     cfg = json.loads((PROC / "pipeline_config.json").read_text())["image"]
-    result = json.loads((EXP / f"result_{SELECTED_TAG}.json").read_text())
+    result = json.loads((LOG / f"result_{SELECTED_TAG}.json").read_text())
 
     # ── 1. inference checkpoint: encoder weights only, ArcFace head dropped ──
     trained = torch.load(EXP / f"model_{SELECTED_TAG}.pt", map_location="cpu")
@@ -108,16 +112,20 @@ def main(device="cpu"):
             "relevance": "simple = matching articleType_grouped; strict = articleType_grouped AND baseColour",
         },
         "alternatives_considered": {
-            name: {"mAP@10": json.loads((EXP / f"result_{tag}.json").read_text())["mAP10"],
-                   "mAP@10_strict": json.loads((EXP / f"result_{tag}.json").read_text())["mAP10_strict"]}
-            for tag, name in ALTERNATIVES.items() if (EXP / f"result_{tag}.json").exists()
+            name: {"mAP@10": json.loads((LOG / f"result_{tag}.json").read_text())["mAP10"],
+                   "mAP@10_strict": json.loads((LOG / f"result_{tag}.json").read_text())["mAP10_strict"]}
+            for tag, name in ALTERNATIVES.items() if (LOG / f"result_{tag}.json").exists()
         },
         "evaluation_split": {
-            "artifacts": "data/processed_task4",
+            "artifacts": "data/processed",
             "gallery_size": int(len(gal)), "query_size": int(len(qry)),
-            "note": "Task 4 keeps its own split artifacts. The shared data/processed was regenerated "
-                    "mid-project and differs by ~2% of rows, so Task 4's absolute numbers are not "
-                    "directly comparable to Tasks 1-3. Preprocessing statistics are identical.",
+            "split_fingerprint": json.loads((LOG / "split_fingerprint.json").read_text())["fingerprint"]
+                                 if (LOG / "split_fingerprint.json").exists() else None,
+            "note": "Task 4 scores against the team's shared split, the same artifacts Tasks 1-3 read. "
+                    "Every model was retrained on it rather than re-scored, because a checkpoint "
+                    "trained on the earlier data/processed_task4 split had seen rows that are query "
+                    "rows here. The metrics still differ in kind from Tasks 1-3 (mAP@10 against "
+                    "macro-F1), so compare the split, not the score.",
         },
         "shipped_gallery": {
             "size": int(len(index)),

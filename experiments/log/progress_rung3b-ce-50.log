@@ -1,30 +1,27 @@
+# Shared-split run, 2026-09-08. Earlier old-split runs of this rung were removed
+# from this file; git history retains them. Split fingerprint 09a324e4d70efad0.
 === training: stem=default  params=11.31M  epochs<=50 device=mps ===
-ep 1/50 loss 1.8496 active 100.0% col_loss 1.6355 col_acc 0.537 probe_mAP@10 0.3883 | train 26s eval 7s elapsed 0.5min lr 3.00e-04
-ep 2/50 loss 1.2802 active 100.0% col_loss 1.0747 col_acc 0.685 probe_mAP@10 0.3898 | train 26s eval 7s elapsed 1.1min lr 3.00e-04
-ep 3/50 loss 1.1008 active 100.0% col_loss 0.8966 col_acc 0.734 probe_mAP@10 0.3965 | train 26s eval 7s elapsed 1.6min lr 3.00e-04
-ep 4/50 loss 0.9675 active 100.0% col_loss 0.7641 col_acc 0.775 probe_mAP@10 0.4076 | train 26s eval 7s elapsed 2.2min lr 3.00e-04
-ep 5/50 loss 0.8913 active 100.0% col_loss 0.6883 col_acc 0.796 probe_mAP@10 0.4005 | train 26s eval 7s elapsed 2.7min lr 3.00e-04
-ep 6/50 loss 0.8285 active 100.0% col_loss 0.6260 col_acc 0.816 probe_mAP@10 0.3891 | train 26s eval 7s elapsed 3.2min lr 3.00e-04
-ep 7/50 loss 0.7903 active 100.0% col_loss 0.5879 col_acc 0.825 probe_mAP@10 0.3925 | train 26s eval 7s elapsed 3.8min lr 3.00e-04
-ep 8/50 loss 0.6323 active 100.0% col_loss 0.4305 col_acc 0.873 probe_mAP@10 0.4054 | train 26s eval 7s elapsed 4.3min lr 1.50e-04
-ep 9/50 loss 0.6002 active 100.0% col_loss 0.3986 col_acc 0.880 probe_mAP@10 0.4071 | train 26s eval 7s elapsed 4.9min lr 1.50e-04
-ep 10/50 loss 0.5719 active 100.0% col_loss 0.3705 col_acc 0.889 probe_mAP@10 0.4134 | train 26s eval 7s elapsed 5.4min lr 1.50e-04
-ep 11/50 loss 0.5515 active 100.0% col_loss 0.3501 col_acc 0.894 probe_mAP@10 0.4095 | train 26s eval 7s elapsed 6.0min lr 1.50e-04
-ep 12/50 loss 0.5393 active 100.0% col_loss 0.3380 col_acc 0.899 probe_mAP@10 0.3991 | train 26s eval 7s elapsed 6.5min lr 1.50e-04
-ep 13/50 loss 0.5337 active 100.0% col_loss 0.3324 col_acc 0.901 probe_mAP@10 0.4175 | train 26s eval 7s elapsed 7.0min lr 1.50e-04
-ep 14/50 loss 0.5208 active 100.0% col_loss 0.3195 col_acc 0.902 probe_mAP@10 0.4120 | train 26s eval 7s elapsed 7.6min lr 1.50e-04
-ep 15/50 loss 0.4868 active 100.0% col_loss 0.2857 col_acc 0.914 probe_mAP@10 0.4051 | train 26s eval 7s elapsed 8.1min lr 1.50e-04
-ep 16/50 loss 0.4886 active 100.0% col_loss 0.2876 col_acc 0.913 probe_mAP@10 0.4190 | train 26s eval 7s elapsed 8.7min lr 1.50e-04
-ep 17/50 loss 0.4908 active 100.0% col_loss 0.2897 col_acc 0.913 probe_mAP@10 0.4076 | train 26s eval 7s elapsed 9.2min lr 1.50e-04
-ep 18/50 loss 0.4806 active 100.0% col_loss 0.2796 col_acc 0.914 probe_mAP@10 0.4169 | train 26s eval 7s elapsed 9.7min lr 1.50e-04
-ep 19/50 loss 0.4641 active 100.0% col_loss 0.2631 col_acc 0.920 probe_mAP@10 0.4118 | train 26s eval 7s elapsed 10.3min lr 1.50e-04
-ep 20/50 loss 0.4135 active 100.0% col_loss 0.2128 col_acc 0.935 probe_mAP@10 0.4201 | train 26s eval 7s elapsed 10.8min lr 7.50e-05
-ep 21/50 loss 0.3968 active 100.0% col_loss 0.1962 col_acc 0.940 probe_mAP@10 0.4132 | train 27s eval 7s elapsed 11.4min lr 7.50e-05
-ep 22/50 loss 0.3793 active 100.0% col_loss 0.1787 col_acc 0.945 probe_mAP@10 0.4114 | train 27s eval 7s elapsed 11.9min lr 7.50e-05
-ep 23/50 loss 0.3775 active 100.0% col_loss 0.1769 col_acc 0.948 probe_mAP@10 0.4117 | train 26s eval 7s elapsed 12.5min lr 7.50e-05
-ep 24/50 loss 0.3518 active 100.0% col_loss 0.1515 col_acc 0.953 probe_mAP@10 0.4112 | train 27s eval 7s elapsed 13.0min lr 3.75e-05
-ep 25/50 loss 0.3494 active 100.0% col_loss 0.1491 col_acc 0.955 probe_mAP@10 0.4083 | train 28s eval 7s elapsed 13.6min lr 3.75e-05
-ep 26/50 loss 0.3426 active 100.0% col_loss 0.1423 col_acc 0.956 probe_mAP@10 0.4119 | train 29s eval 8s elapsed 14.2min lr 3.75e-05
-ep 27/50 loss 0.3267 active 100.0% col_loss 0.1266 col_acc 0.962 probe_mAP@10 0.4146 | train 27s eval 7s elapsed 14.8min lr 1.87e-05
-ep 28/50 loss 0.3264 active 100.0% col_loss 0.1262 col_acc 0.962 probe_mAP@10 0.4127 | train 26s eval 7s elapsed 15.4min lr 1.87e-05
-early stopping at epoch 28 (best probe mAP@10 0.4201)
+ep 1/50 loss 1.9045 active 100.0% sem_loss 0.2143 col_loss 1.6903 col_acc 0.521 probe_mAP@10 0.3645 | train 26s eval 7s elapsed 0.5min lr 3.00e-04
+ep 2/50 loss 1.3384 active 100.0% sem_loss 0.2057 col_loss 1.1327 col_acc 0.666 probe_mAP@10 0.3764 | train 25s eval 7s elapsed 1.1min lr 3.00e-04
+ep 3/50 loss 1.1036 active 100.0% sem_loss 0.2042 col_loss 0.8994 col_acc 0.735 probe_mAP@10 0.4040 | train 25s eval 7s elapsed 1.6min lr 3.00e-04
+ep 4/50 loss 0.9986 active 100.0% sem_loss 0.2034 col_loss 0.7951 col_acc 0.766 probe_mAP@10 0.4041 | train 25s eval 7s elapsed 2.2min lr 3.00e-04
+ep 5/50 loss 0.8870 active 100.0% sem_loss 0.2029 col_loss 0.6841 col_acc 0.795 probe_mAP@10 0.3852 | train 25s eval 7s elapsed 2.7min lr 3.00e-04
+ep 6/50 loss 0.8409 active 100.0% sem_loss 0.2026 col_loss 0.6383 col_acc 0.811 probe_mAP@10 0.3995 | train 25s eval 7s elapsed 3.2min lr 3.00e-04
+ep 7/50 loss 0.8001 active 100.0% sem_loss 0.2024 col_loss 0.5977 col_acc 0.822 probe_mAP@10 0.4070 | train 26s eval 7s elapsed 3.8min lr 3.00e-04
+ep 8/50 loss 0.7371 active 100.0% sem_loss 0.2021 col_loss 0.5350 col_acc 0.839 probe_mAP@10 0.4047 | train 25s eval 7s elapsed 4.3min lr 3.00e-04
+ep 9/50 loss 0.7041 active 100.0% sem_loss 0.2020 col_loss 0.5022 col_acc 0.849 probe_mAP@10 0.4047 | train 26s eval 7s elapsed 4.9min lr 3.00e-04
+ep 10/50 loss 0.6807 active 100.0% sem_loss 0.2019 col_loss 0.4788 col_acc 0.857 probe_mAP@10 0.3992 | train 26s eval 7s elapsed 5.4min lr 3.00e-04
+ep 11/50 loss 0.5527 active 100.0% sem_loss 0.2014 col_loss 0.3513 col_acc 0.897 probe_mAP@10 0.4108 | train 25s eval 7s elapsed 6.0min lr 1.50e-04
+ep 12/50 loss 0.5323 active 100.0% sem_loss 0.2012 col_loss 0.3311 col_acc 0.899 probe_mAP@10 0.4001 | train 25s eval 7s elapsed 6.5min lr 1.50e-04
+ep 13/50 loss 0.5169 active 100.0% sem_loss 0.2012 col_loss 0.3157 col_acc 0.906 probe_mAP@10 0.4082 | train 25s eval 7s elapsed 7.0min lr 1.50e-04
+ep 14/50 loss 0.4990 active 100.0% sem_loss 0.2011 col_loss 0.2978 col_acc 0.909 probe_mAP@10 0.4010 | train 25s eval 7s elapsed 7.6min lr 1.50e-04
+ep 15/50 loss 0.4444 active 100.0% sem_loss 0.2009 col_loss 0.2435 col_acc 0.926 probe_mAP@10 0.4136 | train 25s eval 7s elapsed 8.1min lr 7.50e-05
+ep 16/50 loss 0.4307 active 100.0% sem_loss 0.2008 col_loss 0.2300 col_acc 0.931 probe_mAP@10 0.4114 | train 25s eval 7s elapsed 8.7min lr 7.50e-05
+ep 17/50 loss 0.4212 active 100.0% sem_loss 0.2008 col_loss 0.2204 col_acc 0.935 probe_mAP@10 0.4053 | train 26s eval 7s elapsed 9.2min lr 7.50e-05
+ep 18/50 loss 0.4093 active 100.0% sem_loss 0.2007 col_loss 0.2085 col_acc 0.936 probe_mAP@10 0.4000 | train 25s eval 7s elapsed 9.7min lr 7.50e-05
+ep 19/50 loss 0.3913 active 100.0% sem_loss 0.2006 col_loss 0.1906 col_acc 0.942 probe_mAP@10 0.4063 | train 26s eval 7s elapsed 10.3min lr 3.75e-05
+ep 20/50 loss 0.3756 active 100.0% sem_loss 0.2005 col_loss 0.1751 col_acc 0.947 probe_mAP@10 0.4096 | train 25s eval 7s elapsed 10.8min lr 3.75e-05
+ep 21/50 loss 0.3726 active 100.0% sem_loss 0.2005 col_loss 0.1721 col_acc 0.949 probe_mAP@10 0.4053 | train 25s eval 7s elapsed 11.4min lr 3.75e-05
+ep 22/50 loss 0.3670 active 100.0% sem_loss 0.2005 col_loss 0.1665 col_acc 0.950 probe_mAP@10 0.4115 | train 25s eval 7s elapsed 11.9min lr 1.87e-05
+ep 23/50 loss 0.3506 active 100.0% sem_loss 0.2004 col_loss 0.1502 col_acc 0.954 probe_mAP@10 0.4124 | train 25s eval 7s elapsed 12.4min lr 1.87e-05
+early stopping at epoch 23 (best probe mAP@10 0.4136)
