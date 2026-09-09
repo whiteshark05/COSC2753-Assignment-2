@@ -6,6 +6,13 @@ Place the dataset so the notebook paths resolve correctly. The project should lo
 
 ```
 project/
+├── app/
+│   ├── backend/                         Flask API (see §7)
+│   │   ├── app.py
+│   │   ├── requirements.txt
+│   │   ├── models/                      trained model artifacts, copied from outputs/ (see §7.2)
+│   │   └── data/                        pipeline_config.json, label_encoders.pkl
+│   └── frontend/                        static HTML/CSS/JS UI (see §7)
 ├── data/
 │   ├── raw/
 │   │   └── FashionDataset/
@@ -19,7 +26,7 @@ project/
 ├── documents/
 │   ├── COSC2753_2026B_Assignment 2.pdf
 │   └── COSC2753_A2_Negotiated Project.docx
-├── models/                              saved/trained model artifacts
+├── models/                              saved/trained model artifacts (source of app/backend/models)
 ├── notebooks/
 │   └── COSC2753_A2_Preprocessing.ipynb
 ├── outputs/                             generated predictions, figures, reports
@@ -103,7 +110,7 @@ The task-modelling notebooks (Task 1–3 classifiers, Task 4 visual search) read
 
 Everything is seeded with `RANDOM_STATE = 42` (train/val split, image sampling for normalization stats, sampler behaviour). Re-running the notebook from scratch should reproduce the same split and the same files in `data/processed/`.
 
-## 6. Troubleshooting
+## 6. Notebook troubleshooting
 
 | Issue | Likely cause |
 |---|---|
@@ -111,3 +118,151 @@ Everything is seeded with `RANDOM_STATE = 42` (train/val split, image sampling f
 | `AssertionError` in the leakage checks (§6.12) | Usually means an earlier cell was skipped or re-run out of order — restart and run all cells top to bottom. |
 | Very slow on the image hashing / normalization cells | Expected on first run with the full ~38,600 images — this only happens once per environment. |
 | `ModuleNotFoundError` | A package from `requirements.txt` didn't install — re-run `pip install -r requirements.txt` inside the activated virtual environment. |
+
+---
+
+## 7. The app (`app/backend` + `app/frontend`)
+
+The trained models are served behind a small Flask API (`app/backend`), consumed by a static, framework-free frontend (`app/frontend`). This section covers running both locally, and deploying the backend to Render.
+
+### 7.1 What it does
+
+Two endpoints, matching exactly what `app/frontend/js/app.js` expects:
+
+- **`POST /api/classify`** — takes an uploaded image plus optional `masterCategory` / `subCategory` / `baseColour` / `year`, and returns predicted `articleType`, `season`, `gender`, and `usage` with confidences. Internally this chains the trained models: image → articleType (Task 1) and season (Task 2) models, then those predictions plus whatever metadata the user supplied → the Task 3 gender/usage models (which were trained on six metadata columns, so the two predicted ones fill the gap).
+- **`POST /api/search-similar`** — takes an uploaded image, embeds it with the Task 4 CNN encoder (`models/task4_model.py`), and returns the Top-K most similar catalog items by cosine similarity against the pre-built gallery embeddings.
+- **`GET /health`** — reports whether both pipelines loaded, and whether the catalog image directories were found (see §7.5 if images don't render).
+
+No pretrained models are used anywhere — every backbone is trained from scratch, per the assignment's requirements.
+
+### 7.2 Where the model files go
+
+The backend loads from `app/backend/models/` and `app/backend/data/`:
+
+```
+app/backend/
+├── models/
+│   ├── best_imageonly_articletype.pt          Task 1 — articleType (image-only)
+│   ├── articletype_encoder_task1.joblib       Task 1 — articleType label encoder
+│   ├── improved_small_cnn_image_only.pt       Task 2 — season (image-only)
+│   ├── gender_multiinput_smallcnn.pt          Task 3 — gender (multi-input)
+│   ├── usage_multiinput_smallcnn.pt           Task 3 — usage (multi-input)
+│   ├── gender_encoder.joblib                  Task 3 — gender label encoder
+│   ├── usage_encoder.joblib                   Task 3 — usage label encoder
+│   ├── ohe_metadata.joblib                    Task 3 — fitted metadata OneHotEncoder
+│   ├── task4_model.py                         Task 4 — encoder architecture + search helpers
+│   ├── task4_visual_search.pt                 Task 4 — trained embedding model
+│   ├── task4_artifacts.json                   Task 4 — preprocessing metadata
+│   ├── task4_gallery_embeddings.npy           Task 4 — pre-built catalog embeddings
+│   └── task4_gallery_index.csv                Task 4 — catalog id/label index (rows align with the .npy)
+└── data/
+    ├── pipeline_config.json                   shared image size / normalization stats
+    └── label_encoders.pkl                     shared fitted LabelEncoders (includes `season`)
+```
+
+Copy `pipeline_config.json` and `label_encoders.pkl` from `data/processed/` (§4), and the rest from wherever your task notebooks wrote them under `outputs/`. If a file is missing, `/health` and the API's error responses will name exactly which one.
+
+### 7.3 Catalog images
+
+`task4_gallery_index.csv` has `id, dup_group, articleType_grouped, baseColour, gender, season, usage` — no image URL. The backend resolves catalog thumbnails one of two ways:
+
+- **Local dataset (default, good for local dev):** the backend serves `GET /catalog/<id>.jpg` directly from `data/raw/FashionDataset/{train/images_train,test/images_test}/<id>.jpg`, and looks for that folder relative to `app.py` by walking up a few parent directories automatically. If it doesn't find it (or finds the wrong one), point it directly at the real path:
+
+  ```bash
+  export TRAIN_IMAGES_DIR=/absolute/path/to/data/raw/FashionDataset/train/images_train
+  export TEST_IMAGES_DIR=/absolute/path/to/data/raw/FashionDataset/test/images_test
+  ```
+
+  Check `GET /health` — `train_images_dir_exists` / `test_images_dir_exists` will confirm whether it found them.
+
+- **Externally hosted (recommended for production, see §7.7):** set `CATALOG_IMAGE_BASE_URL` to a CDN/bucket URL that serves `<id>.jpg`, e.g. `CATALOG_IMAGE_BASE_URL=https://your-image-host.example/catalog` → item `12345` resolves to `https://your-image-host.example/catalog/12345.jpg`. If set, this takes priority over serving from local disk.
+
+### 7.4 Running the backend locally
+
+From `app/backend/`:
+
+```bash
+python -m venv .venv
+```
+
+macOS/Linux:
+```bash
+source .venv/bin/activate
+```
+Windows:
+```powershell
+.venv\Scripts\activate
+```
+
+Then:
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+The API runs at `http://localhost:5000`. Confirm it's healthy and can see its model/image files:
+
+```
+http://localhost:5000/health
+```
+
+### 7.5 Running the frontend locally
+
+The frontend is static — any file server works. From `app/frontend/`:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`. `js/config.js` already points `localhost`/`127.0.0.1` at `http://localhost:5000` for the backend, so with both running you should be able to upload an image and use **Classify** and **Search similar** immediately.
+
+If search-similar results come back but images show as broken icons, it's almost always one of:
+1. `TRAIN_IMAGES_DIR`/`TEST_IMAGES_DIR` pointing at the wrong folder — check `/health` (§7.3).
+2. The image URL isn't absolute — the fix already in `app.py` builds it from the request's own host, but if you're running the backend behind a proxy that changes the visible host, you may need to set `CATALOG_IMAGE_BASE_URL` explicitly instead of relying on the auto-detected host.
+
+A `mock_server/` is also bundled in `app/frontend/` — it returns fake but plausibly-shaped data on the same two endpoints, useful for developing the UI without the real models loaded (`cd app/frontend/mock_server && pip install -r requirements.txt && python server.py`).
+
+### 7.6 Deploying the backend to Render
+
+1. Create a Render **Web Service**, with the repo's **root directory set to `app/backend`**.
+2. **Build command:**
+   ```
+   pip install -r requirements.txt
+   ```
+3. **Start command:**
+   ```
+   gunicorn app:app
+   ```
+   `app.py` already reads `PORT` from the environment (`os.environ.get("PORT", "5000")`), which Render sets automatically — no extra config needed there.
+4. Make sure `app/backend/models/` and `app/backend/data/` (§7.2) are actually committed/available to the deploy — they aren't in `.gitignore` the way the raw dataset is, but double-check before pushing (the model files total roughly 90 MB, well within Render's limits).
+5. Decide how catalog images will be served in production (see §7.7) and set `CATALOG_IMAGE_BASE_URL` (or `TRAIN_IMAGES_DIR`/`TEST_IMAGES_DIR`, if you're mounting the dataset onto the service) accordingly.
+
+### 7.7 Catalog images in production — a decision, not a default
+
+The raw dataset (~38,600 + ~5,800 images) is excluded from the repo (§1) precisely because it's too large for version control — the same reasoning applies to shipping it inside a Render deploy. Two real options, pick based on what you have available:
+
+- **Host images separately** (S3/Cloudinary/any static host or CDN) and set `CATALOG_IMAGE_BASE_URL` on the Render service to point at it. This is the lighter-weight option and what the backend's fallback logic is built around.
+- **Bundle a copy of the dataset onto the Render service** (e.g. via a persistent disk, or by including it in the deploy despite the size) and set `TRAIN_IMAGES_DIR`/`TEST_IMAGES_DIR` to wherever it ends up — heavier, but no external dependency.
+
+Whichever you choose, confirm it worked by checking the deployed `/health` endpoint the same way as local dev (§7.3), and by requesting one catalog image URL directly in the browser.
+
+### 7.8 Pointing the deployed frontend at the deployed backend
+
+`app/frontend/js/config.js` hardcodes a placeholder Render URL for the non-local case:
+
+```js
+const API_BASE_URL = IS_LOCAL
+    ? 'http://localhost:5000'
+    : 'https://cosc2753-mock-server.onrender.com';   // <- replace this
+```
+
+Once the backend is deployed, update that URL to your actual Render service URL before deploying/publishing the frontend, or nothing will work outside of `localhost`.
+
+### 7.9 App troubleshooting
+
+| Symptom | Likely cause |
+|---|---|
+| `'NoneType' object has no attribute 'exists'` on startup or first request | One of the model/encoder files in §7.2 wasn't found under `models/`/`data/` — check `/health`'s error fields, and confirm `MODELS_DIR`/`DATA_DIR` (overridable via env var) point at the right place. |
+| Classify/search work but return an error naming a missing file | Same as above — the error message names the exact missing artifact. |
+| Search-similar results load but thumbnails are broken images | Catalog image path issue — see §7.3 and §7.7. |
+| Works locally but not once deployed | Usually §7.8 (frontend still pointing at the placeholder URL) or §7.7 (no catalog image source configured in production). |
