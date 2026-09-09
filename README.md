@@ -21,7 +21,7 @@ project/
 │   └── COSC2753_A2_Negotiated Project.docx
 ├── models/                              saved/trained model artifacts
 ├── notebooks/
-│   └── 01_COSC2753_A2_Preprocessin.ipynb
+│   └── COSC2753_A2_Preprocessing.ipynb
 ├── outputs/                             generated predictions, figures, reports
 ├── src/                                 shared/reusable code (helpers, modules)
 ├── tests/                               test scripts
@@ -71,7 +71,7 @@ pip install pandas numpy matplotlib seaborn pillow scipy scikit-learn torch torc
 jupyter notebook
 ```
 
-Open `notebooks/01_COSC2753_A2_Preprocessin.ipynb` and **run all cells top to bottom** (Kernel → Restart & Run All). The sections must run in order — later sections (e.g. the split) depend on variables created earlier (e.g. `dup_group` from the image duplicate check).
+Open `notebooks/COSC2753_A2_Preprocessing.ipynb` and **run all cells top to bottom** (Kernel → Restart & Run All). The sections must run in order — later sections (e.g. the split) depend on variables created earlier (e.g. `dup_group` from the image duplicate check).
 
 Expect this to take a few minutes: hashing ~38,600 images and computing normalization stats over a 3,000-image sample are the slowest steps.
 
@@ -97,7 +97,7 @@ data/processed/
         └── usage.json
 ```
 
-The task-modelling notebooks (Task 1–3 classifiers, Task 4 visual search) read from `data/processed/` rather than the raw CSV — run this preprocessing notebook first, once, before any of them. Trained model artifacts from those notebooks belong in `models/`, and any generated predictions, figures, or reports belong in `outputs/`.
+The task-modelling notebooks (Task 1–3 classifiers, Task 4 visual search) read from `data/processed/` rather than the raw CSV — run this preprocessing notebook first, once, before any of them. Trained model artifacts from those notebooks belong in `outputs/task<N>_models/`, and any generated predictions, figures, or reports belong in `outputs/`.
 
 ## 5. Reproducibility
 
