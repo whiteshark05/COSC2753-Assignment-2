@@ -19,20 +19,15 @@ __MACOSX/
 # Task 4 (visual search) -- local, regenerable or oversized artifacts.
 # NOTE: git has no trailing-comment syntax; every comment here is on its own line.
 
-# Step 16 writes a copy of the selected model here; the shipped one is in outputs/task4_models/
-models/
-
-# Task 4's own split artifacts; the notebook's preprocessing regenerates them in ~15s
-data/processed_task4/
-
-# 21 ablation checkpoints, ~900MB. The per-rung result JSONs and progress logs are tracked instead.
+# 20 ablation checkpoints, ~900MB. The per-rung result JSONs and progress logs in
+# experiments/log/ are tracked instead.
 experiments/*.pt
-experiments/out_*.log
-experiments/*_stdout.log
-experiments/stop_*.log
-experiments/aborted_*
-experiments/rung0_probe_curve.json
-experiments/rung1_stopped_comparison.txt
+
+# Raw stdout from the ladder: tqdm progress spam, megabytes per rung. The useful record
+# is experiments/log/progress_<tag>.log and result_<tag>.json, both tracked.
+experiments/log/out_*.log
+experiments/log/ladder_progress.log
+experiments/log/notebook_run.log
 __pycache__/
 
 # Byte-identical duplicate of outputs/task4_models/task4_gallery_embeddings.npy

@@ -15,51 +15,52 @@
     60
   ],
   "normalization_mean": [
-    0.8507846933825443,
-    0.8336317560298753,
-    0.8284454067870062
+    0.8476490582788704,
+    0.8306989185729852,
+    0.8242569716775607
   ],
   "normalization_std": [
-    0.27086217957882924,
-    0.28286195668759617,
-    0.28582768671352216
+    0.273956261968577,
+    0.2850324570903301,
+    0.2889062535778489
   ],
   "similarity": "cosine on L2-normalised embeddings (exact brute-force search)",
   "validation_metrics": {
-    "mAP@10": 0.8185205421306168,
+    "mAP@10": 0.8213985335717223,
     "mAP@10_CI95": [
-      0.811342803077042,
-      0.8250930378283845
+      0.8146680914398193,
+      0.8283203456431047
     ],
-    "mAP@10_strict": 0.14862154587512175,
-    "P@1": 0.8462893864013267,
-    "P@10": 0.8430244610281924,
+    "mAP@10_strict": 0.14468423618247658,
+    "P@1": 0.8452670544685351,
+    "P@10": 0.8444103648863035,
     "relevance": "simple = matching articleType_grouped; strict = articleType_grouped AND baseColour"
   },
   "alternatives_considered": {
     "E: metric learning, batch-hard triplet only (the Step 11 model)": {
-      "mAP@10": 0.7804020119310853,
-      "mAP@10_strict": 0.1310810002677519
+      "mAP@10": 0.7778503982943433,
+      "mAP@10_strict": 0.1352954141956056
     },
     "H: ArcFace + supervised colour block (rung 6)": {
-      "mAP@10": 0.8114928046605596,
-      "mAP@10_strict": 0.37732720323672436
+      "mAP@10": 0.8132408736454216,
+      "mAP@10_strict": 0.3805445633891373
     },
     "G: supervised colour block, weight 0.10 (rung 3b)": {
-      "mAP@10": 0.7461833016904016,
-      "mAP@10_strict": 0.4065211959624538
+      "mAP@10": 0.7491885959389927,
+      "mAP@10_strict": 0.4074515116258619
     }
   },
   "evaluation_split": {
-    "artifacts": "data/processed_task4",
-    "gallery_size": 28958,
-    "query_size": 9648,
-    "note": "Task 4 keeps its own split artifacts. The shared data/processed was regenerated mid-project and differs by ~2% of rows, so Task 4's absolute numbers are not directly comparable to Tasks 1-3. Preprocessing statistics are identical."
+    "artifacts": "data/processed",
+    "gallery_size": 28371,
+    "query_size": 9455,
+    "split_fingerprint": "09a324e4d70efad0",
+    "note": "Task 4 scores against the team's shared split, the same artifacts Tasks 1-3 read. Every model was retrained on it rather than re-scored, because a checkpoint trained on the earlier data/processed_task4 split had seen rows that are query rows here. The metrics still differ in kind from Tasks 1-3 (mAP@10 against macro-F1), so compare the split, not the score."
   },
   "shipped_gallery": {
-    "size": 38606,
-    "distinct_dup_groups": 37843,
-    "rows_sharing_a_dup_group": 763,
+    "size": 37826,
+    "distinct_dup_groups": 37826,
+    "rows_sharing_a_dup_group": 0,
     "duplicate_warning": "Some catalogue entries are byte-identical images under different ids, occasionally with contradictory labels (e.g. ids 1165 and 5062 are the same file, labelled Tshirts/Blue and Watches/Black). They embed to cosine 1.0, so a query can retrieve its own twin at rank 1. Collapse results by dup_group before display; the evaluation split already keeps dup_groups disjoint across gallery and query.",
     "note": "All labelled images (gallery + query). Holding images out is an evaluation requirement, not a deployment one: a live catalogue search should return any stocked product. No reported metric uses this larger index."
   },

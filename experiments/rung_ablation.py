@@ -11,7 +11,7 @@ COSC2753_A2_Task4.ipynb), so every rung is comparable to the notebook's numbers.
 
 Defaults reproduce rung 0 exactly; pass one flag at a time.
 """
-import argparse, json, time, sys
+import argparse, hashlib, json, time, sys
 from pathlib import Path
 
 import numpy as np
@@ -26,11 +26,13 @@ from PIL import Image
 from tqdm.auto import tqdm
 
 REPO = Path(__file__).resolve().parent.parent
-# Task 4 scores against its OWN split artifacts. data/processed is the shared,
-# git-tracked preprocessing for Tasks 1-3; a teammate regenerating it silently
-# changed this harness's gallery/query sets once already (28,958/9,648 ->
-# 28,371/9,455), which would invalidate every cross-rung comparison.
-PROC = REPO / "data" / "processed_task4"
+# Task 4 scores against the team's shared split -- the same artifacts Tasks 1-3 read.
+# Every rung must be RETRAINED whenever that split changes: a checkpoint trained on one
+# split and scored on another leaks, because rows it trained on land in the query set.
+# The fingerprint written into each result file is what makes such a change fail loudly
+# instead of silently invalidating a comparison, which it did once before.
+PROC = REPO / "data" / "processed"
+LOG_DIR = REPO / "experiments" / "log"
 IMAGES = REPO / "data" / "raw" / "FashionDataset" / "train" / "images_train"
 RANDOM_STATE = 42
 K_VALUES, K_PRIMARY = [1, 5, 10, 20], 10
@@ -73,6 +75,41 @@ def load_frames():
         d['id'] = d['id'].astype(str)
     assert set(g.id).isdisjoint(set(q.id)) and set(g.dup_group).isdisjoint(set(q.dup_group))
     return g.reset_index(drop=True), q.reset_index(drop=True)
+
+
+def split_fingerprint(g, q):
+    """Hash exact gallery/query membership, not just the row counts.
+
+    Two splits can agree on size and still disagree on which side an id sits, which is
+    the failure that actually happened: a checkout replaced ignored files under data/
+    and six rungs kept scoring happily against different ground truth. Counts alone
+    would not have caught it.
+    """
+    h = hashlib.sha256()
+    for name, frame in (("gallery", g), ("query", q)):
+        h.update(name.encode())
+        h.update("\n".join(sorted(frame.id.astype(str))).encode())
+    return h.hexdigest()[:16]
+
+
+def check_split(g, q):
+    """Record the split on the first run; refuse to run if a later one differs."""
+    meta = dict(fingerprint=split_fingerprint(g, q), proc=PROC.name,
+                n_gallery=len(g), n_query=len(q),
+                n_classes=int(g.articleType_grouped.nunique()))
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    ref_path = LOG_DIR / "split_fingerprint.json"
+    if ref_path.exists():
+        ref = json.loads(ref_path.read_text())
+        if ref["fingerprint"] != meta["fingerprint"]:
+            raise SystemExit(
+                "\nSPLIT CHANGED -- refusing to run, results would not be comparable.\n"
+                f"  recorded: {ref}\n  now:      {meta}\n"
+                f"Delete {ref_path} only if you intend to re-run the WHOLE ladder.")
+    else:
+        ref_path.write_text(json.dumps(meta, indent=2))
+        print(f"recorded split fingerprint {meta['fingerprint']} -> {ref_path.name}")
+    return meta
 
 def build_cache(ids):
     ids = list(dict.fromkeys(ids))
@@ -280,7 +317,9 @@ def main():
     # colour + arcface IS rung 6 -- the deliberate combination of the two winners.
 
     gal, qry = load_frames()
-    print(f"gallery {len(gal):,}  queries {len(qry):,}  device {DEVICE}")
+    split_meta = check_split(gal, qry)
+    print(f"gallery {len(gal):,}  queries {len(qry):,}  device {DEVICE}  "
+          f"split {split_meta['fingerprint']} ({split_meta['n_classes']} classes)")
     cache, index = build_cache(list(gal['id']) + list(qry['id']))
     print(f"cache {cache.shape} ({cache.nbytes/1e6:.0f} MB)")
 
@@ -359,7 +398,8 @@ def main():
     opt = torch.optim.AdamW(groups, lr=LR, weight_decay=1e-4)
     sched = torch.optim.lr_scheduler.ReduceLROnPlateau(opt, mode='max', factor=0.5, patience=2)
 
-    progress = REPO / "experiments" / f"progress_{tag}.log"
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    progress = LOG_DIR / f"progress_{tag}.log"
     def note(line):
         print(line, flush=True)
         with open(progress, "a") as fh:
@@ -446,8 +486,9 @@ def main():
                gem_p=next((float(q) for nm, q in model.named_parameters()
                            if nm.endswith('avgpool.p')), None),
                params_M=round(nparam/1e6, 2), epochs_run=len(hist),
-               best_probe=best, wall_seconds=round(wall), history=hist)
-    outp = REPO / "experiments" / f"result_{tag}.json"
+               best_probe=best, wall_seconds=round(wall), history=hist,
+               split=split_meta)
+    outp = LOG_DIR / f"result_{tag}.json"
     outp.write_text(json.dumps(res, indent=2))
     torch.save(model.state_dict(), REPO / "experiments" / f"model_{tag}.pt")
     print(f"\n=== {tag} ===")
