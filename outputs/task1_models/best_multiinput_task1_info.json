@@ -18,11 +18,11 @@
     0.2850324511528015,
     0.2889062464237213
   ],
-  "validation_macro_f1": 0.7588709261295427,
+  "validation_macro_f1": 0.7424211110679437,
   "all_candidates": {
-    "MultiInput-ResNetStyle (oracle metadata)": 0.719111325225871,
-    "MultiInput-SEResidual (oracle metadata)": 0.7588709261295427,
-    "MultiInput-ResNetStyle (image-derived metadata)": 0.701659377990447
+    "MultiInput-ResNetStyle (oracle metadata, tuned)": 0.7402090696629202,
+    "MultiInput-SEResidual (oracle metadata)": 0.7424211110679437,
+    "MultiInput-ResNetStyle (image-derived metadata)": 0.7077399090525638
   },
   "final_test_eligible": false,
   "note": "Requires a metadata vector built by the SAME fitted ColumnTransformer used in training. styles_prediction.csv does not supply those columns, so this model cannot be run on the real test set until the chained pipeline provides predicted metadata -- see Steps 11c and 14."
