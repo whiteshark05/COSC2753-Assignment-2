@@ -1,0 +1,45 @@
+{
+  "task": "visual_search",
+  "selected_approach": "F: + ArcFace (rung 5)",
+  "model": "EmbeddingNet(ResNetStyleCNN) trained with batch-hard triplet + ArcFace additive angular margin (semantic block) \u2014 ablation rung 'rung5-arcface-50'",
+  "pretrained_weights_used": false,
+  "embedding_dim": 128,
+  "margin": 0.2,
+  "sampler": "PK sampler, P=16 classes x K=4 images",
+  "identity_label": "articleType_grouped",
+  "img_width": 60,
+  "img_height": 80,
+  "normalization_mean": [
+    0.8476490378379822,
+    0.8306989073753357,
+    0.824256956577301
+  ],
+  "normalization_std": [
+    0.2739562690258026,
+    0.2850324511528015,
+    0.2889062464237213
+  ],
+  "similarity": "cosine on L2-normalised embeddings (exact brute-force search)",
+  "random_state": 42,
+  "eval_gallery_size": 28371,
+  "eval_query_size": 9455,
+  "eval_split_artifacts": "data/processed - the team's shared split, same as Tasks 1-3",
+  "eval_split_fingerprint": "09a324e4d70efad0",
+  "approaches_compared": [
+    "A: Raw pixels",
+    "B: Colour histogram",
+    "C: Classification CNN",
+    "D: Autoencoder",
+    "E: Metric learning (ours)",
+    "F: + ArcFace (rung 5)",
+    "G: + colour CE w=0.10 (rung 3b)",
+    "H: ArcFace + colour (rung 6)"
+  ],
+  "metrics": {
+    "P@10": 0.8444103648863035,
+    "mAP@10": 0.8213397094885547,
+    "mAP@10_CI": "0.815-0.828",
+    "mAP@10_strict": 0.14458429955697438
+  },
+  "ultimate_judgement": "F: + ArcFace (rung 5)"
+}
