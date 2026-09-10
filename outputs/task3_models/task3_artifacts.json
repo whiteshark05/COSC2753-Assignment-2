@@ -32,8 +32,8 @@
         "Unisex",
         "Women"
       ],
-      "image_only_encoder": "SEResidualImageEncoder",
-      "image_only_selected_as": "SEResidualCNN (from scratch)",
+      "image_only_encoder": "ImprovedSmallImageEncoder",
+      "image_only_selected_as": "ImprovedSmallCNN (from scratch)",
       "multi_input_encoder": "ImprovedSmallImageEncoder",
       "files": {
         "label_encoder": "gender_encoder.joblib",
@@ -53,9 +53,9 @@
         "Sports",
         "Travel"
       ],
-      "image_only_encoder": "SEResidualImageEncoder",
-      "image_only_selected_as": "SEResidualCNN (from scratch)",
-      "multi_input_encoder": "ImprovedSmallImageEncoder",
+      "image_only_encoder": "SmallImageEncoder",
+      "image_only_selected_as": "SmallCNN (from scratch)",
+      "multi_input_encoder": "SmallImageEncoder",
       "files": {
         "label_encoder": "usage_encoder.joblib",
         "metadata_one_hot": "ohe_metadata.joblib",
