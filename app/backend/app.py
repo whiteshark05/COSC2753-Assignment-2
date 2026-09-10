@@ -3,9 +3,22 @@ import os
 import re
 from pathlib import Path
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()  # loads backend/.env if present; no-op if the file doesn't
+                   # exist, and never overrides real env vars already set
+                   # (e.g. on Render), since those take priority by default.
+except ImportError:
+    pass  # python-dotenv not installed -- fine in production, where env vars
+          # are set directly by the platform rather than a .env file anyway.
+
 import joblib
 import numpy as np
 import torch
+torch.set_num_threads(1)  # Render free tier is RAM-constrained (512MB); torch's
+                          # default thread pool allocates per-thread work buffers
+                          # that add up fast on CPU inference. 1 worker + 1 thread
+                          # is also plenty for single-request classify/search calls.
 import torch.nn.functional as F
 from PIL import Image
 from flask import Flask, jsonify, request, send_from_directory
