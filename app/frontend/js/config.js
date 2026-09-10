@@ -16,7 +16,7 @@ const IS_LOCAL =
 
 const API_BASE_URL = IS_LOCAL
     ? 'http://localhost:5000'
-    : 'https://cosc2753-mock-server.onrender.com';
+    : 'https://cosc2753-assignment-2-backend.onrender.com';
 
 const API_CONFIG = {
     classifyUrl: `${API_BASE_URL}/api/classify`,
