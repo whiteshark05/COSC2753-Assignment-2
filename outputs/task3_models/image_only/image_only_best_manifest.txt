@@ -1,2 +1,2 @@
-gender: SEResidualCNN (from scratch)  val_macro_f1=0.7571
-usage:  SEResidualCNN (from scratch)  val_macro_f1=0.5033
+gender: ImprovedSmallCNN (from scratch)  val_macro_f1=0.7374
+usage:  SmallCNN (from scratch)  val_macro_f1=0.4797
