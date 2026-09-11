@@ -177,7 +177,17 @@ Copy `pipeline_config.json` and `label_encoders.pkl` from `data/processed/` (§4
 
 - **Externally hosted (recommended for production, see §7.7):** set `CATALOG_IMAGE_BASE_URL` to a CDN/bucket URL that serves `<id>.jpg`, e.g. `CATALOG_IMAGE_BASE_URL=https://your-image-host.example/catalog` → item `12345` resolves to `https://your-image-host.example/catalog/12345.jpg`. If set, this takes priority over serving from local disk.
 
-### 7.4 Running the backend locally
+### 7.4 Running the frontend locally
+
+The frontend is static — any file server works. From `app/frontend/`:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`. `js/config.js` already points `localhost`/`127.0.0.1` at `http://localhost:5000` for the backend, so with both running you should be able to upload an image and use **Classify** and **Search similar** immediately.
+
+### 7.5 Running the backend locally
 
 From `app/backend/`:
 
@@ -197,6 +207,7 @@ Windows:
 Then:
 ```bash
 pip install -r requirements.txt
+$env:CATALOG_IMAGE_BASE_URL = "https://ik.imagekit.io/b0mb4rdi3r/FashionDataset/train"
 python app.py
 ```
 
@@ -206,59 +217,7 @@ The API runs at `http://localhost:5000`. Confirm it's healthy and can see its mo
 http://localhost:5000/health
 ```
 
-### 7.5 Running the frontend locally
-
-The frontend is static — any file server works. From `app/frontend/`:
-
-```bash
-python -m http.server 8000
-```
-
-Then open `http://localhost:8000`. `js/config.js` already points `localhost`/`127.0.0.1` at `http://localhost:5000` for the backend, so with both running you should be able to upload an image and use **Classify** and **Search similar** immediately.
-
-If search-similar results come back but images show as broken icons, it's almost always one of:
-1. `TRAIN_IMAGES_DIR`/`TEST_IMAGES_DIR` pointing at the wrong folder — check `/health` (§7.3).
-2. The image URL isn't absolute — the fix already in `app.py` builds it from the request's own host, but if you're running the backend behind a proxy that changes the visible host, you may need to set `CATALOG_IMAGE_BASE_URL` explicitly instead of relying on the auto-detected host.
-
-A `mock_server/` is also bundled in `app/frontend/` — it returns fake but plausibly-shaped data on the same two endpoints, useful for developing the UI without the real models loaded (`cd app/frontend/mock_server && pip install -r requirements.txt && python server.py`).
-
-### 7.6 Deploying the backend to Render
-
-1. Create a Render **Web Service**, with the repo's **root directory set to `app/backend`**.
-2. **Build command:**
-   ```
-   pip install -r requirements.txt
-   ```
-3. **Start command:**
-   ```
-   gunicorn app:app
-   ```
-   `app.py` already reads `PORT` from the environment (`os.environ.get("PORT", "5000")`), which Render sets automatically — no extra config needed there.
-4. Make sure `app/backend/models/` and `app/backend/data/` (§7.2) are actually committed/available to the deploy — they aren't in `.gitignore` the way the raw dataset is, but double-check before pushing (the model files total roughly 90 MB, well within Render's limits).
-5. Decide how catalog images will be served in production (see §7.7) and set `CATALOG_IMAGE_BASE_URL` (or `TRAIN_IMAGES_DIR`/`TEST_IMAGES_DIR`, if you're mounting the dataset onto the service) accordingly.
-
-### 7.7 Catalog images in production — a decision, not a default
-
-The raw dataset (~38,600 + ~5,800 images) is excluded from the repo (§1) precisely because it's too large for version control — the same reasoning applies to shipping it inside a Render deploy. Two real options, pick based on what you have available:
-
-- **Host images separately** (S3/Cloudinary/any static host or CDN) and set `CATALOG_IMAGE_BASE_URL` on the Render service to point at it. This is the lighter-weight option and what the backend's fallback logic is built around.
-- **Bundle a copy of the dataset onto the Render service** (e.g. via a persistent disk, or by including it in the deploy despite the size) and set `TRAIN_IMAGES_DIR`/`TEST_IMAGES_DIR` to wherever it ends up — heavier, but no external dependency.
-
-Whichever you choose, confirm it worked by checking the deployed `/health` endpoint the same way as local dev (§7.3), and by requesting one catalog image URL directly in the browser.
-
-### 7.8 Pointing the deployed frontend at the deployed backend
-
-`app/frontend/js/config.js` hardcodes a placeholder Render URL for the non-local case:
-
-```js
-const API_BASE_URL = IS_LOCAL
-    ? 'http://localhost:5000'
-    : 'https://cosc2753-mock-server.onrender.com';   // <- replace this
-```
-
-Once the backend is deployed, update that URL to your actual Render service URL before deploying/publishing the frontend, or nothing will work outside of `localhost`.
-
-### 7.9 App troubleshooting
+### 7.6 App troubleshooting
 
 | Symptom | Likely cause |
 |---|---|

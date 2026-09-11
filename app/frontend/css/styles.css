@@ -51,6 +51,11 @@ input {
   font-size: 15px;
 }
 
+select {
+  font-family: inherit;
+  font-size: 15px;
+}
+
 a { color: var(--rust); }
 
 .visually-hidden {
@@ -284,10 +289,33 @@ a { color: var(--rust); }
   background: var(--card);
   color: var(--ink);
   padding: 8px 10px;
+  height: 38px;
 }
 
-.field input:focus-visible {
+.field select {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--ink);
+  padding: 8px 30px 8px 10px;
+  height: 38px;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6' fill='none'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%235B5348' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.field select:invalid,
+.field select option[value=""] {
+  color: var(--ink-soft);
+}
+
+.field input:focus-visible,
+.field select:focus-visible {
   border-color: var(--rust);
+  outline: none;
 }
 
 .meta-details__footnote {
@@ -477,18 +505,22 @@ a { color: var(--rust); }
   display: block;
   width: 100%;
   aspect-ratio: 3 / 4;
-  object-fit: cover;
-  background: var(--line);
+  object-fit: contain;
+  object-position: center;
+  background: var(--card);
 }
 
 .similar-card__meta {
-  padding: 8px 9px;
+  padding: 10px 12px 12px;
   font-size: 12px;
+  text-align: left;
 }
 
 .similar-card__type {
   display: block;
+  width: 100%;
   color: var(--ink);
+  text-align: left;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -496,9 +528,11 @@ a { color: var(--rust); }
 
 .similar-card__score {
   display: block;
-  margin-top: 2px;
+  width: 100%;
+  margin-top: 3px;
   font-family: var(--font-mono);
   color: var(--rust);
+  text-align: left;
 }
 
 /* ==========================================================================
