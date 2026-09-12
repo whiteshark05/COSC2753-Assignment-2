@@ -110,6 +110,22 @@ The task-modelling notebooks (Task 1–3 classifiers, Task 4 visual search) read
 
 Everything is seeded with `RANDOM_STATE = 42` (train/val split, image sampling for normalization stats, sampler behaviour). Re-running the notebook from scratch should reproduce the same split and the same files in `data/processed/`.
 
+### Regenerating Task 4's ablation ladder
+
+Task 4's Step 11b compares nine training variants ("rungs"). Each rung's result is tracked in `experiments/log/result_<tag>.json`, but its trained weights (`experiments/model_<tag>.pt`, ~48 MB each) are gitignored, so they will be absent on a fresh clone.
+
+> **Read this before re-running Task 4.** The notebook doesn't fail without the checkpoints — Step 11b prints `SKIPPED` for each one it can't find and carries on. But approaches F, G and H then drop out of the comparison, and the final selection in Step 14 is computed from whatever is present, so the notebook will save a different model to `outputs/task4_models/` than the one the report describes.
+
+To rebuild them:
+
+```bash
+./experiments/run_shared_split_ladder.sh
+```
+
+The script changes into its own folder first, so it can be run from anywhere. It retrains all nine rungs against the shared split in `data/processed/`, writing `log/result_<tag>.json` and `model_<tag>.pt` for each rung as it finishes; progress is appended to `experiments/log/ladder_progress.log`. The recorded run took 3 h 52 m — `rung_ablation.py` picks CUDA if present, then Apple Silicon MPS, then CPU. Running the Task 4 notebook afterwards takes roughly another hour.
+
+Every rung hashes its gallery and query membership into its result file and checks it against `experiments/log/split_fingerprint.json`, so a run against a different split stops rather than producing a number that can't be compared against the others.
+
 ## 6. Notebook troubleshooting
 
 | Issue | Likely cause |
