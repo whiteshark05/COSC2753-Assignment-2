@@ -229,22 +229,24 @@ class ImprovedSmallImageEncoder(nn.Module):
 
 
 class SmallImageEncoder(nn.Module):
-    def __init__(self, out_dim=128):
+    def __init__(self, out_dim=128, dropout=0.2):
         super().__init__()
-        self.features = nn.Sequential(
-            nn.Conv2d(3, 32, 3, padding=1), nn.BatchNorm2d(32), nn.ReLU(),
-            nn.Conv2d(32, 32, 3, padding=1), nn.BatchNorm2d(32), nn.ReLU(), nn.MaxPool2d(2),
-            nn.Conv2d(32, 64, 3, padding=1), nn.BatchNorm2d(64), nn.ReLU(),
-            nn.Conv2d(64, 64, 3, padding=1), nn.BatchNorm2d(64), nn.ReLU(), nn.MaxPool2d(2),
-            nn.Conv2d(64, 128, 3, padding=1), nn.BatchNorm2d(128), nn.ReLU(),
-            nn.Conv2d(128, 128, 3, padding=1), nn.BatchNorm2d(128), nn.ReLU(),
-            nn.AdaptiveAvgPool2d(1),
-        )
         self.out_dim = out_dim
-        self.proj = nn.Linear(128, out_dim)
+        self.features = nn.Sequential(
+            nn.Conv2d(3, 32, 3, padding=1),    nn.BatchNorm2d(32),  nn.ReLU(inplace=True), nn.MaxPool2d(2),
+            nn.Conv2d(32, 64, 3, padding=1),   nn.BatchNorm2d(64),  nn.ReLU(inplace=True), nn.MaxPool2d(2),
+            nn.Conv2d(64, 128, 3, padding=1),  nn.BatchNorm2d(128), nn.ReLU(inplace=True), nn.MaxPool2d(2),
+            nn.Conv2d(128, 256, 3, padding=1), nn.BatchNorm2d(256), nn.ReLU(inplace=True),
+        )
+        self.global_pool = nn.AdaptiveAvgPool2d(1)
+        self.proj = nn.Sequential(
+            nn.Dropout(dropout), nn.Linear(256, out_dim),
+            nn.BatchNorm1d(out_dim), nn.ReLU(inplace=True),
+        )
 
     def forward(self, x):
-        return self.proj(self.features(x).flatten(1))
+        x = self.features(x)
+        return self.proj(self.global_pool(x).flatten(1))
 
 
 class ResNetStyleCNN(nn.Module):
@@ -300,6 +302,23 @@ class MultiInputNet(nn.Module):
 
     def forward(self, image, metadata):
         return self.head(torch.cat([self.image(image), self.meta(metadata)], dim=1))
+
+
+class ImageOnlyNet(nn.Module):
+    # Task 3, Section 9.2: gender/usage without metadata. Same 2-layer head
+    # shape as MultiInputNet's head, minus the metadata branch -- trained
+    # specifically for the no-metadata case, so it's a better fit than
+    # feeding MultiInputNet an all-unknown metadata vector.
+    def __init__(self, n_classes, image_encoder, dropout=0.3):
+        super().__init__()
+        self.image = image_encoder
+        self.head = nn.Sequential(
+            nn.Linear(image_encoder.out_dim, 256), nn.ReLU(),
+            nn.Dropout(dropout), nn.Linear(256, n_classes),
+        )
+
+    def forward(self, image):
+        return self.head(self.image(image))
 
 
 class EmbeddingNet(nn.Module):
@@ -377,6 +396,19 @@ def load_task3_multiinput(path, encoder_joblib, ohe, metadata_dim):
     model.load_state_dict(state, strict=True)
     return model.to(DEVICE).eval()
 
+def load_task3_imageonly(path, encoder_joblib):
+    ck = torch.load(path, map_location=DEVICE)
+    state, meta = unwrap_state(ck)
+    enc_name = meta.get("image_encoder")
+    if not isinstance(enc_name, str) or enc_name not in ENCODERS:
+        # ImageOnlyNet state keys use image.<encoder>..., same prefix as MultiInputNet.
+        enc_name = infer_encoder_name(state, "image.")
+    out_dim = int(meta.get("out_dim", infer_out_dim(state, "image.")))
+    n_classes = int(meta.get("n_classes", len(encoder_joblib.classes_)))
+    model = ImageOnlyNet(n_classes, ENCODERS[enc_name](out_dim=out_dim))
+    model.load_state_dict(state, strict=True)
+    return model.to(DEVICE).eval()
+
 def predict_image_model(model, image_bytes):
     with Image.open(__import__("io").BytesIO(image_bytes)) as im:
         x = EVAL_TRANSFORM(im).unsqueeze(0).to(DEVICE)
@@ -415,6 +447,21 @@ USAGE_MODEL = _find_first(
     MODELS_DIR / "usage_multiinput_smallcnn.pt",
     MODELS_DIR / "task3_models" / "usage_multiinput_smallcnn.pt",
 )
+# Optional: gender/usage WITHOUT metadata. Not required at startup -- if
+# missing, classify_bytes() falls back to the multi-input model with an
+# all-unknown metadata vector instead of refusing to run.
+GENDER_IMAGEONLY_MODEL = _find_first(
+    MODELS_DIR / "gender_imageonly_smallcnn.pt",
+    MODELS_DIR / "task3_models" / "gender_imageonly_smallcnn.pt",
+    MODELS_DIR / "gender_imageonly_best.pt",
+    MODELS_DIR / "task3_models" / "image_only" / "gender_imageonly_best.pt",
+)
+USAGE_IMAGEONLY_MODEL = _find_first(
+    MODELS_DIR / "usage_imageonly_smallcnn.pt",
+    MODELS_DIR / "task3_models" / "usage_imageonly_smallcnn.pt",
+    MODELS_DIR / "usage_imageonly_best.pt",
+    MODELS_DIR / "task3_models" / "image_only" / "usage_imageonly_best.pt",
+)
 GENDER_ENCODER = _find_first(
     MODELS_DIR / "gender_encoder.joblib",
     MODELS_DIR / "task3_models" / "gender_encoder.joblib",
@@ -448,6 +495,7 @@ def load_all():
         required(OHE_PATH, "Task 3 metadata OneHotEncoder")
 
         global article_model, season_model, gender_model, usage_model
+        global gender_imageonly_model, usage_imageonly_model
         global article_enc, season_enc, gender_enc, usage_enc, ohe
 
         article_enc = joblib.load(ARTICLE_ENCODER)
@@ -475,6 +523,24 @@ def load_all():
         usage_model = load_task3_multiinput(
             USAGE_MODEL, usage_enc, ohe, len(ohe.get_feature_names_out())
         )
+
+        gender_imageonly_model = None
+        usage_imageonly_model = None
+        if GENDER_IMAGEONLY_MODEL is not None:
+            gender_imageonly_model = load_task3_imageonly(GENDER_IMAGEONLY_MODEL, gender_enc)
+            print(f"[classify] gender image-only model loaded from {GENDER_IMAGEONLY_MODEL}")
+        else:
+            print("[classify] gender image-only checkpoint not found in models/ -- requests "
+                  "with incomplete metadata will fall back to the multi-input model with "
+                  "unknown-category metadata instead of the dedicated no-metadata model")
+        if USAGE_IMAGEONLY_MODEL is not None:
+            usage_imageonly_model = load_task3_imageonly(USAGE_IMAGEONLY_MODEL, usage_enc)
+            print(f"[classify] usage image-only model loaded from {USAGE_IMAGEONLY_MODEL}")
+        else:
+            print("[classify] usage image-only checkpoint not found in models/ -- requests "
+                  "with incomplete metadata will fall back to the multi-input model with "
+                  "unknown-category metadata instead of the dedicated no-metadata model")
+
         _loaded = True
     except Exception as exc:
         load_error = str(exc)
@@ -512,18 +578,45 @@ def classify_bytes(image_bytes, form):
         "season": season_label,
     }
 
-    # OneHotEncoder(handle_unknown='ignore') is the fitted preprocessing used
-    # in Task 3. Empty user fields become unknown categories rather than being
-    # mapped to a made-up category.
-    meta_matrix = ohe.transform([[row[c] for c in META_COLS]]).astype(np.float32)
-    meta_tensor = torch.from_numpy(meta_matrix).to(DEVICE)
-
     with Image.open(__import__("io").BytesIO(image_bytes)) as im:
         image_tensor = EVAL_TRANSFORM(im).unsqueeze(0).to(DEVICE)
 
-    with torch.no_grad():
-        g_probs = torch.softmax(gender_model(image_tensor, meta_tensor), dim=1)[0]
-        u_probs = torch.softmax(usage_model(image_tensor, meta_tensor), dim=1)[0]
+    # Gender/usage use two different models depending on how much metadata
+    # the user actually supplied:
+    #   - all four user fields present  -> MultiInputNet (image + metadata)
+    #   - anything missing              -> ImageOnlyNet (image only), the
+    #     model Task 3 trained specifically for the no-metadata case, rather
+    #     than feeding MultiInputNet a metadata vector with unknown categories
+    all_metadata_present = all(row[k] for k in USER_META_COLS)
+    use_multiinput = all_metadata_present
+    metadata_mode = "multi_input"
+
+    if use_multiinput:
+        # OneHotEncoder(handle_unknown='ignore') is the fitted preprocessing
+        # used in Task 3.
+        meta_matrix = ohe.transform([[row[c] for c in META_COLS]]).astype(np.float32)
+        meta_tensor = torch.from_numpy(meta_matrix).to(DEVICE)
+        with torch.no_grad():
+            g_probs = torch.softmax(gender_model(image_tensor, meta_tensor), dim=1)[0]
+            u_probs = torch.softmax(usage_model(image_tensor, meta_tensor), dim=1)[0]
+    elif gender_imageonly_model is not None and usage_imageonly_model is not None:
+        metadata_mode = "image_only"
+        with torch.no_grad():
+            g_probs = torch.softmax(gender_imageonly_model(image_tensor), dim=1)[0]
+            u_probs = torch.softmax(usage_imageonly_model(image_tensor), dim=1)[0]
+    else:
+        # Image-only checkpoints not copied into models/ yet -- fall back to
+        # multi-input with whatever partial metadata is available (missing
+        # fields become "unknown" categories via handle_unknown='ignore').
+        # This is a degraded fallback, not the intended behavior: copy
+        # gender_imageonly_smallcnn.pt / usage_imageonly_smallcnn.pt into
+        # models/ to get the real no-metadata path.
+        metadata_mode = "multi_input_partial_fallback"
+        meta_matrix = ohe.transform([[row[c] for c in META_COLS]]).astype(np.float32)
+        meta_tensor = torch.from_numpy(meta_matrix).to(DEVICE)
+        with torch.no_grad():
+            g_probs = torch.softmax(gender_model(image_tensor, meta_tensor), dim=1)[0]
+            u_probs = torch.softmax(usage_model(image_tensor, meta_tensor), dim=1)[0]
 
     gender_label, gender_conf = _decode(g_probs.cpu().numpy(), gender_enc)
     usage_label, usage_conf = _decode(u_probs.cpu().numpy(), usage_enc)
@@ -536,6 +629,7 @@ def classify_bytes(image_bytes, form):
         # Kept because the frontend ignores extra keys and the mock contract
         # already documents it.
         "usedMetadata": any(row[k] for k in USER_META_COLS),
+        "metadataMode": metadata_mode,  # "multi_input" | "image_only" | "multi_input_partial_fallback"
     }
 
 # ---------------------------------------------------------------------------

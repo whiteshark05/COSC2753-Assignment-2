@@ -47,19 +47,61 @@
       <p id="fileError" class="field-error" role="alert" hidden></p>
 
       <details class="meta-details">
-        <summary>Add known details <span class="meta-details__note">(optional — improves classification)</span></summary>
+        <summary>Additional details <span class="meta-details__note">(optional — improves classification)</span></summary>
         <div class="meta-grid">
           <label class="field">
             <span>Master category</span>
-            <input type="text" id="metaMasterCategory" placeholder="e.g. Apparel">
+            <select id="metaMasterCategory">
+              <option value="" selected>Not sure</option>
+              <option value="Apparel">Apparel</option>
+              <option value="Accessories">Accessories</option>
+              <option value="Footwear">Footwear</option>
+              <option value="Personal Care">Personal Care</option>
+              <option value="Free Items">Free Items</option>
+              <option value="Sporting Goods">Sporting Goods</option>
+            </select>
           </label>
           <label class="field">
             <span>Sub category</span>
-            <input type="text" id="metaSubCategory" placeholder="e.g. Topwear">
+            <select id="metaSubCategory">
+              <option value="" selected>Not sure</option>
+              <option value="Topwear">Topwear</option>
+              <option value="Shoes">Shoes</option>
+              <option value="Bags">Bags</option>
+              <option value="Bottomwear">Bottomwear</option>
+              <option value="Watches">Watches</option>
+              <option value="Innerwear">Innerwear</option>
+              <option value="Eyewear">Eyewear</option>
+              <option value="Sandal">Sandal</option>
+              <option value="Fragrance">Fragrance</option>
+              <option value="Flip Flops">Flip Flops</option>
+              <option value="Wallets">Wallets</option>
+              <option value="Belts">Belts</option>
+              <option value="Jewellery">Jewellery</option>
+              <option value="Socks">Socks</option>
+              <option value="Dress">Dress</option>
+            </select>
           </label>
           <label class="field">
             <span>Base colour</span>
-            <input type="text" id="metaBaseColour" placeholder="e.g. Navy Blue">
+            <select id="metaBaseColour">
+              <option value="" selected>Not sure</option>
+              <option value="Black">Black</option>
+              <option value="White">White</option>
+              <option value="Blue">Blue</option>
+              <option value="Brown">Brown</option>
+              <option value="Grey">Grey</option>
+              <option value="Red">Red</option>
+              <option value="Green">Green</option>
+              <option value="Navy Blue">Navy Blue</option>
+              <option value="Purple">Purple</option>
+              <option value="Pink">Pink</option>
+              <option value="Silver">Silver</option>
+              <option value="Yellow">Yellow</option>
+              <option value="Beige">Beige</option>
+              <option value="Maroon">Maroon</option>
+              <option value="Gold">Gold</option>
+            </select>
           </label>
           <label class="field">
             <span>Year</span>
