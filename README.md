@@ -38,7 +38,7 @@ project/
 └── requirements.txt
 ```
 
-Unzip `A2_Fashion.zip` from Canvas into `data/raw/FashionDataset/` so the subfolders match the names above. Don't rename `styles_prediction.csv` or change its columns — it's the required submission format.
+Unzip `A2_FashionDataset.zip` from Canvas into `data/raw/` so the subfolders match the names above. Don't rename `styles_prediction.csv` or change its columns — it's the required submission format.
 
 > **This step is manual and required.** The `data/` folder is gitignored (it's too large for version control), so it will be empty on a fresh clone. You must download `A2_Fashion.zip` from Canvas and extract it yourself before running the notebook — it will not come from the repo.
 
