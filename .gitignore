@@ -37,3 +37,4 @@ outputs/task4_deployment_embeddings.npy
 notebooks/*.ipynb.bak
 notebooks/*.ipynb.executed_backup
 notebooks/COSC2753_A2_Task4_UPLOAD_NOW.ipynb
+.DS_Store
