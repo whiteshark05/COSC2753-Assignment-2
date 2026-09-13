@@ -4,12 +4,7 @@
     "method": "single_stratified_group_holdout",
     "splitter": "StratifiedGroupKFold(n_splits=4), first split only",
     "validation_fraction": 0.25,
-    "stratify_on": {
-      "articleType": "masterCategory",
-      "gender": "masterCategory",
-      "usage": "masterCategory",
-      "season": "masterCategory"
-    },
+    "stratify_on": "masterCategory",
     "group_on": "dup_group (exact-duplicate images)"
   },
   "image": {
@@ -48,6 +43,6 @@
     "39410",
     "39425"
   ],
-  "duplicate_image_rows_found": 0,
+  "duplicate_image_pairs_found": 0,
   "eda_scope": "train_data only, post-split, per course instruction"
 }
